@@ -1,0 +1,37 @@
+Based on existing literature on GraphRAG, we present a holistic framework of GraphRAG. Next, we
+introduce the basic problem setting and notation used throughout the whole framework.
+2.1 Problem Setting and Notations
+Following the general setting of RAG, given a graph-structured data source G, the user-defined
+query Qis further sent to query processor ΩProcessor to obtain the pre-processed queryˆ
+Q. After that,
+the retriever ΩRetriever retrieves the content Cfrom the graph data source Gbased onˆ
+Q. Next, the
+retrieved content Cis refined by the organizer ΩOrganizer to formulate the refined contentˆ
+C. Finally,
+the refined contentˆ
+Ctriggers the generator ΩGenerator to generate the final answer A. The above five
+components are summarized as follows:
+• Query Processor ΩProcessor: Preprocessing the given queryˆ
+Q= ΩProcessor(Q).
+• Graph Data Source G: Information organized in graph-structured format.
+• Retriever ΩRetriever: Retrieve the content C= ΩRetriever(
+ˆ
+Q,G) from Gbased on the queryˆ
+Q.
+• Organizer ΩOrganizer: Arrange and refine the retrieved contentˆ
+C= ΩOrganizer(
+ˆ
+Q,C).
+• Generator: Generate answers A= ΩGenerator(
+ˆ
+Q,ˆ
+C) to answer query Q.
+Unlike sequential-based textual data and grid-structured image data, graph-structured data encapsu-
+lates relational information. To effectively harness this relational information, the above five core
+components of GraphRAG desire dedicated designs to handle graph-structured input/output and
+support graph-based operations. For example, in the retriever component, conventional RAG in
+the Natural Language Processing (NLP) utilizes sparse/dense encoders for index search [196, 468].
+In contrast, GraphRAG employs graph traversal methods (e.g., entity linking and BFS/DFS) and
+graph-based encoders (e.g., Graph Neural Networks (GNNs)) to produce embeddings for retrieval.
+This motivates us to summarize key innovations and representative designs of GraphRAG for each of
+the above five components under the holistic GraphRAG framework in the following.
