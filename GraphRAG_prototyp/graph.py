@@ -78,9 +78,9 @@ def retrieve(G, query):
         return matched_entitys, claim_ids
 
 
-entity, claim_ids = retrieve(G, "Ist die Erde flach und der mond flach?")
-print("Entity gefunden:", entity)
-print("Claims dazu:", claim_ids)
+#entity, claim_ids = retrieve(G, "Ist die Erde flach und der mond flach?")
+#print("Entity gefunden:", entity)
+#print("Claims dazu:", claim_ids)
 
 
 def evaluate_claim(claim_id, G):
@@ -97,39 +97,44 @@ def evaluate_claim(claim_id, G):
         return verdict, origins
 
 
-#for cid in ["C1", "C2"]:
+#for cid in claim_ids:
         verdict, origins = evaluate_claim(cid, G)
         print(f"{cid}: {verdict}")
         for o in origins:
             print(f"    {o['source']} (Autorität {o['authority']}, {o['year']}): {o['stance']}")
 
 def verify(query, G):
-        print(f"\nAnfrage: {query}")
-        print("-" * 50)
+    output = f"\nAnfrage: {query}"
+        
+    output += "\n" + "-" * 50
 
-        # 1. Retrieval: Entity finden und zu ihren Claims traversieren
-        entity, claim_ids = retrieve(G, query)
+    # 1. Retrieval: Entity finden und zu ihren Claims traversieren
+    entitys, claim_ids = retrieve(G, query)
 
-        # 2. Keine Entity im Graphen -> keine Evidenz -> ehrliches "weiss ich nicht"
-        if entity is None or not claim_ids:
-            print("Verdikt: Undetermined (keine Evidenz im Graphen)")
-            return
+    # 2. Keine Entity im Graphen -> keine Evidenz -> ehrliches "weiss ich nicht"
+    if entitys is None or not claim_ids:
+        output += "\nVerdikt: Undetermined (keine Evidenz im Graphen)"
+        print(output)
+        return output
 
-        print(f"Gefundene Entity: {entity}")
+    output += f"\nGefundene Entity: {entitys}"
 
-        # 3. Jeden gefundenen Claim bewerten
-        for cid in claim_ids:
-            verdict, origins = evaluate_claim(cid, G)
-            text = G.nodes[cid]["text"]
-            print(f"\n  [{cid}] \"{text}\"")
-            print(f"  Verdikt: {verdict}")
+    # 3. Jeden gefundenen Claim bewerten
+    for cid in claim_ids:
+        verdict, origins = evaluate_claim(cid, G)
+        text = G.nodes[cid]["text"]
+        output += f"\n  [{cid}] \"{text}\""
+        output += f"\n  Verdikt: {verdict}"
 
-            if verdict == "Conflict":
-                print("  ⚠ Quellenkonflikt erkannt:")
-            for o in origins:
-                print(f"      - {o['source']} (Autorität {o['authority']}, {o['year']}): {o['stance']}")
+        if verdict == "Conflict":
+            output += "\n  ⚠ Quellenkonflikt erkannt:"
+        for o in origins:
+            output += f"\n      - {o['source']} (Autorität {o['authority']}, {o['year']}): {o['stance']}"
 
-#verify("Ist die Erde flach?", G)
+    print(output)
+    return output
+
+verify("Ist die Erde flach?", G)
 #verify("Wie alt ist der Mond?", G)
 
 
