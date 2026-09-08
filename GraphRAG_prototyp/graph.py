@@ -20,6 +20,15 @@ claims = [
                 {"source": "NASA",          "authority": 5, "year": 2021, "stance": "refutes"},
             ],
         },
+        {
+                    "id": "C3",
+                    "text": "Der mond ist flach",
+                    "entity": "mond",
+                    "origins": [
+                        {"source": "ewqfd", "authority": 1, "year": 2019, "stance": "supports"},
+                        {"source": "efw",          "authority": 5, "year": 2121, "stance": "refutes"},
+                    ],
+                },
     ]
 
 import networkx as nx
@@ -48,24 +57,28 @@ G = build_graph(claims)
 
 
 def retrieve(G, query):
+        matched_entitys = []
         # 1. Entity Linking: welche bekannte Entity kommt in der Anfrage vor?
         query_lower = query.lower() 
         matched_entity = None
         for node, data in G.nodes(data=True):
             if data["node_type"] == "entity" and node.lower() in query_lower:
-                matched_entity = node
-                break
+                matched_entitys.append(node)
+                #matched_entity = node
+                #break
 
         # Keine Entity gefunden -> keine Evidenz im Graphen
-        if matched_entity is None:
-            return None, []
+        if not matched_entitys:
+            return [], []
 
         # 2. Graph Traversal: alle Claims, die auf diese Entity zeigen
-        claim_ids = list(G.predecessors(matched_entity))
-        return matched_entity, claim_ids
+        claim_ids = []
+        for entity in matched_entitys:
+            claim_ids.extend(G.predecessors(entity))
+        return matched_entitys, claim_ids
 
 
-entity, claim_ids = retrieve(G, "Ist die Erde flach?")
+entity, claim_ids = retrieve(G, "Ist die Erde flach und der mond flach?")
 print("Entity gefunden:", entity)
 print("Claims dazu:", claim_ids)
 
