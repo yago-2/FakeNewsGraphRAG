@@ -1,7 +1,14 @@
     # Ein Claim = eine überprüfbare Aussage mit Subjekt (entity) und Quellen (origins).
     # Origin = Autoritätslevel (1-5), Jahr und Urteil (supports/refutes).
 
-claims = [
+import json
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(script_dir, "claims_transformed_with_entity.json")) as f:
+    claims = json.load(f)
+
+""" claims = [
         {
             "id": "C1",
             "text": "Die Erde ist rund",
@@ -29,8 +36,8 @@ claims = [
                         {"source": "efw",          "authority": 5, "year": 2121, "stance": "refutes"},
                     ],
                 },
-    ]
-
+    ] 
+ """
 import networkx as nx
 
 def build_graph(claims):
@@ -43,6 +50,8 @@ def build_graph(claims):
                 text=claim["text"],
                 origins=claim["origins"],
             )
+            if claim["entity"] is None:
+                continue  # keine erkannte Entity -> Claim bleibt ohne Verknuepfung
             # Entity-Knoten: anlegen (falls schon da, passiert nichts Schlimmes)
             G.add_node(claim["entity"], node_type="entity")
             # Kante: Claim zeigt auf seine Entity
@@ -60,7 +69,7 @@ def retrieve(G, query):
         matched_entitys = []
         # 1. Entity Linking: welche bekannte Entity kommt in der Anfrage vor?
         query_lower = query.lower() 
-        matched_entity = None
+        # matched_entity = None
         for node, data in G.nodes(data=True):
             if data["node_type"] == "entity" and node.lower() in query_lower:
                 matched_entitys.append(node)
@@ -131,10 +140,12 @@ def verify(query, G):
         for o in origins:
             output += f"\n      - {o['source']} (Autorität {o['authority']}, {o['year']}): {o['stance']}"
 
-    print(output)
+    #print(output)
     return output
 
-verify("Ist die Erde flach?", G)
+
+#verify("Was stimmt bei COVID nicht?", G)
+# verify("Ist die Erde flach?", G)
 #verify("Wie alt ist der Mond?", G)
 
 
