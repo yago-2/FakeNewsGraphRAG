@@ -198,9 +198,18 @@ def transform_claim(claim_entry, claim_id, stance_fn):
     }
 
 
+def pruefe_ollama():
+    try:
+        requests.get("http://localhost:11434", timeout=5)
+    except requests.exceptions.RequestException:
+        raise SystemExit("Ollama laeuft nicht. Zuerst die Ollama-App starten, dann nochmal versuchen.")
+
+
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     dev_path = os.path.join(script_dir, "dev.json")
+    # Eigene Ausgabedatei fuer diesen Lauf (Prompt v2, ganzes Dev-Set)
+    out_path = os.path.join(script_dir, "claims_dev_v2.json")
 
     with open(dev_path) as f:
         data = json.load(f)
@@ -208,23 +217,54 @@ if __name__ == "__main__":
     # Zum lokalen Testen: USE_MOCK=True setzen, dann echtes Ollama mit False
     USE_MOCK = False
     stance_fn = get_stance_mock if USE_MOCK else get_stance_two_step
+    if not USE_MOCK:
+        pruefe_ollama()
 
     # Zum Testen: nur die ersten N Claims verarbeiten. Fuer den vollen Lauf auf None setzen.
-    LIMIT = 50
+    LIMIT = None
     subset = data[:LIMIT] if LIMIT else data
 
+    # Weitermachen statt neu anfangen: schon fertige Claims aus der Ausgabedatei laden
     claims = []
+    if os.path.exists(out_path):
+        with open(out_path) as f:
+            claims = json.load(f)
+    fertig = {c["id"] for c in claims}
+    print(f"{len(fertig)} Claims schon fertig, {len(subset) - len(fertig)} offen.", flush=True)
+
+    fehler = []
+    neu = 0
     start = time.time()
     for i, entry in enumerate(subset):
-        claims.append(transform_claim(entry, f"AV{i}", stance_fn))
-        elapsed = time.time() - start
-        avg = elapsed / (i + 1)
-        remaining = avg * (len(subset) - i - 1)
-        print(f"  Claim {i+1}/{len(subset)} fertig "
-              f"({elapsed:.1f}s vergangen, ~{remaining:.1f}s verbleibend)", flush=True)
+        claim_id = f"AV{i}"
+        if claim_id in fertig:
+            continue
+        for versuch in range(1, 4):                     # bis zu 3 Versuche pro Claim
+            try:
+                claims.append(transform_claim(entry, claim_id, stance_fn))
+                break
+            except Exception as e:                      # z. B. Timeout von Ollama
+                print(f"  ! {claim_id}, Versuch {versuch}: {e}", flush=True)
+                time.sleep(10)
+        else:
+            fehler.append(claim_id)                     # auslassen, beim naechsten Start nachholen
+            continue
 
-    out_path = os.path.join(script_dir, "claims_transformed.json")
+        # Zwischenstand nach JEDEM Claim speichern (erst Hilfsdatei, dann umbenennen)
+        with open(out_path + ".tmp", "w") as f:
+            json.dump(claims, f, indent=2, ensure_ascii=False)
+        os.replace(out_path + ".tmp", out_path)
+
+        neu += 1
+        vergangen = time.time() - start
+        offen = len(subset) - len(claims) - len(fehler)
+        print(f"  {claim_id} fertig ({len(claims)}/{len(subset)}, {vergangen / 60:.0f} min vergangen, "
+              f"~{vergangen / neu * offen / 60:.0f} min verbleibend)", flush=True)
+
+    claims.sort(key=lambda c: int(c["id"][2:]))         # Reihenfolge AV0, AV1, ... wiederherstellen
     with open(out_path, "w") as f:
         json.dump(claims, f, indent=2, ensure_ascii=False)
-
-    print(f"{len(claims)} Claims transformiert -> claims_transformed.json")
+    print(f"{len(claims)} Claims in {os.path.basename(out_path)}")
+    if fehler:
+        print(f"Fehlgeschlagen ({len(fehler)}): {fehler}")
+        print("Einfach nochmal starten: Dann werden nur die fehlenden Claims nachgeholt.")
