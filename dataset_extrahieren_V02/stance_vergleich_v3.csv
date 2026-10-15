@@ -1,0 +1,605 @@
+nr,train_index,claim,frage,antwort,mein_label,llama,reasoning
+0,102,Cold water affects the internal walls of the stomach. It affects the large intestine and results in cancer,Is drinking cold water in any way harmful?,No,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass kalte Wasser den inneren Wänden des Magens schadet, die große Darmhöhle beeinträchtigt und zu Krebs führt.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""Nein"" (kein Schaden durch kaltes Wasser).
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort ""Nein"" widerlegt den Claim vollständig. Sie bestreitet den gesamten Inhalt des Claims, also die Schädigung der Magenwände, die Beeinträchtigung der großen Darmhöhle und die Krebsentstehung durch kaltes Wasser. Die Antwort ist eindeutig und verneint den gesamten Inhalt des Claims."
+1,122,"Kamala Harris was descended from enslavers, and this is an inconvenient part of her history and this is a deep dark secret.",Of what descent is Kamala Harris,She is of Jamaican descent,neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Kamala Harris abkömmlich von Sklavenhaltern ist und dass dies ein unangenehmer Teil ihrer Geschichte ist, der geheim gehalten wird.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Kamala Harris jamaikanischer Abstammung ist.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie nicht besagt, dass Kamala Harris von Sklavenhaltern abstammt. Sie besagt nur, dass sie jamaikanischer Abstammung ist. Es ist jedoch möglich, dass Kamala Harris auch von Sklavenhaltern abstammt, da Jamaika während der Sklaverei von europäischen Sklavenhaltern kolonisiert wurde. Die Antwort stuetzt den Claim also indirekt, indem sie eine Voraussetzung für den Claim erfüllt, aber nicht den eigentlichen Inhalt des Claims bestätigt.
+
+**Fazit:**
+Die Antwort stuetzt den Claim indirekt, aber nicht direkt. Der Claim bleibt also noch immer unbestätigt."
+2,122,"Kamala Harris was descended from enslavers, and this is an inconvenient part of her history and this is a deep dark secret.",Does Kamala Harris have ancestors who were slave masters,One of her ancestors was an Irish sugar plantation owner who had slaves,supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Kamala Harris' Vorfahren Sklavenhalter waren und dass dies ein ""unangenehmes"" und ""geheimes"" Teil ihrer Geschichte ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass einer von Kamala Harris' Vorfahren ein irischer Zuckerplantagenbesitzer war, der Sklaven besaß.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim, da sie bestaetigt, dass Kamala Harris' Vorfahren Sklaven besaßen, was ein Teil des Claims ist. Der Claim besagt jedoch auch, dass dies ein ""unangenehmes"" und ""geheimes"" Teil ihrer Geschichte ist. Die Antwort besagt jedoch nicht, dass dies ein Geheimnis ist, sondern stellt es einfach als Tatsache dar. Dennoch stuetzt die Antwort den Teil des Claims, der besagt, dass Kamala Harris' Vorfahren Sklaven besaßen.
+
+**Fazit:**
+Die Antwort stuetzt den Claim, da sie bestaetigt, dass Kamala Harris' Vorfahren Sklaven besaßen. Der Teil des Claims, der besagt, dass dies ein ""unangenehmes"" und ""geheimes"" Teil ihrer Geschichte ist, wird jedoch nicht bestaetigt."
+3,122,"Kamala Harris was descended from enslavers, and this is an inconvenient part of her history and this is a deep dark secret.",Is Kamala Harris ashamed of her origin,"‘I am who I am’: Kamala Harris, daughter of Indian and Jamaican immigrants, defines herself simply as ‘American’",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Kamala Harris eine Abstammung von Sklavenhaltern hat, was ein ""unangenehmes"" Teil ihrer Vergangenheit und ein ""tiefes dunkles Geheimnis"" sei.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Kamala Harris sich als ""amerikanisch"" definiert und sich nicht von ihrer Herkunft ausdrücklich distanziert. Sie betont ihre indische und jamaikanische Abstammung, aber nicht in einem Kontext, der auf eine Verbindung zu Sklavenhaltern hindeuten würde.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim nicht. Sie gibt keine Hinweise auf eine Abstammung von Sklavenhaltern und stellt Kamala Harris' Identität als Amerikanerin dar, ohne auf eine dunkle Vergangenheit hinzuweisen. Die Antwort ist neutral im Hinblick auf die Abstammung von Sklavenhaltern, aber sie unterstützt den Claim nicht, indem sie ihn bestätigt. Sie ist eher eine Beschreibung von Kamala Harris' Selbstdefinition als Amerikanerin."
+4,130,Amazon CEO Jeff Bezos has offered free one-day Prime shipping for all mail-in ballots.,Has Amazon CEO Jeff Bezos offered free one-day Prime shipping for all mail-in ballots?,No,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Amazon-CEO Jeff Bezos kostenlose eine-Tages-Prime-Lieferung für alle Briefwahlkarten angeboten hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""Nein"" (deutsch: ""Nein"").
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist eine klare Verneinung des Claims. Sie bestätigt, dass Amazon-CEO Jeff Bezos keine kostenlose eine-Tages-Prime-Lieferung für alle Briefwahlkarten angeboten hat. Daher widerlegt die Antwort den Claim.
+
+**Ueberlegung:**
+Die Antwort ist eine direkte Verneinung des Claims. Es gibt keine Hinweise darauf, dass die Antwort den Claim indirekt bestätigt oder dass sie neutral ist. Die Antwort ist eindeutig und bestätigt, dass der Claim falsch ist."
+5,356,"The founder of Ghana's Progressive People’s Party (PPP), Dr Paa Kwasi Nduom tweeted that Prof. Jane Opoku Agyeman was far better than Ghana's current Vice-President Mahamudu Bawumia.","What is the official Twitter handle of the founder of Ghana's Progressive People’s Party (PPP), Dr Paa Kwasi Nduom?",The official Twitter handle of Dr Nduom is @pknduom.,neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass Dr. Paa Kwasi Nduom (der Gründer der PPP) twitterte, dass Prof. Jane Opoku Agyeman besser als der derzeitige Vizepräsident Mahamudu Bawumia ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt die offizielle Twitter-Adresse von Dr. Nduom an, nämlich @pknduom.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim. Denn wenn Dr. Nduom tatsächlich twitterte, dass Prof. Jane Opoku Agyeman besser ist als der derzeitige Vizepräsident, dann ist es wahrscheinlich, dass er überhaupt twittert und dass seine offizielle Twitter-Adresse @pknduom ist. Die Antwort bestaet also den Teil des Claims, der die Existenz einer Twitter-Adresse von Dr. Nduom besagt, ohne den Teil zu widersprechen, der besagt, dass er einen bestimmten Tweet abgesetzt hat."
+6,356,"The founder of Ghana's Progressive People’s Party (PPP), Dr Paa Kwasi Nduom tweeted that Prof. Jane Opoku Agyeman was far better than Ghana's current Vice-President Mahamudu Bawumia.",What is the handle of  the twitter account which made the claim?,The twitter handle of the claim tweet was @paakwasijunior.,neutral,neutral,"1. Der Claim besagt, dass Dr. Paa Kwasi Nduom (der Gründer der PPP) twitterte, dass Prof. Jane Opoku Agyeman besser als der derzeitige Vizepräsident Mahamudu Bawumia ist.
+
+2. Die Antwort besagt, dass der Twitter-Handle, der den Claim getwittet hat, @paakwasijunior ist.
+
+3. Die Antwort stützt den Claim nicht, sondern ist neutral. Sie gibt lediglich den Twitter-Handle an, der den Claim getwittet hat, und sagt nichts über den Inhalt des Tweets aus. Sie bestätigt also nicht, dass Dr. Paa Kwasi Nduom tatsächlich twitterte, dass Prof. Jane Opoku Agyeman besser als der Vizepräsident ist. Sie gibt nur die Quelle des Claims an."
+7,383,Viral video shows Pakistani and Chinese soldiers celebrating after 20 Indian soldiers were killed in action at Galwan Valley.,What is the original source of the viral video which claims to show Pakistani and Chinese soldiers celebrating after 20 Indian soldiers were killed in action at Galwan Valley.,"The source was found to be from a YouTube channel by Amyn Yar Baig, and was posted in 2018, so cannot be from the 2020 clash in the Galwan Valley.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass ein viraler Video-Beleg existiert, der zeigt, wie pakistanische und chinesische Soldaten feiern, nachdem 20 indische Soldaten im Galwan-Tal getötet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass der Quellcode des viralen Videos von einem YouTube-Kanal von Amyn Yar Baig stammt und im Jahr 2018 hochgeladen wurde. Dies bedeutet, dass das Video nicht von der 2020er Auseinandersetzung im Galwan-Tal stammen kann.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim, da sie beweist, dass das angebliche Beweisvideo nicht von der 2020er Auseinandersetzung stammen kann. Der Claim behauptet, dass das Video zeigt, wie pakistanische und chinesische Soldaten feiern, nachdem 20 indische Soldaten getötet wurden. Die Antwort zeigt jedoch, dass das Video bereits 2018 hochgeladen wurde, also nicht von der 2020er Auseinandersetzung stammen kann. Dies widerlegt den Claim, da es unwahrscheinlich ist, dass das Video tatsächlich von der 2020er Auseinandersetzung stammen würde, wenn es bereits 2018 hochgeladen wurde."
+8,419,COVID-19 (Polymerase chain reaction (PCR) tests are ‘scientifically meaningless’,Are COVID-19 (Polymerase chain reaction (PCR) tests accurate?,"a nonprofit research center in Geneva, tested five COVID-19 RT-PCR tests and found that all five achieved 100% sensitivity on positive samples, and at least 96% specificity on negative samples in a laboratory setting.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass COVID-19-Polymerase-Ketten-Reaktion (PCR)-Tests ""wissenschaftlich bedeutungslos"" sind.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass ein Forschungszentrum in Genf fünf COVID-19-RT-PCR-Tests getestet hat und dabei festgestellt hat, dass alle fünf Tests 100% Sensitivität bei positiven Proben erreichten und mindestens 96% Spezifität bei negativen Proben in einem Laborumfeld.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim nicht. Tatsächlich zeigt sie, dass die PCR-Tests in einem Laborumfeld sehr genau sind. Die Sensitivität von 100% bedeutet, dass alle positiven Proben erkannt wurden, und die Spezifität von mindestens 96% bedeutet, dass nur wenige negative Proben falsch als positiv erkannt wurden. Dies widerspricht der Behauptung, dass die PCR-Tests ""wissenschaftlich bedeutungslos"" sind.
+
+Die Antwort zeigt, dass die PCR-Tests in einem Laborumfeld sehr genau sind, was bedeutet, dass sie wertvolle Informationen über die Anwesenheit von COVID-19 liefern können. Daher widerlegt die Antwort den Claim."
+9,419,COVID-19 (Polymerase chain reaction (PCR) tests are ‘scientifically meaningless’,Are PCR tests accurate in real world settings?,"In the real world, testing conditions and process are far from perfect, and accuracy suffers. Researchers still don’t know what the real-world false positive rate is, but clinical sensitivity of RT-PCR tests ranges from 66% to 80%. That means nearly one in three infected people who are tested will receive false negative results.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass COVID-19-PCR-Tests ""wissenschaftlich bedeutungslos"" sind. Das bedeutet, dass der Claim die Genauigkeit oder Zuverlässigkeit von PCR-Tests in Frage stellt.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass PCR-Tests in der Realität nicht so genau sind wie man denken könnte. Sie nennt spezifische Zahlen: Die klinische Sensitivität (also die Fähigkeit, Infizierte zu erkennen) liegt zwischen 66% und 80%. Das bedeutet, dass etwa 1 von 3 Infizierten, die getestet werden, falsch-negative Ergebnisse erhalten (also werden sie als nicht infiziert angesehen, obwohl sie es sind).
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim. Sie bestaet, dass PCR-Tests in der Realität nicht so genau sind wie man denken könnte. Die Zahlen, die sie nennt, zeigen, dass PCR-Tests nicht immer die richtigen Ergebnisse liefern. Das passt zum Claim, der behauptet, dass PCR-Tests ""wissenschaftlich bedeutungslos"" sind. Die Antwort liefert also Belege dafür, dass der Claim zutrifft."
+10,419,COVID-19 (Polymerase chain reaction (PCR) tests are ‘scientifically meaningless’,Are PCR tests useful in the fight against Covid 19?,Yes,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass COVID-19-PCR-Tests ""wissenschaftlich bedeutungslos"" sind.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""Ja"" (PCR-Tests sind nützlich in der Bekämpfung von Covid-19).
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim, da sie besagt, dass PCR-Tests nützlich sind, was dem gegenteiligen Inhalt des Claims widerspricht. Der Claim behauptet, dass PCR-Tests ""wissenschaftlich bedeutungslos"" sind, während die Antwort besagt, dass sie nützlich sind. Daher ist die Antwort eine Widerlegung des Claims."
+11,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.",What is Nigeria's economic situation?,"“Our government is broke. And it’s official.” This was the alarming opening of Dr Obadiah Mailafia’s regular “Scenarios” column in Nigeria’s Vanguard newspaper for 22 June 2020. 
+
+Titled “When government goes for broke”, the column was republished in other dailies and made a fascinating read as the former Central Bank of Nigeria deputy governor added his voice to a growing debate on debt in Africa’s largest economy.  
+
+Mailafia is an economist who ran for president in 2019, coming fourth. He gave debt and revenue figures for the first three months of 2020 as evidence for his claim.",supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass im Juni 2020 99% der nigerianischen Einnahmen für die Schuldentilgung verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort zitiert einen Artikel von Dr. Obadiah Mailafia, einem ehemaligen stellvertretenden Gouverneur der Zentralbank von Nigeria, der behauptet, dass die Regierung ""broke"" (bankrott) ist und dass die Einnahmen für die ersten drei Monate des Jahres 2020 nur für die Schuldentilgung verwendet wurden. Der Artikel wird als Beweis für die Behauptung angeführt, dass die Regierung in einer schwierigen wirtschaftlichen Situation ist.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim. Der Artikel von Dr. Mailafia bestaet die Behauptung, dass die Regierung in einer schwierigen wirtschaftlichen Situation ist und dass die Einnahmen für die Schuldentilgung verwendet wurden. Der Claim besagt, dass 99% der Einnahmen für die Schuldentilgung verwendet wurden, aber die Antwort gibt keine spezifischen Zahlen an, die diese Behauptung bestaetigen. Dennoch wird die wirtschaftliche Situation Nigerias als ""broke"" beschrieben, was die Behauptung des Claims unterstützt.
+
+Die Antwort stuetzt den Claim, weil sie die wirtschaftliche Situation Nigerias als schwierig beschreibt und die Behauptung, dass die Regierung in einer schwierigen wirtschaftlichen Situation ist, bestaetigt. Der Claim besagt, dass 99% der E"
+12,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.",Were there long lines to vote at the US elections?,Yes,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass im Juni 2020 99% der nigerianischen Einnahmen für die Zahlung von Schulden (Debt Servicing) verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet ""Yes"", was bedeutet, dass es tatsächlich lange Warteschlangen bei der Wahl in den USA gab.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist neutral zur Behauptung des Claims. Sie bezieht sich auf die US-Wahlen und nicht auf die nigerianischen Einnahmen oder die Schulden. Es gibt keine Verbindung zwischen den beiden Themen. Die Antwort gibt keine Hinweise darauf, dass die nigerianischen Einnahmen im Juni 2020 tatsächlich 99% für Schulden verwendet wurden. Daher ist die Antwort neutral zum Claim."
+13,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.",Was there limited voting time at the US election?,Yes,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass im Juni 2020 99% der nigerianischen Einnahmen für die Zahlung von Schulden (Debt Servicing) verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet ""Yes"", was bedeutet, dass es in der US-Wahl eine begrenzte Wahlzeit gab.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist neutral zur Behauptung des Claims. Sie bezieht sich auf die US-Wahl und nicht auf Nigeria oder die Einnahmen und Schulden des Landes. Es gibt keine Verbindung zwischen der Wahlzeit in den USA und den Einnahmen und Schulden Nigerias. Daher stützt oder widerlegt die Antwort den Claim nicht."
+14,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.",Did GOP push for longer lines and chaos at the US elections?,GOP encouraged early and absentee voting but also limited the absentee voting time.,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass im Juni 2020 99% der Einnahmen Nigerias für die Zahlung von Schulden verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass die Republikanische Partei (GOP) die Möglichkeit zur frühzeitigen und fernabwesenden Stimmabgabe gefördert hat, aber auch die Zeit für fernabwesende Stimmabgabe eingeschränkt hat.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort besagt nichts über die Einnahmen Nigerias oder die Verwendung für Schulden. Sie bezieht sich auf die politische Strategie der GOP in Bezug auf die Stimmabgabe in den USA. Daher ist die Antwort **neutral** zum Claim."
+15,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.","What was Nigeria's  debt-servicing-to-consolidated revenue for June, 2022?","Despite the revenue shortfalls recorded, government recurrent expenditure (debt and non-debt) remained in line with budgetary expectations. According to the data, debt service for the first quarter of the year rose to N943.1 billion divided into domestic debt (N594.23 billion), Foreign Debt (N129.51), and Interest on Ways and Means (219.38 billion) respectively.   Recurrent non-debt expenditure was N1.1 trillion, largely in line with budget expectations a common feature over the last two decades. However,  capital expenditure was N139.7 billion, a whopping 71.3% off target as much needed capital expenditure suffered yet another decline.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass im Juni 2020 99% der nigerianischen Einnahmen für die Schuldentilgung (Debt Servicing) verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort beschränkt sich auf die Situation im Juni 2022 und gibt einige Zahlen an:
+- Die Schuldentilgung für das erste Quartal 2022 betrug N943,1 Milliarden.
+- Die Schuldentilgung wurde in drei Teile aufgeteilt: Domestic Debt (N594,23 Milliarden), Foreign Debt (N129,51 Milliarden) und Interest on Ways and Means (N219,38 Milliarden).
+- Die laufenden nicht-schuldenbezogenen Ausgaben betrugen N1,1 Billionen.
+- Die Kapitalausgaben betrugen N139,7 Milliarden, was 71,3% unter dem Budget lag.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort gibt keine direkte Information über die Schuldentilgung im Juni 2020. Sie beschränkt sich auf die Situation im Juni 2022. Es gibt keine Hinweise darauf, dass die Schuldentilgung im Juni 2020 99% der Einnahmen ausmachte. Tatsächlich gibt die Antwort keine Informationen über die Einnahmen im Juni 2020. Daher ist die Antwort **neutral** zum Claim, da sie weder bestätigt noch widerlegt, dass im Juni 2020 99% der Einnahmen für die Schuldentilgung verwendet wurden."
+16,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.","How much was the Federal Government  Federal Accounts Allocation Committee (FAAC) allocation for the month of June, 2020 ?","This was contained in a communiqué by the Federation Account Allocation Committee (FAAC) after its monthly meeting for July 2020 held through virtual conferencing; chaired by the Accountant General of the Federation, Ahmed Idris FCNA
+The gross statutory revenue available in June 2020 was N524.526 billion; the gross revenue from the Value Added Tax (VAT) was N128.826 billion and the revenue from the Exchange Gain was N42.832 billion. This brought the total revenue for the month to N696.184 billion. From this total, the sum of N45 billion was saved in the Excess Non-Oil Revenue Account and the balance of N651.184 billion was shared to the three tiers of government and relevant agencies.
+The balance in the Excess Crude Account (ECA) as at 16th July, 2020 was  $72.407 million. The gross statutory revenue of N524.525 billion available in June was higher than the N413.953 billion received in the previous month by N110.573 billion. Also, the gross revenue of N128.826 billion available from the Value Added Tax (VAT) was higher than the N103.873 billion in the previous month by N24.953 billion.
+The communiqué indicated that from the total revenue, the Federal Government received N266.131 billion, the State Governments received N185.774 billion, and the Local Government Councils received N138.974 billion. The Oil Producing States received N28.496 billion as 13% derivation revenue, N76.809 billion was given to revenue / Relevant Agencies as follows,
+Cost of collection…..24.047,
+Transfer to NEDC…..3.865,
+PTF….3.897,
+Transfer to Excess non oil…..45.000
+TOTAL……76.809
+The Federal Governm",neutral,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass im Juni 2020 99% der nigerianischen Einnahmen für die Zahlung von Schulden (Debt Servicing) verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt die Einnahmen der Bundesregierung für den Monat Juni 2020 an. Sie enthält die folgenden Zahlen:
+
+* Gesamteinnahmen: N696.184 Milliarden
+* Einnahmen aus der Statistik: N524.526 Milliarden
+* Einnahmen aus der Mehrwertsteuer (VAT): N128.826 Milliarden
+* Einnahmen aus dem Wechselkursgewinn: N42.832 Milliarden
+* Geteilte Einnahmen an die drei Ebenen der Regierung: N266.131 Milliarden (Bund), N185.774 Milliarden (Staaten), N138.974 Milliarden (Gemeinden)
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht. Die Gesamteinnahmen für Juni 2020 betragen N696.184 Milliarden, während die Einnahmen für Schulden nicht explizit angegeben werden. Es gibt auch keine Hinweise darauf, dass 99% der Einnahmen für Schulden verwendet wurden. Tatsächlich wird erwähnt, dass 45 Milliarden Naira in der Excess Non-Oil Revenue Account gespeichert wurden, was darauf hindeutet, dass nicht alle Einnahmen für Schulden verwendet wurden.
+
+Die Antwort widerlegt den Claim nicht direkt, aber sie zeigt auch nicht, dass 99% der Einnahmen für"
+17,456,"In June 2020, 99% of Nigerian revenue was being committed to debt servicing alone.","How much did the Federal Government of Nigeria spent on debt servicing for the month of June,  20202 ?","The rising cost of Nigeria’s debt profile breached a new milestone with the country’s debt service as a percentage of revenue rising to 99% in the first quarter of 2020. This is contained  in the Medium-Term Expenditure Framework and Fiscal Strategy (MTEF/FSP) report recently released by the Federal Ministry of Finance, Budget, and National Planning. A cursory review of the data obtained from the MTEF/FSP report shows that in Q1 2020, Nigeria incurred a total sum of N943.12 billion in debt service while the federal government retained revenue was put at N950.56 billion. This implies Nigeria’s debt service to revenue is estimated to be 99% during the period.",supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass im Juni 2020 99% der nigerianischen Einnahmen für die Schuldentilgung (Debt Servicing) verwendet wurden.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass im ersten Quartal 2020 (also von Januar bis März 2020) 99% der Einnahmen für die Schuldentilgung verwendet wurden. Sie gibt auch konkrete Zahlen an: 943,12 Milliarden Naira (N) für die Schuldentilgung und 950,56 Milliarden N für die Gesamteinnahmen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim. Sie bestaetigt, dass im ersten Quartal 2020 99% der Einnahmen für die Schuldentilgung verwendet wurden. Der Claim bezieht sich jedoch auf den Monat Juni 2020, nicht auf das gesamte erste Quartal. Da die Antwort jedoch keine spezifischen Daten für den Monat Juni 2020 liefert, kann man daraus schließen, dass die Situation im Juni 2020 ähnlich war wie im ersten Quartal 2020. Daher stuetzt die Antwort den Claim, auch wenn sie nicht direkt auf den Monat Juni 2020 eingeht.
+
+**Bemerkung:** Es ist wichtig zu beachten, dass die Antwort keine spezifischen Daten für den Monat Juni 2020 liefert, sondern sich auf das gesamte erste Quartal 2020 bezieht. Eine genaue Bestätigung des Claims für den Monat Juni 202"
+18,571,Consuming grape seeds and bitter almonds will cure cancer,What ingredient in grape seeds is purported to cure cancer?,Grape Seed Extract is derived from the oil that comes from ground red wine grapes. The extract contains a substance called proanthocyanidin which has antioxidant activities.,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Seed und bitteren Mandeln Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Grape-Seed-Extrakt aus der Öl-Entscheidung von roten Trauben gewonnen wird und ein Stoff namens Proanthocyanidin enthält, der antioxidative Aktivitäten hat.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort besagt, dass Grape-Seed-Extrakt antioxidative Aktivitäten hat, aber sie sagt nichts über die Heilung von Krebs durch Grape-Seed oder bittere Mandeln. Sie beschränkt sich auf die Beschreibung des Inhalts des Grape-Seed-Extrakts. Daher ist die Antwort **neutral**. Sie stützt den Claim nicht, da sie nicht die Behauptung über die Heilung von Krebs bestätigt, und sie widerlegt ihn auch nicht, da sie keine Aussage über die Wirksamkeit von Grape-Seed oder bitteren Mandeln gegen Krebs macht."
+19,571,Consuming grape seeds and bitter almonds will cure cancer,Is proanthocyanidin a proven cancer cure?,"Although it has antioxidant properties, grape seed has not been shown to treat or prevent cancer.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Keimlingen und bitteren Mandeln Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Proanthocyanidin, ein Bestandteil von Grape-Keimlingen, zwar antioxidative Eigenschaften hat, aber nicht bewiesen wurde, dass es Krebs behandeln oder verhindern kann.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Der Claim behauptet, dass Grape-Keimlinge und bittere Mandeln Krebs heilen können, während die Antwort besagt, dass es keine Beweise dafür gibt, dass Grape-Keimlinge Krebs behandeln oder verhindern können. Die Antwort beschränkt sich zwar auf Grape-Keimlinge und nicht auf bittere Mandeln, aber der Claim umfasst beide, und die Antwort widerlegt jedenfalls den Teil des Claims, der sich auf Grape-Keimlinge bezieht."
+20,571,Consuming grape seeds and bitter almonds will cure cancer,Is proanthocyanidin a proven cancer cure?,"The following article states:
+
+2009 Sep; 139(9): 1806S–1812S.
+doi: 10.3945/jn.109.106864
+PMCID: PMC2728696
+PMID: 19640973
+Anticancer and Cancer Chemopreventive Potential of Grape Seed Extract and Other Grape-Based Products
+
+Overall, completed studies from various scientific groups conclude that both grapes and grape-based products are excellent sources of various anticancer agents and their regular consumption should thus be beneficial to the general population.
+
+Apart from the anticancer and chemopreventive efficacy of GSE against skin, colorectal, prostate, and breast cancers discussed above in detail, anticancer efficacy of this extract has also been observed against human lung cancer A427, A549, and H1299 cells, human gastric adenocarcinoma CRL-1739 cells, oral squamous cell carcinoma",supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass der Verzehr von Grape-Keimlingen (Grape Seeds) und bitteren Mandeln (Bitter Almonds) Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort bespricht den Artikel ""Anticancer and Cancer Chemopreventive Potential of Grape Seed Extract and Other Grape-Based Products"" und besagt, dass Grape-Keimlinge (Grape Seeds) und andere Grape-Produkte Antikrebs-Agente enthalten und regelmäßiger Verzehr somit für die allgemeine Bevölkerung vorteilhaft sein sollte. Der Artikel bespricht auch die Antikrebs-Eigenschaften von Grape-Keimlingen gegenüber verschiedenen Krebsarten, einschließlich Haut-, Darm-, Prostata- und Brustkrebs.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Sie besagt, dass Grape-Keimlinge Antikrebs-Agente enthalten und regelmäßiger Verzehr vorteilhaft sein sollte, was den Claim, dass Grape-Keimlinge und bittere Mandeln Krebs heilen können, unterstützt. Der Claim beschränkt sich jedoch auf Grape-Keimlinge und bittere Mandeln, während die Antwort auch andere Grape-Produkte und ihre Antikrebs-Eigenschaften bespricht. Dennoch stuetzt die Antwort den Teil des Claims, der Grape-Keimlinge betrifft."
+21,571,Consuming grape seeds and bitter almonds will cure cancer,What ingredient in bitter almonds is purported to cure cancer?,"Amygdalin is a plant substance found in raw nuts, bitter almonds, as well as apricot and cherry seeds.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Seeds und bitteren Mandeln Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Amygdalin ein Pflanzenstoff ist, der in rohen Nüssen, bitteren Mandeln sowie in Aprikosen- und Kirschkerne gefunden wird.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim, da sie bestaetigt, dass bittere Mandeln ein Pflanzenstoff enthalten, der auch in anderen Lebensmitteln vorkommt. Dies passt zum Teil des Claims, der bittere Mandeln als Teil der Behauptung erwähnt. Allerdings sagt die Antwort nichts über die Heilwirkung von Amygdalin oder den Zusammenhang zwischen Amygdalin und Krebs aus. Daher stuetzt die Antwort nur den Teil des Claims, der bittere Mandeln erwähnt, und nicht den gesamten Claim.
+
+**Fazit:** Die Antwort stuetzt den Claim teilweise, da sie bestaetigt, dass bittere Mandeln ein bestimmtes Pflanzenstoff enthalten, aber nicht die Heilwirkung von diesem Pflanzenstoff oder den Zusammenhang zwischen diesem Pflanzenstoff und Krebs."
+22,571,Consuming grape seeds and bitter almonds will cure cancer,What is laetrile?,"Laetrile is a man-made form of amygdalin, a plant substance found in some nuts, plants and seeds of fruit.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Keimlingen (Grape Seeds) und bitteren Mandeln (Bitter Almonds) Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Laetrile ein künstlich hergestelltes Produkt von Amygdalin ist, einem pflanzlichen Stoff, der in bestimmten Nüssen, Pflanzen und Früchtecken vorkommt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie nicht besagt, dass Laetrile oder Amygdalin Krebs heilen kann. Sie besagt lediglich, dass Laetrile ein künstlich hergestelltes Produkt von Amygdalin ist. Es gibt jedoch einen Hinweis darauf, dass der Claim möglicherweise durch die Verwendung von Laetrile gestützt werden könnte, da Laetrile in der Vergangenheit als Krebsbehandlung verwendet wurde. Allerdings gibt es keine direkte Verbindung zwischen Laetrile und den Grape-Keimlingen oder bitteren Mandeln, die im Claim genannt werden.
+
+**Ueberlegung:**
+Die Antwort stuetzt den Claim nicht direkt, aber sie könnte ihn indirekt stuetzen, wenn man annimmt, dass Laetrile oder Amygdalin in Grape-Keimlingen oder bitteren Mandeln vorkommen und daher diese Lebensmittel möglicherweise eine ähnliche Wirkung haben könnten. Allerdings gibt es keine direkte Beweise dafür, dass Grape-Keimlingen oder bittere Mandeln Krebs heilen können, und der Claim ist daher nicht durch"
+23,571,Consuming grape seeds and bitter almonds will cure cancer,Why do people with cancer use laetrile?,"Laetrile has been used as an anti cancer agent since the 1800’s. It is used either on its own or as part of a programme. This might include following a particular diet, high dose vitamin supplements and pancreatic enzymes.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Keimlingen und bitteren Mandeln Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort bespricht Laetrile, ein Mittel, das seit den 1800er Jahren als Anti-Krebs-Mittel verwendet wird. Es wird entweder allein oder als Teil eines Programms eingenommen, das auch eine bestimmte Diät, hohe Vitamin-Dosen und Pancreas-Enzyme umfasst.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie nicht speziell von Grape-Keimlingen und bitteren Mandeln spricht. Sie befasst sich mit Laetrile, einem anderen Mittel, das als Anti-Krebs-Mittel verwendet wird. Es gibt jedoch einen Zusammenhang zwischen Laetrile und den in der Frage genannten Inhaltsstoffen: Laetrile wird oft als ""Bittermandel"" bezeichnet, da es aus der Schale der Bittermandel gewonnen wird. Grape-Keimlinge werden oft als ""Laetrile"" oder ""Vitamin B17"" bezeichnet, da sie ähnliche Wirkstoffe enthalten.
+
+Da die Antwort Laetrile als Anti-Krebs-Mittel beschreibt, ohne den Zusammenhang zwischen Laetrile und den in der Frage genannten Inhaltsstoffen explizit zu erwähnen, kann man sagen, dass die Antwort den Claim indirekt stuetzt. Sie gibt der Idee, dass bestimmte Inhaltsstoffe Krebs heilen können, eine gewisse Legitimität, ohne jedoch den spezifischen"
+24,571,Consuming grape seeds and bitter almonds will cure cancer,Is laetrile a proven cancer cure?,"Although, more recent studies have shown that laetrile can kill cancer cells in certain cancer types there is not enough reliable scientific evidence to show that laetrile or amygdalin can treat cancer. Despite this, it still gets promoted as an alternative cancer treatment.
+
+There is not enough reliable evidence that it works.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grape-Keimlingen und bitteren Mandelkerne Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass es keine ausreichenden Beweise gibt, um zu zeigen, dass Laetrile oder Amygdalin Krebs behandeln können. Es wird erwähnt, dass Laetrile in einigen Studien Krebszellen töten konnte, aber es gibt keine Beweise dafür, dass es Krebs heilen kann.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Sie besagt, dass es keine Beweise dafür gibt, dass Laetrile oder Amygdalin Krebs heilen können, was direkt gegen den Claim steht. Der Claim behauptet, dass der Verzehr von Grape-Keimlingen und bitteren Mandelkerne Krebs heilen kann, aber die Antwort besagt, dass es keine Beweise dafür gibt. Daher widerlegt die Antwort den Claim."
+25,571,Consuming grape seeds and bitter almonds will cure cancer,Does consuming grapes cures cancer as it contains vitamin B17 ?,"When we searched on the Internet to check the claim attributed to the WHO, we found that WHO had no records on linking cancer to vitamin B17 or deficiency. With grapes as the content of the claim, we found several research articles from authentic sources declaring there is no proven scientific research that consuming grapes would treat cancer.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der Verzehr von Grapefrüchten (insbesondere Grape-Keime) und bitteren Mandeln Krebs heilen kann.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass es keine wissenschaftlichen Beweise gibt, die den Verzehr von Grapefrüchten als Krebsbehandlung empfehlen. Sie verweist auf eine Suche nach Informationen der WHO und findet keine Verbindung zwischen Vitamin B17 und Krebs. Zudem finden sich keine wissenschaftlichen Studien, die den Verzehr von Grapefrüchten als Krebsbehandlung empfehlen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Sie zeigt, dass es keine wissenschaftlichen Beweise gibt, die den Verzehr von Grapefrüchten als Krebsbehandlung empfehlen. Der Claim wird also unwahrscheinlicher."
+26,895,"In the United States, the CDC (Centers for Disease Control and Prevention) admitted in federal court that it does not have studies to support the claim that vaccines do not cause autism.",What does the CDC say about vaccines causing autism?,studies have shown that there is no link between receiving vaccines and developing ASD.,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die CDC (Centers for Disease Control and Prevention) in einem Bundesgerichtsverfahren zugegeben haben, dass sie keine Studien haben, die belegen, dass Impfungen Autismus nicht verursachen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Studien gezeigt haben, dass es keinen Zusammenhang zwischen dem Empfang von Impfungen und der Entwicklung von Autismus-Spektrum-Störungen (ASD) gibt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Der Claim besagt, dass die CDC keine Studien haben, die belegen, dass Impfungen Autismus nicht verursachen. Die Antwort besagt jedoch, dass Studien gezeigt haben, dass es keinen Zusammenhang zwischen Impfungen und ASD gibt. Dies ist das Gegenteil von dem, was der Claim behauptet. Die Antwort zeigt also, dass es tatsächlich Studien gibt, die den Claim widerlegen.
+
+Die Antwort stuetzt also nicht den Claim, sondern widerlegt ihn."
+27,895,"In the United States, the CDC (Centers for Disease Control and Prevention) admitted in federal court that it does not have studies to support the claim that vaccines do not cause autism.",Has the CDC submitted studies that show vaccines do not cause autism?,Yes,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass die CDC (Centers for Disease Control and Prevention) in einem Bundesgerichtsverfahren zugegeben haben, dass sie keine Studien haben, die belegen, dass Impfungen Autismus nicht verursachen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""Ja"" (Yes), was bedeutet, dass die CDC tatsächlich Studien haben, die zeigen, dass Impfungen Autismus nicht verursachen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Der Claim besagt, dass die CDC keine Studien haben, die belegen, dass Impfungen Autismus nicht verursachen. Die Antwort bestätigt jedoch, dass die CDC tatsächlich solche Studien haben. Daher ist der Claim unwahrscheinlicher, da die Antwort zeigt, dass die Behauptung des Claims falsch ist."
+28,914,U.S. Senator Bernie Sanders has not yet endorsed Joe Biden for President.,Does Bernie Sanders endorse Joe Biden for President?,"Senator Bernie Sanders endorsed Joseph R. Biden Jr. as the Democratic nominee for president on Monday, adding the weight of his left-wing support to Mr. Biden’s candidacy and taking a major step toward bringing unity to the party’s effort to unseat President Trump in November.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass U.S. Senator Bernie Sanders Joe Biden noch nicht als Präsidentschaftskandidaten unterstützt hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Senator Bernie Sanders Joseph R. Biden Jr. als den demokratischen Nominierungspräsidentschaftskandidaten unterstützt hat.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Der Claim besagt, dass Bernie Sanders Joe Biden noch nicht unterstützt hat, aber die Antwort besagt, dass Bernie Sanders tatsächlich Joe Biden unterstützt hat. Dies macht den Claim unwahrscheinlicher.
+
+Die Antwort stützt den Claim nicht, weil sie den Inhalt des Claims bestätigt, anstatt ihn zu widerlegen. Der Claim besagt, dass Bernie Sanders Joe Biden noch nicht unterstützt hat, aber die Antwort besagt, dass Bernie Sanders tatsächlich Joe Biden unterstützt hat. Dies macht den Claim unwahrscheinlicher."
+29,1003,China and Japan are free of SARS-COV-2.,What is the date of this claim?,"The claim was published on Facebook on March 26, 2020.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass China und Japan frei von SARS-COV-2 sind.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt den Zeitpunkt an, an dem der Claim veröffentlicht wurde, nämlich am 26. März 2020.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stützt den Claim nicht, da sie lediglich den Zeitpunkt der Veröffentlichung des Claims angibt und nicht die Richtigkeit der Aussage selbst. Der Claim behauptet, dass China und Japan frei von SARS-COV-2 sind, aber die Antwort gibt keine Informationen über die tatsächliche Anwesenheit oder Abwesenheit des Virus in diesen Ländern. Sie ist neutral, da sie weder den Claim bestätigt noch widerspricht.
+
+**Ueberlegung:**
+Die Antwort gibt lediglich einen Zeitpunkt an und sagt nichts über die Richtigkeit des Claims aus. Sie ist also neutral und stützt den Claim nicht."
+30,1003,China and Japan are free of SARS-COV-2.,What COVID-19 statistics for China were recorded on 26/03/2020?,"Statistics on 26/03/2020:
+
+China
+Total confirmed cases 81961
+Total confirmed new cases
+113
+Total deaths
+3293
+Total new deaths 6",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass China und Japan frei von SARS-COV-2 sind.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt Statistiken für China am 26.03.2020 an. Es gibt 81.961 bestätigte Fälle, 113 neue Fälle und 3.293 Tote mit 6 neuen Todesfällen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim nicht, da sie bestätigte Fälle und Tote in China anzeigt. Dies bedeutet, dass China nicht frei von SARS-COV-2 ist. Der Claim wird also unwahrscheinlicher.
+
+Die Antwort widerlegt den Claim, da sie zeigt, dass es in China bestätigte Fälle von SARS-COV-2 gibt. Der Claim, dass China frei von SARS-COV-2 ist, wird also unwahrscheinlicher."
+31,1003,China and Japan are free of SARS-COV-2.,What COVID-19 statistics for Japan were recorded on 26/03/2020?,"Statistics on 26/03/2020:
+
+Japan
+Total confirmed cases
+1291
+Total confirmed new cases
+98
+Total deaths 
+45
+Total new deaths 2",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass China und Japan frei von SARS-COV-2 sind.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt Statistiken für Japan am 26.03.2020 an. Es gibt 1291 bestätigte Fälle, 98 neue Fälle und 45 Tote.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort zeigt, dass es in Japan bestätigte Fälle von COVID-19 gibt. Dies widerspricht dem Claim, dass Japan frei von SARS-COV-2 ist. Daher widerlegt die Antwort den Claim.
+
+Die Antwort zeigt, dass es in Japan COVID-19-Fälle gibt, was bedeutet, dass Japan nicht frei von SARS-COV-2 ist. Der Claim wird also unwahrscheinlicher gemacht."
+32,1126,Tom Hanks has passed away at 63,What was the date of the claim made?,11/03/2020 - March 3rd 2020.,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Tom Hanks am 63. Lebensjahr verstorben ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt den 3. März 2020 als Datum an, an dem der Claim gemacht wurde.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Um dies zu beurteilen, müssen wir die Antwort mit dem Claim vergleichen. Der Claim besagt, dass Tom Hanks am 63. Lebensjahr verstorben ist. Die Antwort gibt jedoch nur das Datum an, an dem der Claim gemacht wurde, nicht jedoch Informationen über den Tod von Tom Hanks.
+
+Da die Antwort keine Informationen über den Tod von Tom Hanks liefert, kann sie den Claim nicht stützen oder widerlegen. Sie ist neutral, da sie weder den Claim wahrscheinlicher noch unwahrscheinlicher macht.
+
+**Fazit:** Die Antwort ist neutral, da sie weder den Claim stützt noch widerlegt."
+33,1126,Tom Hanks has passed away at 63,Did Tom Hanks suffer with Covid?,"Yes, around the time of the claim in March 2020 Tom Hanks and wife Rita Wilson tested positive for coronavirus (COVID-19). The actor announced both he and his wife both fell ill while traveling in Australia and were tested for the virus, with results returning positive for COVID-19.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Tom Hanks bereits 63 Jahre alt ist und gestorben ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Tom Hanks und seine Frau Rita Wilson im März 2020 positiv auf das Coronavirus (COVID-19) getestet wurden, als sie sich in Australien aufhielten.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht, da sie nichts über Tom Hanks' Alter oder seinen Tod sagt. Sie behandelt ein anderes Thema, nämlich seine Erkrankung an COVID-19 im März 2020. Die Antwort ist neutral zu dem Claim, da sie ihn weder wahrscheinlicher noch unwahrscheinlicher macht."
+34,1126,Tom Hanks has passed away at 63,Is Tom Hanks still alive?,Yes,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Tom Hanks bereits 63 Jahre alt ist und gestorben ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet ""Yes"", was bedeutet, dass Tom Hanks noch lebt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort ""Yes"" bedeutet, dass Tom Hanks noch lebt. Da der Claim behauptet, dass Tom Hanks bereits 63 Jahre alt ist und gestorben ist, widerspricht die Antwort dem Claim. Die Antwort macht den Claim unwahrscheinlicher, da sie bestätigt, dass Tom Hanks noch lebt."
+35,1728,Australian Prime Minister Scott Morrison has given himself a pay rise.,Did the Australian PM Scott Morrison  give himself a pay rise then cut working class wages ?,"Multiple posts have been shared thousands of times in on Facebook which claim Australian Prime Minister Scott Morrison has given himself a pay rise, while his New Zealand counterpart Jacinda Ardern has frozen the salaries of the country’s politicians “until economy improves for citizens”. The claims are misleading; the renumeration for Australia and New Zealand’s politicians is determined by independent statutory bodies, not the prime ministers; a salary freeze was indeed imposed on New Zealand’s politicians in 2018, but it was in place to establish a fairer system that determines pay increases for key office holders, not because of economic conditions.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass der australische Premierminister Scott Morrison sich selbst einen Lohnanstieg gegeben hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort bestätigt, dass es Posts auf Facebook gibt, die behaupten, Scott Morrison habe sich selbst einen Lohnanstieg gegeben, während seine neuseeländische Kollegin Jacinda Ardern die Gehälter der Politiker gefroren habe. Die Antwort widerlegt jedoch diese Behauptungen, indem sie erklärt, dass die Gehälter der Politiker von unabhängigen Gesetzeskörperschaften bestimmt werden und nicht vom Premierminister. Zudem wurde in Neuseeland tatsächlich eine Gehaltseinstellung verhängt, aber nicht wegen wirtschaftlicher Gründe, sondern um eine faire Systematik für Gehaltserhöhungen für wichtige Amtsträger zu schaffen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim, da sie erklärt, dass die Gehälter der Politiker nicht vom Premierminister bestimmt werden und dass die Gehaltseinstellung in Neuseeland nicht wegen wirtschaftlicher Gründe erfolgte. Der Claim wird also unwahrscheinlicher gemacht."
+36,2233,Sadhvi Pragya said Manohar Parrikar died of cancer because he allowed the consumption of beef in Goa,"Where did the statement ""Will Totally Ban Beef in States like Goa, North-East, If BJP Comes to Power at the Centre: Sadhvi Pragya"" originate from?",IndiaScoops,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass Sadhvi Pragya sagte, Manohar Parrikar sei an Krebs gestorben, weil er die Konsumation von Rindfleisch in Goa erlaubt habe.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Sadhvi Pragya gesagt habe, sie werde, wenn die BJP an der Macht sei, Rindfleisch in Staaten wie Goa und Nordosten verbieten.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie nicht besagt, dass Sadhvi Pragya Manohar Parrikar an Krebs gestorben sei, weil er Rindfleisch in Goa erlaubt habe. Stattdessen besagt sie, dass Sadhvi Pragya Rindfleisch in Goa verbieten will, wenn die BJP an der Macht ist. Dieser Teil des Claims wird durch die Antwort bestaetigt, aber der Teil, der besagt, dass Sadhvi Pragya Manohar Parrikar an Krebs gestorben sei, weil er Rindfleisch in Goa erlaubt habe, wird nicht erwähnt.
+
+Daher ist die Antwort **neutral** zu diesem Teil des Claims, da sie ihn weder stuetzt noch widerlegt."
+37,2233,Sadhvi Pragya said Manohar Parrikar died of cancer because he allowed the consumption of beef in Goa,Is IndiaScoops a credible news site?,"The supposed quote from Sadhvi Pragya in IndiaScoops has no evidence. In the article, IndiaScoops states: ""These comments were not made before the media, or at a public gathering but in front of a group of followers.""",neutral,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass Sadhvi Pragya gesagt hat, Manohar Parrikar sei an Krebs gestorben, weil er die Konsumation von Rindfleisch in Goa erlaubt habe.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass es keine Beweise für die Aussage von Sadhvi Pragya gibt. Sie gibt an, dass die Aussage nicht vor der Öffentlichkeit oder in einem öffentlichen Treffen gemacht wurde, sondern vor einer Gruppe von Anhängern.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Sie gibt an, dass es keine Beweise für die Aussage von Sadhvi Pragya gibt, was bedeutet, dass der Claim unwahrscheinlich ist. Die Antwort gibt auch an, dass die Aussage nicht öffentlich gemacht wurde, was darauf schließen lässt, dass die Aussage möglicherweise nicht gemacht wurde."
+38,2418,The US Great Lakes Initiative is to receive full funding of $300 million after a more than 30 years wait.,What is the date of the claim?,28th March 2019,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass das US Great Lakes Initiative nach mehr als 30 Jahren endlich mit 300 Millionen US-Dollar vollständig finanziert wird.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt den 28. März 2019 als Datum an, ohne weitere Informationen über den Inhalt oder die Finanzierung des US Great Lakes Initiative.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort ist neutral, da sie weder den Inhalt des Claims bestätigt noch ihn widerlegt. Sie gibt lediglich ein Datum an, das möglicherweise mit dem Claim zusammenhängen könnte, aber keine Informationen über die Finanzierung des Projekts. Es ist auch möglich, dass die Antwort nur ein Datum für eine andere Veröffentlichung oder Ankündigung gibt, die nichts mit dem Claim zu tun hat. Daher kann die Antwort den Claim weder stützen noch widerlegen."
+39,2418,The US Great Lakes Initiative is to receive full funding of $300 million after a more than 30 years wait.,What is the The US Great Lakes Initiative?,It is mayors and local officials working to advance the protection and restoration of the Great Lakes,neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass das US Great Lakes Initiative nach mehr als 30 Jahren endlich mit 300 Millionen US-Dollar vollständig finanziert wird.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass es sich bei dem US Great Lakes Initiative um eine Initiative handelt, bei der Bürgermeister und lokale Beamte daran arbeiten, die Schutz- und Wiederherstellungsmaßnahmen der Großen Seen zu fördern.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht, da sie weder die Finanzierung noch die Zeitangabe erwähnt. Sie beschreibt lediglich den Zweck und die Beteiligten des Projekts. Der Claim behauptet eine Finanzierung, die Antwort beschreibt die Ziele und Beteiligten. Daher ist die Antwort neutral zu dieser Aussage."
+40,2418,The US Great Lakes Initiative is to receive full funding of $300 million after a more than 30 years wait.,How much funding was originally allocated to the initiative?,The Great Lakes Restoration Initiative has been getting over $300 million a year since 2010,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die US Great Lakes Initiative nach mehr als 30 Jahren endlich mit 300 Millionen US-Dollar vollständig finanziert wird.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass die Great Lakes Restoration Initiative seit 2010 jährlich über 300 Millionen US-Dollar erhält.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht, da sie besagt, dass die Initiative bereits seit 2010 jährlich über 300 Millionen US-Dollar erhält. Dies bedeutet, dass die Initiative bereits vor mehr als 30 Jahren finanziert wird und der Claim, dass sie nach mehr als 30 Jahren endlich vollständig finanziert wird, unwahrscheinlich ist. Die Antwort widerlegt den Claim.
+
+Zusätzlich ist zu beachten, dass der Claim ""vollständig finanziert"" verwendet, während die Antwort ""jährlich über 300 Millionen US-Dollar erhält"" sagt. Dies deutet darauf hin, dass die Initiative bereits seit 2010 finanziell unterstützt wird, aber es keine Aussage über eine ""vollständige Finanzierung"" enthält. Der Claim könnte also auch als übertrieben angesehen werden."
+41,2418,The US Great Lakes Initiative is to receive full funding of $300 million after a more than 30 years wait.,Was it allocated 300 million dollars in 2019?,No,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass das US Great Lakes Initiative nach mehr als 30 Jahren Wartezeit vollständig mit 300 Millionen Dollar gefördert wird.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""No"", was bedeutet, dass 300 Millionen Dollar nicht 2019 (oder möglicherweise überhaupt nicht) für das US Great Lakes Initiative zugewiesen wurden.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort ""No"" widerlegt den Claim, da sie bestätigt, dass das US Great Lakes Initiative nicht mit 300 Millionen Dollar gefördert wurde, wie der Claim behauptet. Die Antwort gibt keine Informationen über die Gesamtförderung oder die Förderung in den letzten 30 Jahren, sondern beschränkt sich auf die Aussage, dass 300 Millionen Dollar 2019 nicht zugewiesen wurden. Daher widerlegt die Antwort den Claim."
+42,2619,The current Kenyan government has built a standard-gauge railway of 600 kilometres in the last five years.,What is the Standard Gauge Railway (SGR)?,"The Standard Gauge Railway is a modern, efficient transport system that will enable safe, comfortable travel for individuals and freight across the country and region at lower costs.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass die aktuelle kenyanische Regierung in den letzten fünf Jahren eine Standard-Gauge-Bahn (SGR) von 600 Kilometern gebaut hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort beschreibt die Standard-Gauge-Bahn als ""ein modernes, effizientes Transportsystem, das es ermöglicht, sicher, bequem und kostengünstig zu reisen"". Sie beschreibt die SGR als ein Transportmittel, das es ermöglicht, Personen und Fracht sicher und bequem zu transportieren.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim. Sie beschreibt die SGR als ein modernes und effizientes Transportsystem, was die Behauptung des Claims, dass die Regierung in den letzten fünf Jahren eine SGR von 600 Kilometern gebaut hat, unterstützt. Die Antwort gibt keine spezifischen Informationen über die Länge der SGR oder die Zeit, die für den Bau benötigt wurde, aber sie beschreibt die SGR als ein wichtiger Teil des Transportnetzes, was die Wahrscheinlichkeit, dass die Regierung in den letzten fünf Jahren eine SGR von 600 Kilometern gebaut hat, erhöht.
+
+**Begründung:**
+Die Antwort beschreibt die SGR als ein wichtiger Teil des Transportnetzes, was die Wahrscheinlichkeit, dass die Regierung in den letzten fünf Jahren eine SGR von 600 Kilometern gebaut hat, erhöht. Die Antwort gibt keine spezifischen Informationen über die Länge der SGR oder die Zeit, die für den Bau benötigt wurde, aber sie unterstützt"
+43,2619,The current Kenyan government has built a standard-gauge railway of 600 kilometres in the last five years.,How much of the SGR has already been built?,Phase 1 of the Standard Gauge Railway from Mombasa to Nairobi has seen 472km of track completed,neutral,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die aktuelle kenianische Regierung in den letzten fünf Jahren eine Standard-Gauges-Bahn von 600 Kilometern gebaut hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass 472 Kilometer der Standard-Gauges-Bahn von Mombasa nach Nairobi bereits fertiggestellt wurden.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort besagt, dass 472 Kilometer der Standard-Gauges-Bahn fertiggestellt wurden, was weniger als die im Claim genannten 600 Kilometer ist. Dies bedeutet, dass die Antwort den Claim unwahrscheinlicher macht, da die tatsächlich fertiggestellte Länge kleiner ist als die im Claim genannte Länge.
+
+Es ist jedoch wichtig zu beachten, dass die Antwort nicht den gesamten Claim widerspricht, sondern nur einen Teil davon. Der Claim besagt, dass die Regierung in den letzten fünf Jahren eine Standard-Gauges-Bahn von 600 Kilometern gebaut hat, und die Antwort besagt, dass 472 Kilometer davon fertiggestellt wurden. Es ist möglich, dass die Regierung in den letzten fünf Jahren weitere Kilometer gebaut hat, die nicht in der Antwort erwähnt werden.
+
+Insgesamt kann die Antwort als ""widerlegt"" angesehen werden, da sie den Teil des Claims, der sich auf die Länge der fertiggestellten Bahn bezieht, nicht bestätigt."
+44,2619,The current Kenyan government has built a standard-gauge railway of 600 kilometres in the last five years.,Has any mention been made between the amount of track laid vs the amount laid in the claim?,"The main line is 472 km and the total track built 607.4 km, the SGR office told Africa Check. The difference is because there are areas on the main line with multiple tracks. These include two main stations and seven intermediate stations.",supports,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die aktuelle kenianische Regierung in den letzten fünf Jahren eine Standard-Gauges-Bahn von 600 Kilometern gebaut hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass die Gesamtstrecke der gebauten Bahn 607,4 Kilometer beträgt, aber dass dies nicht der gesamten Strecke von 600 Kilometern entspricht. Der Grund dafür ist, dass es an einigen Stellen mehrere Gleise gibt, insbesondere an zwei Hauptstationen und sieben Zwischenstationen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim, da die tatsächliche Strecke (607,4 km) kleiner ist als die behauptete Strecke (600 km). Die Antwort gibt auch einen Grund dafür an, nämlich die Anzahl der Gleise an bestimmten Stellen. Daher ist die Antwort als widerlegend zu betrachten."
+45,2771,"More than R2 trillion was invested in South Africa in infrastructure projects over 10 years (2008-2018) to build more schools, clinics, roads and the freight logistics network.",How much money has been invested in infrastructure projects in South Africa over the past 10 years?,"National Treasury, infrastructure spending in the past 10 complete financial years, came to R2.3 trillion.",supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass über 10 Jahre (2008-2018) mehr als R2 trillion in Infrastrukturprojekte in Südafrika investiert wurden, um mehr Schulen, Kliniken, Straßen und das Güterlogistiknetzwerk zu bauen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass die Infrastrukturausgaben des Nationalen Schatzamtes (National Treasury) in den letzten 10 vollständigen Finanzjahren (2008-2018) R2,3 trillion betragen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort bestätigt tatsächlich den Inhalt des Claims. Sie gibt eine genaue Zahl an, die den Claim übertrifft (R2,3 trillion vs. ""mehr als R2 trillion""). Der Claim besagt, dass die Investitionen in Infrastrukturprojekte über 10 Jahre hinausgingen, was durch die Antwort bestätigt wird, da die Investitionen über 10 Jahre (2008-2018) erfolgten.
+
+**Fazit:**
+Die Antwort stützt den Claim."
+46,2771,"More than R2 trillion was invested in South Africa in infrastructure projects over 10 years (2008-2018) to build more schools, clinics, roads and the freight logistics network.",Where is the infrastructure  money spent on?,"...infrastructure spending across the public sector, which includes national, provincial and
+local government, as well as state-owned companies and other public entities. Public funds allocated to public-private
+partnerships are also included.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass in Südafrika über 10 Jahre (2008-2018) mehr als R2 Billionen in Infrastrukturprojekte investiert wurden, um Schulen, Krankenhäuser, Straßen und das Güterlogistiknetzwerk zu bauen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass die Infrastrukturausgaben über den gesamten öffentlichen Sektor verteilt sind, einschließlich nationaler, provinzieller und lokaler Regierungen, staatseigener Unternehmen und anderer öffentlicher Einheiten. Darüber hinaus werden öffentliche Mittel für öffentlich-private Partnerschaften berücksichtigt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim, da sie bestätigt, dass Infrastrukturausgaben über den gesamten öffentlichen Sektor verteilt sind. Dies deckt sich mit der Behauptung des Claims, dass mehr als R2 Billionen in Infrastrukturprojekte investiert wurden. Die Antwort liefert keine spezifischen Zahlen, aber sie bestätigt die Art der Ausgaben, die der Claim beschreibt. Daher stützt die Antwort den Claim.
+
+Es ist jedoch zu beachten, dass die Antwort keine spezifischen Zahlen oder Belege liefert, um die Behauptung des Claims zu untermauern. Daher ist die Antwort nicht überzeugend genug, um den Claim vollständig zu stützen."
+47,3016,"Vladimir Putin is the world's richest man, with an estimated fortune of $250 billion.",What is Vladimir Putin's net worth?,"Although Putin is believed to hold billions of dollars in personal wealth, little is known about the exact amount or where it might be.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Vladimir Putin der reichste Mann der Welt ist, mit einem geschätzten Vermögen von 250 Milliarden US-Dollar.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort bestätigt, dass Putin ein großes Vermögen hat, aber betont, dass die genaue Höhe und die Quelle dieses Vermögens unbekannt sind.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stützt den Claim nicht vollständig, da sie die genaue Höhe des Vermögens nicht bestätigt. Sie bestätigt jedoch, dass Putin ein großes Vermögen hat, was den Teil des Claims, dass er reich ist, unterstützt. Der Teil des Claims, dass er der reichste Mann der Welt ist, wird jedoch nicht bestätigt. Daher ist die Antwort neutral, da sie den Claim weder wahrscheinlicher noch unwahrscheinlicher macht."
+48,3016,"Vladimir Putin is the world's richest man, with an estimated fortune of $250 billion.",What is Vladimir Putin's net worth?,"Browder testified before the US Senate in 2017 that he estimates the Russian leader's wealth to hover around $275.48 billion (US$200 billion) in assets, which would make him among the wealthiest people on the planet.",supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Vladimir Putin der reichste Mann der Welt ist, mit einem geschätzten Vermögen von 250 Milliarden US-Dollar.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass Browder, ein Zeuge vor dem US-Senat, 2017 geschätzt hat, dass Putins Vermögen um die 275,48 Milliarden US-Dollar (oder 200 Milliarden US-Dollar) liegt, was ihn zu einem der reichsten Menschen auf der Erde machen würde.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim, da sie Putins Vermögen auf ein deutlich höheres Niveau schätzt als der Claim (275,48 Milliarden US-Dollar vs. 250 Milliarden US-Dollar). Die Antwort bestaet also den Inhalt des Claims, indem sie ihn sogar übertrifft. Der Claim wird also wahrscheinlicher."
+49,3016,"Vladimir Putin is the world's richest man, with an estimated fortune of $250 billion.",Is Vladimir Putin on the list of the richest people in the world?,No,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Vladimir Putin der reichste Mann der Welt ist, mit einem geschätzten Vermögen von 250 Milliarden US-Dollar.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort lautet: ""Nein"" (dt. ""Nein"", auf Englisch ""No""). Sie beantwortet die Frage, ob Vladimir Putin auf der Liste der reichsten Menschen der Welt steht.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort ""Nein"" bedeutet, dass Putin nicht auf der Liste der reichsten Menschen der Welt steht. Dies widerspricht dem Claim, der behauptet, dass Putin der reichste Mann der Welt ist. Daher widerlegt die Antwort den Claim.
+
+Die Antwort ist also **widerlegt**."
+50,3016,"Vladimir Putin is the world's richest man, with an estimated fortune of $250 billion.",Who is currently the richest man in the world?,"Elon Musk, with a fortune of $266 billion, is the richest person on the planet.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Vladimir Putin der reichste Mann der Welt ist, mit einem geschätzten Vermögen von 250 Milliarden US-Dollar.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass Elon Musk der reichste Mensch auf der Erde ist, mit einem Vermögen von 266 Milliarden US-Dollar.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim, da sie einen anderen Menschen als reichsten Mann der Welt ausweist und auch ein höheres Vermögen angibt als im Claim. Der Claim behauptet, Putin habe ein Vermögen von 250 Milliarden US-Dollar, während Musk laut Antwort 266 Milliarden US-Dollar hat. Dies zeigt, dass der Claim falsch ist und Musk tatsächlich reicher ist als Putin. Daher widerlegt die Antwort den Claim."
+51,3016,"Vladimir Putin is the world's richest man, with an estimated fortune of $250 billion.",How much does Vladimir Putin make a year?,"His latest financial disclosure indicated that the Russian leader earned 8.6 million rubles (€119,048.40) in 2018 from his official salary, a military pension, interest on savings, and investment gains",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Vladimir Putin der reichste Mann der Welt ist, mit einem geschätzten Vermögen von 250 Milliarden US-Dollar.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt an, dass Putin 2018 aus seiner offiziellen Bezahlung, Militärpension, Zinsen auf seine Ersparnisse und Investitionsgewinnen 8,6 Millionen Rubel (ca. 119.048,40 Euro) verdiente.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort gibt keine Hinweise darauf, dass Putin ein Vermögen von 250 Milliarden US-Dollar besitzt. Sie beschränkt sich auf seine offizielle Bezahlung und Einnahmen aus anderen Quellen, die weit entfernt von 250 Milliarden US-Dollar liegen. Daher widerlegt die Antwort den Claim.
+
+Die Antwort stützt den Claim nicht, da sie keine Belege für ein solches Vermögen liefert. Sie ist auch nicht neutral, da sie den Claim unwahrscheinlicher macht."
+52,3033,"U.S., Germany and France have no educational requirement for the office of President.",What are the requirements of becoming a president according to the US constitution?,"No Person except a natural born Citizen, or a Citizen of the United States, at the time of the Adoption of this Constitution, shall be eligible to the Office of President; neither shall any person be eligible to that Office who shall not have attained to the Age of thirty five Years, and been fourteen Years a Resident within the United States.",supports,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass die USA, Deutschland und Frankreich keine Bildungsanforderungen für das Amt des Präsidenten haben.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort gibt die Anforderungen für das Amt des Präsidenten in den USA nach dem US-Verfassung wieder. Dazu gehören:
+- Der Präsident muss ein natürlicher geborener Bürger der USA sein.
+- Er muss mindestens 35 Jahre alt sein.
+- Er muss 14 Jahre in den USA leben.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim nicht, da sie die Anforderungen für das Amt des Präsidenten in den USA beschreibt. Der Claim besagt, dass es keine Bildungsanforderungen gibt, aber die Antwort beschreibt andere Anforderungen, die nichts über Bildungsanforderungen sagen. Der Claim wird also nicht bestätigt, aber auch nicht widerlegt. Die Antwort ist neutral, da sie den Claim weder wahrscheinlicher noch unwahrscheinlicher macht."
+53,3033,"U.S., Germany and France have no educational requirement for the office of President.",What are the requirements of becoming a president according to the German constitution?,The Federal President shall be elected by the Federal Convention without debate. Any German who is entitled to vote in Bundestag elections and has attained the age of forty may be elected.,supports,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass die USA, Deutschland und Frankreich keine Bildungsanforderungen für das Amt des Präsidenten haben.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass nach dem deutschen Grundgesetz jeder Deutsche, der wahlberechtigt ist und das 40. Lebensjahr erreicht hat, für das Amt des Bundespräsidenten gewählt werden kann.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht, da sie eine Bildungsanforderung (das 40. Lebensjahr) nennt, die für das Amt des Bundespräsidenten gilt. Der Claim besagt jedoch, dass es keine Bildungsanforderungen gibt, also ist die Antwort neutral, da sie nicht direkt auf den Claim eingeht. Der Claim bezieht sich jedoch auf das Amt des Präsidenten in den USA, Deutschland und Frankreich, während die Antwort nur auf das deutsche Amt des Bundespräsidenten eingeht. Daher ist die Antwort nicht direkt relevant für den Claim.
+
+**Fazit:**
+Die Antwort ist neutral, da sie nicht direkt auf den Claim eingeht und keine Aussage über die Bildungsanforderungen für das Amt des Präsidenten in den USA oder Frankreich trifft."
+54,3033,"U.S., Germany and France have no educational requirement for the office of President.",What are the requirements of becoming a president according to the French constitution?,"the French constitution states that a candidate for a presidential election is required to:
+
+be a French citizen;
+have attained the age of 18 years;
+be qualified to vote;
+not be ineligible by reasons of criminal conviction or judicial decision;
+and have a bank account.",supports,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass die USA, Deutschland und Frankreich keine Bildungsanforderungen für das Amt des Präsidenten haben.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass nach der französischen Verfassung ein Kandidat für die Präsidentschaftswahlen folgende Anforderungen erfüllen muss:
+- Französischer Staatsbürger sein
+- mindestens 18 Jahre alt sein
+- wahlberechtigt sein
+- keine Strafverurteilung oder gerichtliche Entscheidung haben, die die Eignung ausschließt
+- ein Bankkonto haben
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stuetzt den Claim nicht, da sie tatsächlich Anforderungen für das Amt des Präsidenten in Frankreich nennt. Der Claim besagt, dass es keine Bildungsanforderungen gibt, aber die Antwort besagt, dass ein Kandidat wahlberechtigt sein muss, was eine Art von Bildungsanforderung impliziert (da man normalerweise erst wahlberechtigt ist, wenn man eine bestimmte Bildung oder Alter erreicht hat). Die Antwort stuetzt also den Claim nicht, sondern zeigt, dass es in Frankreich tatsächlich Anforderungen für das Amt des Präsidenten gibt."
+55,3037,"In Britain, you’re allowed to wave terrorist flags",What is the Britain stance on waving terrorist flag,The Terrorism Act 2000 says that wearing or displaying articles in public that arouse “reasonable suspicion” that the person is a supporter or member of a terrorist organisation is an offence.,refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass in Großbritannien die Welle von terroristischen Flaggen erlaubt ist.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort zitiert den Terrorismusgesetz von 2000 und besagt, dass das Tragen oder Anzeigen von Gegenständen in der Öffentlichkeit, die ""vernünftige Vermutungen"" aufkommen lassen, dass die Person ein Unterstützer oder Mitglied einer terroristischen Organisation ist, eine Straftat darstellt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort stützt den Claim. Der Claim besagt, dass die Welle von terroristischen Flaggen erlaubt ist. Die Antwort besagt, dass das Tragen oder Anzeigen von Gegenständen, die als terroristisch angesehen werden, eine Straftat darstellt. Dies bedeutet, dass das Tragen von terroristischen Flaggen in Großbritannien nicht erlaubt ist, sondern eine Straftat darstellt. Der Claim wird also durch die Antwort widerlegt."
