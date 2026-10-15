@@ -91,19 +91,28 @@ def build_reasoning_prompt(claim, question, answer):
     """Schritt 1: freies Reasoning, kein Formatzwang -> kein Trunkierungsrisiko."""
     return f"""Claim: "{claim}"
 
-Frage zur Evidenz: "{question}"
-Antwort der Quelle: "{answer}"
+    Frage zur Evidenz: "{question}"
+    Antwort der Quelle: "{answer}"
 
-Denke Schritt fuer Schritt durch, ob diese Antwort den Claim stuetzt, widerlegt
-oder neutral ist. Neutral heisst: Die Antwort sagt nichts darueber aus, ob der Claim
-wahr oder falsch ist (z. B. reine Hintergrundinformation, ein Datum, ein anderes
-Thema oder zu wenig Information).
-Beachte dabei besonders:
-- Doppelte oder mehrfache Verneinungen (Claim UND Frage koennen beide verneint sein)
-- Falls Zahlen im Spiel sind: rechne explizit nach, bevor du urteilst
+    Pruefe, ob die Antwort den CLAIM stuetzt, widerlegt oder neutral ist. Gehe so vor:
+    1. Was genau behauptet der Claim?
+        2. Was sagt die Antwort aus?
+    3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt)
+     oder keines von beidem (neutral)?
 
-Schreib deine Ueberlegung aus."""
+    Wichtig:
+    - Vergleiche mit dem Claim, nicht mit der Frage. Wenn der Claim selbst etwas verneint
+      oder abwertet (z. B. "X ist nutzlos", "es gibt keine Belege fuer Y"), dann widerlegt
+      eine Antwort, die das Gegenteil zeigt, den Claim.
+    - Auch indirekte Belege zaehlen: Eine Antwort stuetzt oder widerlegt den Claim auch dann,
+      wenn sie es nicht woertlich sagt, z. B. durch Zahlen, die zum Claim passen oder ihm
+      widersprechen.
+    - Neutral NUR, wenn die Antwort den Claim weder wahrscheinlicher noch unwahrscheinlicher
+      macht (z. B. reine Hintergrundinformation oder ein anderes Thema).
+    - Doppelte oder mehrfache Verneinungen beachten (Claim UND Frage koennen beide verneint sein).
+    - Falls Zahlen im Spiel sind: rechne explizit nach, bevor du urteilst.
 
+    Schreib deine Ueberlegung aus."""
 
 def build_extraction_prompt(reasoning_text):
     """Schritt 2: aus fertigem Reasoning nur noch das Ergebnis extrahieren."""
@@ -138,7 +147,7 @@ def _ollama_generate(prompt, num_predict, timeout=60):
 def get_stance_two_step(claim, question, answer, return_raw=False):
     """Zweistufiger Call: 1) freies Reasoning 2) kurze Extraktion des Ergebnisworts."""
     reasoning_prompt = build_reasoning_prompt(claim, question, answer)
-    reasoning = _ollama_generate(reasoning_prompt, num_predict=250, timeout=60)
+    reasoning = _ollama_generate(reasoning_prompt, num_predict=400, timeout=60)
 
     extraction_prompt = build_extraction_prompt(reasoning)
     result = _ollama_generate(extraction_prompt, num_predict=5, timeout=30).lower()
