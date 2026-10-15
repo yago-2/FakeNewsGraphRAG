@@ -1,8 +1,10 @@
 """
 Stance-Stichprobe aus dem TRAIN-Set: selbst beschriften und mit llama vergleichen.
 
-  python stance_labeling.py label     -> Frage-Antwort-Paare von 20 Train-Claims von Hand beschriften
-  python stance_labeling.py compare   -> llama auf dieselben Paare loslassen und mit dir vergleichen
+  python stance_labeling.py label          -> Entwicklungsstichprobe (20 Train-Claims) beschriften
+  python stance_labeling.py compare        -> llama auf dieselben Paare loslassen und vergleichen
+  python stance_labeling.py label test     -> Teststichprobe (10 andere Train-Claims) beschriften
+  python stance_labeling.py compare test   -> eingefrorenen Prompt EINMAL an der Teststichprobe messen
 
 Braucht train.json und transform_averitec.py im selben Ordner.
 """
@@ -17,20 +19,33 @@ from transform_averitec import get_stance_two_step
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 TRAIN_PFAD = os.path.join(script_dir, "train.json")
-LABEL_PFAD = os.path.join(script_dir, "stance_labels.csv")
-VERGLEICH_PFAD = os.path.join(script_dir, "stance_vergleich.csv")
-
-ANZAHL_CLAIMS = 20
-SEED = 42                                   # fester Zufall -> immer dieselbe Stichprobe
+# Zwei getrennte Stichproben aus dem Train-Set (fester Zufall -> immer dieselben Claims)
+STICHPROBEN = {
+    "entwicklung": {"seed": 42, "anzahl": 20,
+                    "labels": "stance_labels.csv", "vergleich": "stance_vergleich.csv"},
+    "test":        {"seed": 2026, "anzahl": 10,
+                    "labels": "stance_labels_test.csv", "vergleich": "stance_vergleich_test.csv"},
+}
 KUERZEL = {"s": "supports", "r": "refutes", "n": "neutral"}
 KLASSEN = ["supports", "refutes", "neutral"]
 SPALTEN = ["nr", "train_index", "claim", "frage", "antwort", "mein_label"]
 
 
-def stichprobe():
+def claim_indizes(name, anzahl_train):
+    cfg = STICHPROBEN[name]
+    entwicklung = random.Random(STICHPROBEN["entwicklung"]["seed"]).sample(
+        range(anzahl_train), STICHPROBEN["entwicklung"]["anzahl"])
+    if name == "entwicklung":
+        return sorted(entwicklung)
+    # Teststichprobe: nur Claims, die NICHT in der Entwicklungsstichprobe vorkommen
+    uebrige = [i for i in range(anzahl_train) if i not in set(entwicklung)]
+    return sorted(random.Random(cfg["seed"]).sample(uebrige, cfg["anzahl"]))
+
+
+def stichprobe(name="entwicklung"):
     with open(TRAIN_PFAD) as f:
         train = json.load(f)
-    indizes = sorted(random.Random(SEED).sample(range(len(train)), ANZAHL_CLAIMS))
+    indizes = claim_indizes(name, len(train))
     paare = []
     for i in indizes:
         eintrag = train[i]
@@ -44,8 +59,12 @@ def stichprobe():
     return paare
 
 
-def speichern(paare, labels):
-    with open(LABEL_PFAD, "w", newline="", encoding="utf-8") as f:
+def pfad(name, art):
+    return os.path.join(script_dir, STICHPROBEN[name][art])
+
+
+def speichern(paare, labels, name):
+    with open(pfad(name, "labels"), "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=SPALTEN)
         writer.writeheader()
         for p in paare:
@@ -53,14 +72,15 @@ def speichern(paare, labels):
                 writer.writerow({**p, "mein_label": labels[p["nr"]]})
 
 
-def label():
-    paare = stichprobe()
+def label(name):
+    paare = stichprobe(name)
     labels = {}
-    if os.path.exists(LABEL_PFAD):          # weitermachen, wo du aufgehoert hast
-        with open(LABEL_PFAD, newline="", encoding="utf-8") as f:
+    if os.path.exists(pfad(name, "labels")):    # weitermachen, wo du aufgehoert hast
+        with open(pfad(name, "labels"), newline="", encoding="utf-8") as f:
             labels = {int(z["nr"]): z["mein_label"] for z in csv.DictReader(f)}
 
-    print(f"{len(paare)} Paare aus {ANZAHL_CLAIMS} Train-Claims, {len(labels)} schon beschriftet.")
+    anzahl = STICHPROBEN[name]["anzahl"]
+    print(f"Stichprobe '{name}': {len(paare)} Paare aus {anzahl} Train-Claims, {len(labels)} schon beschriftet.")
     print("Beurteile NUR, was die Antwort hergibt, nicht dein eigenes Wissen.")
     print("Neutral = die Antwort sagt nichts darueber aus, ob der Claim wahr oder falsch ist.")
     print("Eingabe: s = stuetzt, r = widerlegt, n = neutral, q = speichern und beenden\n")
@@ -78,13 +98,17 @@ def label():
         if eingabe == "q":
             break
         labels[p["nr"]] = KUERZEL[eingabe]
-        speichern(paare, labels)            # nach jedem Label speichern
+        speichern(paare, labels, name)      # nach jedem Label speichern
 
-    print(f"\n{len(labels)}/{len(paare)} beschriftet -> {os.path.basename(LABEL_PFAD)}")
+    print(f"\n{len(labels)}/{len(paare)} beschriftet -> {STICHPROBEN[name]['labels']}")
 
 
-def compare():
-    with open(LABEL_PFAD, newline="", encoding="utf-8") as f:
+def compare(name):
+    if name == "test" and os.path.exists(pfad(name, "vergleich")):
+        print("Die Teststichprobe wurde schon gemessen. Sie wird nur EINMAL ausgewertet.")
+        print(f"Ergebnis steht in {STICHPROBEN[name]['vergleich']}. Abbruch.")
+        return
+    with open(pfad(name, "labels"), newline="", encoding="utf-8") as f:
         zeilen = list(csv.DictReader(f))
 
     ergebnisse = []
@@ -103,18 +127,21 @@ def compare():
     for ich in KLASSEN:
         print(f"{ich:10s}" + "".join(f"{matrix[(ich, ll)]:>10d}" for ll in KLASSEN))
 
-    with open(VERGLEICH_PFAD, "w", newline="", encoding="utf-8") as f:
+    with open(pfad(name, "vergleich"), "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=SPALTEN + ["llama", "reasoning"])
         writer.writeheader()
         writer.writerows(ergebnisse)
-    print(f"\nAlle Paare mit der Begruendung von llama: {os.path.basename(VERGLEICH_PFAD)}")
+    print(f"\nAlle Paare mit der Begruendung von llama: {STICHPROBEN[name]['vergleich']}")
 
 
 if __name__ == "__main__":
     modus = sys.argv[1] if len(sys.argv) > 1 else ""
-    if modus == "label":
-        label()
+    name = sys.argv[2] if len(sys.argv) > 2 else "entwicklung"
+    if name not in STICHPROBEN:
+        print(f"Unbekannte Stichprobe '{name}'. Erlaubt: {', '.join(STICHPROBEN)}")
+    elif modus == "label":
+        label(name)
     elif modus == "compare":
-        compare()
+        compare(name)
     else:
-        print("Aufruf: python stance_labeling.py label   oder   python stance_labeling.py compare")
+        print("Aufruf: python stance_labeling.py label|compare [test]")

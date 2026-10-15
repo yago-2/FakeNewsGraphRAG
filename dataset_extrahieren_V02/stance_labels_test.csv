@@ -1,0 +1,83 @@
+nr,train_index,claim,frage,antwort,mein_label
+0,426,Most Americans support Roe v. Wade.,What is Roe v Wade?,"Roe v. Wade, the landmark 1973 ruling that made abortion legal nationwide.",neutral
+1,426,Most Americans support Roe v. Wade.,Has their been a US opinion poll in recent years before the claim on Roe v Wade?,Yes,neutral
+2,426,Most Americans support Roe v. Wade.,What were the findings of the poll?,"Currently, 64% of Americans believe Roe v. Wade should stand, while 28% would like to see it overturned.",supports
+3,426,Most Americans support Roe v. Wade.,Have there been other polls?,Yes,supports
+4,426,Most Americans support Roe v. Wade.,What did this find?,"A record 71% of voters said they were opposed to overturning Roe v. Wade, the 1973 ruling that recognized abortion as a woman’s constitutional right, including 59% who said they felt strongly on the matter.",supports
+5,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",What is pluerisy?,Pleurisy is swelling (inflammation) of the thin layers of tissue (pleura) covering the lungs and the chest wall.,neutral
+6,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",What causes pleurisy?,"In young, healthy people, an infection of the lower respiratory system by a virus or bacteria may cause pleurisy. Pleurisy usually lasts a few days to 2 weeks. In very rare cases, the virus or bacteria may spread and cause pleurisy in others.
+
+Other causes of pleurisy include air leaking into the pleural cavity from a hole in a lung (pneumothorax), injury to the chest (such as a broken rib), tuberculosis or other infections, or a tumor in the pleura.
+
+Other conditions may also cause pleurisy. These include rheumatoid arthritis, lupus, sickle cell crisis, pulmonary embolism, or pancreatitis. Pleurisy may also develop as a complication of heart surgery.",neutral
+7,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",Can you catch a virus by breathing in your own bacteria?,No,refutes
+8,924,"The United Nations Economic Commission for Africa is projecting that Africa’s growth will drop to 1.8%, and perhaps lower.",What did The United Nations Economic Commission for Africa project regarding Africa's growth?,They reported that Africa's growth forecast is between 1.8% and 2 % but could sink lower.,supports
+9,924,"The United Nations Economic Commission for Africa is projecting that Africa’s growth will drop to 1.8%, and perhaps lower.",What did the Economic Commission for Africa (ECA) project that Africa's growth will drop by?,Growth is expected to slow down from 3.2 percent to 1.8 percent in a best-case scenario,supports
+10,1320,Nobody had ever even heard of Ebola before 2014,What is Ebola?,"Ebola virus disease is a serious, often fatal condition in humans and nonhuman primates. Ebola is one of several viral hemorrhagic fevers, caused by infection with a virus of the Filoviridae family",refutes
+11,1320,Nobody had ever even heard of Ebola before 2014,What is the claim date?,25 January 2020,neutral
+12,1320,Nobody had ever even heard of Ebola before 2014,Are there any reports of Ebola cases before January 2020?,"The first cases of Ebola were reported simultaneously in 1976 in Yambuku, near the Ebola River in Zaire (now the Democratic Republic of the Congo) and in Nzara, Sudan.",refutes
+13,1320,Nobody had ever even heard of Ebola before 2014,Have there been Ebola cases since 1976?,"Since then, eruptions or asymptomatic cases of Ebola in humans and animals have surfaced intermittently in the following locations due to outbreaks, laboratory contamination, and accidents:
+
+The Democratic Republic of the Congo (DRC)
+Sudan (South Sudan)
+Senegal
+United Kingdom
+United States (U.S.)
+Philippines
+Italy
+Spain
+Gabon
+Ivory Coast
+South Africa
+Russia
+Uganda
+Guinea
+Liberia
+Sierra Leone",refutes
+14,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,How much did Amazon pay their workers in 2019?,"In November 2018, Amazon raised it's minimum wage to $15 an hour, or $35,096 for a full time employee.",neutral
+15,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,What were Amazon wages prior to this date?,"Prior to 2018, half of Amazon's workers made less than $35,096 as the $15 an hour minimum wage wasn't yet in effect.",supports
+16,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,What is the federal poverty level in 2019?,"The federal poverty level in 2019 is $25,750.",neutral
+17,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,How many Amazon workers rely on government food assistance?,"Depending on the state, as many as 1 in 3 Amazon workers get food stamps in Arizona, and 1 in 10 in both Ohio and Pennsylvania.",supports
+18,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,Is a full time worker for Amazon earning above the poverty line?,Yes,refutes
+19,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,With the wage increase will Amazon employees need to rely on government food assistance?,"This depends on the state, extra benefits, hours worked and age of children.  Some may still be eligible for food stamps.",supports
+20,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,At the time of the claim (June 2019) was their data to say amazon workers were using food assistance programs?,Yes,supports
+21,2109,Mexican drug cartels make £500 billion a year.,What are the worldwide proceeds from drugs estimated to be?,"If only flows related to drug trafficking and other
+transnational organized crime activities were considered, related proceeds would have been equivalent to
+around US$650 billion per year in the first decade
+of the new millennium, equivalent to 1.5% of global
+GDP or US$870 billion in 2009 assuming that the
+proportions remained unchanged. The funds available
+for laundering through the financial system would
+have been equivalent to some 1% of global GDP or
+US$580 billion in 2009.",neutral
+22,2109,Mexican drug cartels make £500 billion a year.,Does the UN have estimates for Mexican drug cartels?,"Calculating trafficking profits to North America (total
+transit profits of US5.3 bn) is relatively straightforward.
+The largest part of these profits are generated by South
+American groups, notably groups from Colombia (most
+of the US$3.3 bn in profits generated in shipping the
+cocaine to Mexico), followed by profits made by Mexican drug cartels (US$2 bn for shipping the cocaine
+across the border to the USA; far more money is then
+made by the Mexican drug cartels within the United
+States in trafficking the cocaine to the various wholesalers and retailers).",refutes
+23,2109,Mexican drug cartels make £500 billion a year.,What is the estimated revenue of Mexican drug cartels?,"The cash-rich cartels, believed by the Mexican government to generate well over $21 billion each year.",refutes
+24,2109,Mexican drug cartels make £500 billion a year.,What is the estimated revenue of Mexican drug cartels?,"NDIC estimates indicate that Mexican and Colombian DTOs generate, remove, and launder between $18 billion and $39 billion in wholesale drug proceeds annually",refutes
+25,2293,"Like every budget passed by the Senate since Dan Patrick has been lieutenant governor, Senate Bill 1 is within the spending limit set by the Texas Constitution.",Is the Senate Bill 1 within the spending limit of the Texas constitution,"The Texas Constitution includes four limitations on state
+spending:
+• Debt limit
+• Welfare spending limit
+• Pay-as-you-go limit
+• Limit on the growth of certain appropriations (a.k.a.
+spending limit)
+House Bill 1 is within all of these limits",neutral
+26,2476,Kenya has one of the worst maternal mortality rates in the world.,What is maternal mortality?,"A maternal death is the death of a woman while 
+pregnant or within 42 days of termination of 
+pregnancy from any cause related or aggravated by 
+the pregnancy but not from accidental or incidental
+causes.",neutral
+27,2476,Kenya has one of the worst maternal mortality rates in the world.,How does Kenya's maternal mortality rate compare to other countries?,Kenya has a maternal mortality rate of 510 per 1000 live births. In 2015 this translated to 8000 which is one of the highest in the world.,supports
+28,2560,Former President Barack Obama would have gone to war with North Korea.,How likely was it that the US was on the precipice of war with North Korea during Obama's tenure?,"Not very likely, """"There was no crisis brewing or heightened tension at the end of the Obama presidency,"" said Robert S. Ross, an Asia specialist with appointments at Boston College and Harvard University.""",refutes
+29,2560,Former President Barack Obama would have gone to war with North Korea.,What was Obama's strategy with North Korea during his time as president?,"The overall policy toward North Korea during Obama’s tenure was ""strategic patience"" — the notion that ""if we ignore them, they will go away and eventually implode,"" said John Pike, the director of globalsecurity.org.
+
+There’s room for disagreement about how effective ""strategic patience"" was. But it was ""not the same thing as preparing for war, or planning a war, or even intending to conduct a war,"" said Joseph DeThomas, a professor at the Penn State School of International Affairs. ""Obama was doing none of those. He was upgrading military deployments in order to deter North Korea and to reassure allies.""",refutes
+30,2666,The World Bank's annual Doing Business Report currently puts South Africa number 82 out of 190 countries that they have tracked with regard to being able to do business in an efficient way,What is The World Bank's annual Doing Business Report?,The World Bank Ease of Doing Business Report sheds light on how easy or difficult it is for a local entrepreneur to open and run a small to medium-size business when complying with relevant legal obligations.,neutral
+31,2666,The World Bank's annual Doing Business Report currently puts South Africa number 82 out of 190 countries that they have tracked with regard to being able to do business in an efficient way,Where did South Africa rank in The World Bank's annual Doing Business Report at the time the claim was made in February 2019?,In the Doing Business 2019 report South Africa ranked 82 out of 190 countries.,supports
