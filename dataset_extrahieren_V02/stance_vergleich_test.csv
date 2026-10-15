@@ -1,0 +1,458 @@
+nr,train_index,claim,frage,antwort,mein_label,llama,reasoning
+0,426,Most Americans support Roe v. Wade.,What is Roe v Wade?,"Roe v. Wade, the landmark 1973 ruling that made abortion legal nationwide.",neutral,supports,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass ""Most Americans support Roe v. Wade"", also dass die meisten Amerikaner die Entscheidung des Supreme Courts, die Abtreibung in den USA legalisiert, unterstützen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort beschreibt Roe v. Wade als ""landmark 1973 ruling"" (eine wichtige Entscheidung des Supreme Courts aus dem Jahr 1973), die ""abortion legal nationwide"" (die Abtreibung überall in den USA legalisiert) machte. Das bedeutet, dass die Antwort die Entscheidung von 1973 als eine wichtige und weitreichende Entscheidung darstellt, die die Abtreibung in den USA ermöglichte.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Wenn die Entscheidung von 1973 tatsächlich eine wichtige und weitreichende Entscheidung war, die die Abtreibung in den USA ermöglichte, dann ist es wahrscheinlich, dass die meisten Amerikaner diese Entscheidung unterstützen. Die Antwort liefert also einen Beleg dafür, dass der Claim wahrscheinlich ist.
+
+**Ueberlegung:**
+Die Antwort liefert einen direkten Beleg dafür, dass der Claim wahrscheinlich ist. Sie beschreibt die Entscheidung von 1973 als eine wichtige und weitreichende Entscheidung, die die Abtreibung in den USA ermöglichte. Dies deutet darauf hin, dass die meisten Amerikaner diese Entscheidung unterstützen, was den Claim stuetzt."
+1,426,Most Americans support Roe v. Wade.,Has their been a US opinion poll in recent years before the claim on Roe v Wade?,Yes,neutral,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim besagt, dass ""Most Americans support Roe v. Wade"", also dass die meisten Amerikaner das Urteil Roe v. Wade unterstützen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass es in den letzten Jahren vor dem Claim eine US-amerikanische Meinungsumfrage zu Roe v. Wade gegeben hat. Das bedeutet, dass es tatsächlich eine Umfrage gab, die die Meinung der Amerikaner zu diesem Thema ermittelt hat.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Wenn es tatsächlich eine Umfrage gab, die die Meinung der Amerikaner zu Roe v. Wade ermittelt hat, dann ist es wahrscheinlich, dass diese Umfrage auch gezeigt hat, dass die meisten Amerikaner das Urteil unterstützen. Die Existenz einer Umfrage ist ein Indikator dafür, dass die Meinung der Amerikaner zu diesem Thema relevant und interessant ist, und dass es wahrscheinlich ist, dass die meisten Amerikaner das Urteil unterstützen.
+
+**Ueberlegung:**
+
+Die Antwort stuetzt den Claim, weil sie zeigt, dass es tatsächlich eine Umfrage gab, die die Meinung der Amerikaner zu Roe v. Wade ermittelt hat. Dies ist ein Indikator dafür, dass die meisten Amerikaner das Urteil unterstützen. Es ist jedoch wichtig zu beachten, dass die Antwort nicht direkt sagt, dass die meisten Amerikaner das Urteil unterstützen, sondern nur, dass es eine Umfrage gab, die dies ermittelt hat. Es könnte also sein, dass die Umfrage gezeigt hat, dass die meisten Amerikaner das Urteil nicht unterstützen. In"
+2,426,Most Americans support Roe v. Wade.,What were the findings of the poll?,"Currently, 64% of Americans believe Roe v. Wade should stand, while 28% would like to see it overturned.",supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim besagt, dass ""Most Americans"" (die meisten Amerikaner) Roe v. Wade unterstützen.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass 64% der Amerikaner glauben, dass Roe v. Wade stehen sollte, während 28% es überholt sehen möchten.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim, da sie zeigt, dass die Mehrheit der Amerikaner (64%) Roe v. Wade unterstützt. Die Zahl 64% ist höher als 50%, was bedeutet, dass die Mehrheit der Amerikaner tatsächlich die Unterstützung für Roe v. Wade zeigt. Die Zahl 28% ist zwar nicht unwesentlich, aber sie zeigt, dass die Mehrheit der Amerikaner die Unterstützung für Roe v. Wade hat.
+
+**Fazit:**
+Die Antwort stuetzt den Claim, da sie zeigt, dass die Mehrheit der Amerikaner Roe v. Wade unterstützt."
+3,426,Most Americans support Roe v. Wade.,Have there been other polls?,Yes,neutral,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim besagt, dass ""Most Americans support Roe v. Wade"", also dass die meisten Amerikaner das Urteil Roe v. Wade unterstützen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort lautet: ""Yes"", also ""Ja"", es gibt andere Umfragen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ""Yes"" bedeutet, dass es tatsächlich andere Umfragen gibt, die den Claim unterstützen könnten. Dies macht den Claim wahrscheinlicher, da es Hinweise darauf gibt, dass die Mehrheit der Amerikaner das Urteil Roe v. Wade unterstützt. Die Antwort ist also stützend."
+4,426,Most Americans support Roe v. Wade.,What did this find?,"A record 71% of voters said they were opposed to overturning Roe v. Wade, the 1973 ruling that recognized abortion as a woman’s constitutional right, including 59% who said they felt strongly on the matter.",supports,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim besagt, dass ""die meisten Amerikaner"" (oder ""die meisten Amerikaner unterstützen"") die Entscheidung Roe v. Wade unterstützen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass 71% der Wähler dagegen sind, die Entscheidung Roe v. Wade aufzuheben, und 59% sagen, sie fühlten sich stark auf diese Frage ein.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Der Claim besagt, dass ""die meisten Amerikaner"" die Entscheidung Roe v. Wade unterstützen, aber die Antwort zeigt, dass 71% der Wähler dagegen sind, die Entscheidung aufzuheben. Das bedeutet, dass die Mehrheit der Wähler die Entscheidung nicht unterstützt, sondern sie sogar aufrechterhalten möchte. Daher widerlegt die Antwort den Claim.
+
+**Begründung:**
+
+Die Antwort zeigt, dass die Mehrheit der Wähler die Entscheidung Roe v. Wade nicht unterstützt, sondern sie sogar aufrechterhalten möchte. Dies widerspricht dem Claim, der besagt, dass ""die meisten Amerikaner"" die Entscheidung unterstützen. Daher ist die Antwort eine Widerlegung des Claims."
+5,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",What is pluerisy?,Pleurisy is swelling (inflammation) of the thin layers of tissue (pleura) covering the lungs and the chest wall.,neutral,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass ein Supermarktangestellter, der Stundenlang eine Maske getragen hat, eine Lungenentzündung (Pleurisy) bekommen hat, weil er ""seine eigenen Bakterien"" eingeatmet hat.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort beschreibt Pleurisy als eine Entzündung der dünnen Schichten von Gewebe (Pleura), die die Lungen und die Brustwand bedecken. Es gibt keine direkte Verbindung zwischen der Antwort und der Behauptung des Claims.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist neutral, da sie weder die Behauptung des Claims stuetzt noch widerlegt. Sie beschreibt lediglich die medizinische Bedeutung von Pleurisy, ohne eine Verbindung zu der spezifischen Situation des Supermarktangestellten herzustellen. Der Claim bleibt unbestätigt, und die Antwort liefert keine Beweise für oder gegen die Behauptung."
+6,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",What causes pleurisy?,"In young, healthy people, an infection of the lower respiratory system by a virus or bacteria may cause pleurisy. Pleurisy usually lasts a few days to 2 weeks. In very rare cases, the virus or bacteria may spread and cause pleurisy in others.
+
+Other causes of pleurisy include air leaking into the pleural cavity from a hole in a lung (pneumothorax), injury to the chest (such as a broken rib), tuberculosis or other infections, or a tumor in the pleura.
+
+Other conditions may also cause pleurisy. These include rheumatoid arthritis, lupus, sickle cell crisis, pulmonary embolism, or pancreatitis. Pleurisy may also develop as a complication of heart surgery.",neutral,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass ein Supermarktangestellter, der Stundenlang eine Maske getragen hat, an einer Lungenentzündung (Pleurisy) erkrankt ist, weil er ""seine eigenen Bakterien"" eingeatmet hat.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass Pleurisy durch verschiedene Ursachen verursacht werden kann, darunter:
+
+* Eine Infektion des unteren Atemtrakts durch Viren oder Bakterien
+* Luftlecks in die Pleurahöhle (Pneumothorax)
+* Verletzungen der Brust (z.B. gebrochene Rippen)
+* Tuberkulose oder andere Infektionen
+* Tumoren in der Pleura
+* Rheuma, Lupus, Sichelzellanämie, Lungenembolie oder Pankreatitis
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht. Sie besagt, dass Pleurisy durch Infektionen verursacht werden kann, aber nicht explizit durch ""eine eigene Bakterien"" oder ""eine eigene Viren"". Die Antwort gibt keine Hinweise darauf, dass die Maske den Angestellten an der Infektion schuld ist. Tatsächlich wird die Möglichkeit, dass die Maske den Angestellten schützt, nicht erwähnt.
+
+Die Antwort ist auch nicht neutral, da sie keine Hinweise darauf gibt, dass die Maske den Angestellten an der Infektion schuld ist. Sie gibt stattdessen eine Liste von möglichen Ursachen für Pleurisy an, ohne"
+7,494,"A grocery store worker who wore a mask for hours at a time got a lung infection (pleurisy,) from “breathing in her own bacteria”.",Can you catch a virus by breathing in your own bacteria?,No,refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass ein Supermarktangestellter, der Stundenlang eine Maske getragen hat, eine Lungenentzündung (Pleurisy) bekommen hat, weil er ""seine eigenen Bakterien"" eingeatmet hat.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort lautet: ""Nein"", man kann nicht durch das Einatmen eigener Bakterien einen Virus fangen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Der Claim besagt, dass man durch das Einatmen eigener Bakterien eine Lungenentzündung bekommen kann. Die Antwort verneint jedoch, dass man durch das Einatmen eigener Bakterien einen Virus fangen kann. Es wird also impliziert, dass das Einatmen eigener Bakterien keine Infektion verursacht. Der Claim wird also unwahrscheinlicher gemacht."
+8,924,"The United Nations Economic Commission for Africa is projecting that Africa’s growth will drop to 1.8%, and perhaps lower.",What did The United Nations Economic Commission for Africa project regarding Africa's growth?,They reported that Africa's growth forecast is between 1.8% and 2 % but could sink lower.,supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die United Nations Economic Commission for Africa (UNECA) eine Prognose abgegeben hat, dass Afrikas Wachstum auf 1,8% sinken wird und vielleicht sogar noch niedriger sein könnte.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort sagt, dass die UNECA ein Wachstumsprognose abgegeben hat, die zwischen 1,8% und 2% liegt, aber auch erwähnt, dass es möglich ist, dass das Wachstum niedriger sein könnte.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Sie bestätigt, dass die UNECA tatsächlich eine Prognose abgegeben hat, die ein Wachstum von 1,8% vorsieht, und erwähnt auch, dass es möglich ist, dass das Wachstum niedriger sein könnte. Dies deckt sich mit der Behauptung des Claims, dass die UNECA ein Wachstum von 1,8% prognostiziert hat und vielleicht niedriger sein könnte.
+
+Die Antwort stuetzt also den Claim, indem sie seine Behauptung bestätigt und sogar noch ein bisschen mehr sagt, indem sie erwähnt, dass das Wachstum niedriger sein könnte."
+9,924,"The United Nations Economic Commission for Africa is projecting that Africa’s growth will drop to 1.8%, and perhaps lower.",What did the Economic Commission for Africa (ECA) project that Africa's growth will drop by?,Growth is expected to slow down from 3.2 percent to 1.8 percent in a best-case scenario,supports,supports,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass die United Nations Economic Commission for Africa (ECA) projiziert, dass Afrikas Wachstum auf 1,8% sinken wird, und vielleicht sogar noch niedriger.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort sagt, dass das Wachstum von 3,2% auf 1,8% sinken wird, was der ""best-case-Szenario"" ist.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim, da sie bestätigt, dass das Wachstum von 3,2% auf 1,8% sinken wird, was der Claim entspricht. Die Antwort gibt sogar eine genaue Zahl an, die dem Claim entspricht. Daher macht die Antwort den Claim wahrscheinlicher.
+
+**Ueberlegung:**
+Die Antwort bestätigt den Claim, indem sie eine genaue Zahl anführt, die dem Claim entspricht. Es gibt keine Hinweise darauf, dass die Antwort den Claim widerlegen oder neutral lassen würde. Daher ist die Antwort ein stuetzender Beleg fuer den Claim."
+10,1320,Nobody had ever even heard of Ebola before 2014,What is Ebola?,"Ebola virus disease is a serious, often fatal condition in humans and nonhuman primates. Ebola is one of several viral hemorrhagic fevers, caused by infection with a virus of the Filoviridae family",neutral,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass niemand vor 2014 von Ebola gehört hatte.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort beschreibt Ebola als eine ernsthafte, oft tödliche Krankheit, die durch eine Virusinfektion verursacht wird. Sie erwähnt auch, dass Ebola zu den viralen Blutungen gehört, die durch eine Infektion mit einem Virus der Familie Filoviridae verursacht werden.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht, da sie Ebola als eine bekannte Krankheit beschreibt, die durch eine Virusinfektion verursacht wird. Sie erwähnt auch, dass Ebola zu den viralen Blutungen gehört, was darauf schließen lässt, dass Ebola bereits vor 2014 bekannt war. Die Antwort gibt keine Hinweise darauf, dass Ebola vor 2014 unbekannt war.
+
+**Ueberlegung:**
+
+Die Antwort beschreibt Ebola als eine bekannte Krankheit, die durch eine Virusinfektion verursacht wird. Dies deutet darauf hin, dass Ebola nicht vor 2014 unbekannt war. Die Antwort stuetzt den Claim also nicht, sondern widerlegt ihn."
+11,1320,Nobody had ever even heard of Ebola before 2014,What is the claim date?,25 January 2020,neutral,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass niemand vor 2014 jemals von Ebola gehört hatte.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt den Datum an, an dem die Aussage getroffen wurde: ""25. Januar 2020"".
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort gibt keine Informationen über Ebola selbst, sondern nur den Zeitpunkt, an dem die Aussage getroffen wurde. Sie sagt nichts über die Existenz oder Nichtexistenz von Ebola vor 2014 aus. Daher ist die Antwort **neutral**. Sie gibt weder dem Claim Stütze noch widerspricht sie ihm. Sie ist lediglich eine Hintergrundinformation über den Zeitpunkt der Aussage."
+12,1320,Nobody had ever even heard of Ebola before 2014,Are there any reports of Ebola cases before January 2020?,"The first cases of Ebola were reported simultaneously in 1976 in Yambuku, near the Ebola River in Zaire (now the Democratic Republic of the Congo) and in Nzara, Sudan.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass niemand vor 2014 jemals von Ebola gehört hatte.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass die ersten Fälle von Ebola 1976 in Zaire (heute Demokratische Republik Kongo) und Sudan gemeldet wurden. Das bedeutet, dass Ebola bereits vor 2014 bekannt war.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim, da sie zeigt, dass Ebola bereits vor 2014 bekannt war. Die Meldung der ersten Fälle in 1976 beweist, dass Ebola nicht neu war, als es 2014 wieder in den Fokus der Öffentlichkeit kam. Der Claim, dass niemand vor 2014 von Ebola gehört hatte, ist also falsch."
+13,1320,Nobody had ever even heard of Ebola before 2014,Have there been Ebola cases since 1976?,"Since then, eruptions or asymptomatic cases of Ebola in humans and animals have surfaced intermittently in the following locations due to outbreaks, laboratory contamination, and accidents:
+
+The Democratic Republic of the Congo (DRC)
+Sudan (South Sudan)
+Senegal
+United Kingdom
+United States (U.S.)
+Philippines
+Italy
+Spain
+Gabon
+Ivory Coast
+South Africa
+Russia
+Uganda
+Guinea
+Liberia
+Sierra Leone",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass niemand vor 2014 jemals von Ebola gehört hatte.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort listet eine Reihe von Ländern auf, in denen es seit 1976 Ebola-Fälle gegeben hat. Daraus geht hervor, dass Ebola-Fälle bereits vor 2014 bekannt waren.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim, da sie zeigt, dass Ebola-Fälle bereits vor 2014 bekannt waren. Der Claim behauptet, dass niemand vor 2014 von Ebola gehört hatte, aber die Antwort zeigt, dass Ebola-Fälle tatsächlich bereits vor 2014 aufgetreten sind. Daher ist die Antwort der Antwort widerlegt.
+
+**Ueberlegung:**
+
+Die Antwort listet eine Reihe von Ländern auf, in denen es seit 1976 Ebola-Fälle gegeben hat. Daraus geht hervor, dass Ebola-Fälle bereits vor 2014 bekannt waren. Der Claim behauptet, dass niemand vor 2014 von Ebola gehört hatte, aber die Antwort zeigt, dass dies nicht stimmt. Daher widerlegt die Antwort den Claim."
+14,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,How much did Amazon pay their workers in 2019?,"In November 2018, Amazon raised it's minimum wage to $15 an hour, or $35,096 for a full time employee.",neutral,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie regelmäßig staatliche Hilfsleistungen (Food Assistance) benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass Amazon im November 2018 ihre Mindeststundenlohn auf 15 US-Dollar pro Stunde erhöht hat, was einem Jahresgehalt von 35.096 US-Dollar für einen Vollzeitmitarbeiter entspricht.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Wenn Amazon ihre Mindeststundenlöhne auf 15 US-Dollar pro Stunde erhöht hat, was einem Jahresgehalt von 35.096 US-Dollar entspricht, dann ist es unwahrscheinlich, dass die Mitarbeiter staatliche Hilfsleistungen benötigen. Die Antwort zeigt, dass Amazon ihre Mitarbeiter besser bezahlt als der Claim andeutet.
+
+Die Antwort stützt den Claim nicht, da sie keine Hinweise darauf gibt, dass Amazon ihre Mitarbeiter so wenig bezahlt, dass sie staatliche Hilfsleistungen benötigen. Sie ist auch nicht neutral, da sie den Claim widerlegt."
+15,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,What were Amazon wages prior to this date?,"Prior to 2018, half of Amazon's workers made less than $35,096 as the $15 an hour minimum wage wasn't yet in effect.",supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon so wenig bezahlt, dass ihre vollzeitigen Mitarbeiter regelmäßig staatliche Hilfsleistungen für Nahrungsmittel benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass vor 2018 die Hälfte der Amazon-Mitarbeiter weniger als 35.096 $ pro Jahr verdienten, bevor Amazon eine Mindeststundenvergütung von 15 $ pro Stunde einführen würde.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim. Wenn die Hälfte der Amazon-Mitarbeiter weniger als 35.096 $ pro Jahr verdienten, kann man daraus schließen, dass sie möglicherweise nicht ausreichend verdienten, um sich selbst Nahrungsmittel zu kaufen, und daher staatliche Hilfsleistungen benötigten. Dies unterstützt die Behauptung des Claims, dass Amazon ihre Mitarbeiter so wenig bezahlt, dass sie staatliche Hilfsleistungen benötigen."
+16,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,What is the federal poverty level in 2019?,"The federal poverty level in 2019 is $25,750.",neutral,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie regelmäßig staatliche Hilfsleistungen für Nahrungsmittel benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt den Bundespoverty-Level (Bundesarmutsgehalt) für das Jahr 2019 mit 25.750 US-Dollar an.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Wenn ein vollzeitiger Amazon-Mitarbeiter weniger als 25.750 US-Dollar pro Jahr verdient, liegt sein Einkommen unter dem Bundespoverty-Level. Dies würde bedeuten, dass er staatliche Hilfsleistungen für Nahrungsmittel benötigen könnte, was den Claim unterstützt."
+17,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,How many Amazon workers rely on government food assistance?,"Depending on the state, as many as 1 in 3 Amazon workers get food stamps in Arizona, and 1 in 10 in both Ohio and Pennsylvania.",supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon so wenig zahlt, dass ihre vollzeitigen Mitarbeiter regelmäßig staatliche Hilfen zum Essen benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass in bestimmten Staaten (Arizona, Ohio und Pennsylvania) bis zu 1/3 der Amazon-Mitarbeiter (in Arizona) bzw. 1/10 der Amazon-Mitarbeiter (in Ohio und Pennsylvania) staatliche Hilfen zum Essen (Food Stamps) benötigen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Die Zahlen, die die Antwort gibt, zeigen, dass tatsächlich ein nicht unerheblicher Teil der Amazon-Mitarbeiter staatliche Hilfen zum Essen benötigt. Dies unterstützt die Behauptung des Claims, dass Amazon so wenig zahlt, dass ihre vollzeitigen Mitarbeiter regelmäßig staatliche Hilfen zum Essen benötigen."
+18,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,Is a full time worker for Amazon earning above the poverty line?,Yes,refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie regelmäßig staatliche Hilfsleistungen (Food Assistance) benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort lautet: ""Ja"" (Yes), was bedeutet, dass ein vollzeitiger Amazon-Mitarbeiter über dem Armutsgrenze liegt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Wenn ein vollzeitiger Amazon-Mitarbeiter über dem Armutsgrenze liegt, dann benötigt er nicht staatliche Hilfsleistungen, um seine Grundbedürfnisse zu decken. Daher ist die Aussage des Claims, dass Amazon ihre Mitarbeiter so wenig bezahlt, dass sie staatliche Hilfsleistungen benötigen, unwahrscheinlich."
+19,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,With the wage increase will Amazon employees need to rely on government food assistance?,"This depends on the state, extra benefits, hours worked and age of children.  Some may still be eligible for food stamps.",supports,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie regelmäßig staatliche Hilfen für die Lebensmittelversorgung benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass die Frage, ob Amazon-Mitarbeiter nach dem Lohnanstieg noch staatliche Hilfen für die Lebensmittelversorgung benötigen, von verschiedenen Faktoren abhängt, wie dem Bundesland, den zusätzlichen Leistungen, den Arbeitsstunden und der Anzahl der Kinder. Einige Mitarbeiter könnten nach wie vor für staatliche Lebensmittelhilfen (Food Stamps) in Frage kommen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie nicht sagt, dass Amazon-Mitarbeiter nach dem Lohnanstieg staatliche Hilfen benötigen. Stattdessen sagt sie, dass es von verschiedenen Faktoren abhängt, ob Mitarbeiter nach wie vor staatliche Hilfen benötigen. Dies bedeutet, dass die Antwort den Claim nicht widerlegt, aber auch nicht direkt stuetzt. Sie bleibt neutral, da sie keine klare Aussage über die Situation nach dem Lohnanstieg macht."
+20,2071,Alexandria Ocasio-Cortez claimed Amazon was paying full-time employees so little that they required government food assistance.,At the time of the claim (June 2019) was their data to say amazon workers were using food assistance programs?,Yes,supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie regelmäßig staatliche Hilfsprogramme für die Lebensmittelversorgung benötigen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort bestätigt, dass es zu diesem Zeitpunkt (Juni 2019) Daten gab, die zeigten, dass Amazon-Arbeiter staatliche Hilfsprogramme für die Lebensmittelversorgung nutzten.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim. Sie bestätigt, dass es tatsächlich Daten gab, die zeigten, dass Amazon-Arbeiter staatliche Hilfsprogramme für die Lebensmittelversorgung nutzten. Dies unterstützt die Behauptung des Claims, dass Amazon ihre vollzeitigen Mitarbeiter so wenig bezahlt, dass sie diese Hilfsprogramme benötigen."
+21,2109,Mexican drug cartels make £500 billion a year.,What are the worldwide proceeds from drugs estimated to be?,"If only flows related to drug trafficking and other
+transnational organized crime activities were considered, related proceeds would have been equivalent to
+around US$650 billion per year in the first decade
+of the new millennium, equivalent to 1.5% of global
+GDP or US$870 billion in 2009 assuming that the
+proportions remained unchanged. The funds available
+for laundering through the financial system would
+have been equivalent to some 1% of global GDP or
+US$580 billion in 2009.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass mexikanische Drogenkartelle jährlich 500 Milliarden Pfund (GBP) verdienen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass die weltweiten Einnahmen aus Drogenhandel etwa 650 Milliarden US-Dollar pro Jahr betragen könnten, was etwa 1,5% des globalen Bruttoinlandsprodukts (GDP) entspricht. In 2009 wären dies etwa 870 Milliarden US-Dollar. Zudem gibt sie an, dass die zur Geldwäsche verfügbaren Mittel etwa 1% des globalen GDP oder 580 Milliarden US-Dollar in 2009 entsprächen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht direkt, da sie sich auf die weltweiten Einnahmen aus Drogenhandel bezieht und nicht speziell auf mexikanische Drogenkartelle. Allerdings gibt sie an, dass die Einnahmen aus Drogenhandel sehr hoch sind, was den Claim, dass mexikanische Drogenkartelle 500 Milliarden Pfund pro Jahr verdienen, nicht unbedingt unwahrscheinlicher macht. Die Antwort gibt jedoch auch an, dass die zur Geldwäsche verfügbaren Mittel etwa 580 Milliarden US-Dollar betragen könnten, was etwa 1,5% des globalen GDP entspricht. Wenn man annimmt, dass die mexikanischen Drogenkartelle einen Anteil an diesen Einnahmen haben, könnte dies den Claim stützen.
+
+**Ueberlegung:**
+
+Die Antwort gibt keine direkte Unterstüt"
+22,2109,Mexican drug cartels make £500 billion a year.,Does the UN have estimates for Mexican drug cartels?,"Calculating trafficking profits to North America (total
+transit profits of US5.3 bn) is relatively straightforward.
+The largest part of these profits are generated by South
+American groups, notably groups from Colombia (most
+of the US$3.3 bn in profits generated in shipping the
+cocaine to Mexico), followed by profits made by Mexican drug cartels (US$2 bn for shipping the cocaine
+across the border to the USA; far more money is then
+made by the Mexican drug cartels within the United
+States in trafficking the cocaine to the various wholesalers and retailers).",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass mexikanische Drogenkartelle jährlich 500 Milliarden Pfund (GBP) verdienen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt eine Schätzung der Einnahmen der mexikanischen Drogenkartelle an, nämlich 2 Milliarden US-Dollar (ca. 1,5 Milliarden GBP) für die Überfahrt von Kokain von Mexiko in die USA. Es wird jedoch auch erwähnt, dass die mexikanischen Kartelle innerhalb der USA weitere Einnahmen erzielen, die jedoch nicht spezifiziert werden.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht vollständig, da sie nur eine Teilsumme der Einnahmen der mexikanischen Drogenkartelle angibt. Die Gesamteinnahmen der mexikanischen Kartelle werden jedoch nicht genannt. Die Antwort gibt auch an, dass die größten Einnahmen von südamerikanischen Gruppen, insbesondere von kolumbianischen Kartellen, generiert werden. Dies könnte darauf hindeuten, dass die mexikanischen Kartelle nicht die größten Einnahmen erzielen.
+
+**Ueberlegung:**
+
+Die Antwort gibt eine Schätzung der Einnahmen der mexikanischen Drogenkartelle an, aber sie reicht nicht aus, um den Claim zu stützen. Die Antwort gibt auch Hinweise darauf, dass die mexikanischen Kartelle nicht die größten Einnahmen erzielen, was den Claim unwahrscheinlicher macht. Daher ist die Antwort **widerlegt**."
+23,2109,Mexican drug cartels make £500 billion a year.,What is the estimated revenue of Mexican drug cartels?,"The cash-rich cartels, believed by the Mexican government to generate well over $21 billion each year.",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass mexikanische Drogenkartelle jährlich 500 Milliarden Pfund (GBP) verdienen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass die mexikanische Regierung glaubt, dass die Kartelle jährlich über 21 Milliarden Dollar (USD) erzeugen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht, da sie eine viel niedrigere Summe angibt (21 Milliarden USD) als der Claim (500 Milliarden GBP). Um den Claim zu stützen, müsste die Antwort eine Summe von mindestens 500 Milliarden GBP oder eine ähnliche Zahl in einer anderen Währung angeben.
+
+Um die Antwort zu überprüfen, müssen wir die Währungen vergleichen. 1 GBP entspricht etwa 1,31 USD. Wenn wir also die 500 Milliarden GBP in USD umrechnen, erhalten wir:
+
+500.000.000.000 GBP x 1,31 USD/GBP ≈ 655.000.000.000 USD
+
+Die Antwort gibt an, dass die Kartelle jährlich über 21 Milliarden USD erzeugen, was viel niedriger ist als unsere Berechnung. Daher widerlegt die Antwort den Claim.
+
+**Fazit:**
+
+Die Antwort widerlegt den Claim, da sie eine viel niedrigere Summe angibt als der Claim. Der Claim ist also unwahrscheinlicher."
+24,2109,Mexican drug cartels make £500 billion a year.,What is the estimated revenue of Mexican drug cartels?,"NDIC estimates indicate that Mexican and Colombian DTOs generate, remove, and launder between $18 billion and $39 billion in wholesale drug proceeds annually",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass mexikanische Drogenkartelle jährlich 500 Milliarden Pfund (GBP) verdienen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass mexikanische und kolumbianische Drogenkartelle (DTOs) zwischen 18 und 39 Milliarden US-Dollar (USD) pro Jahr an ""wholesale drug proceeds"" (also an den Umsätzen aus dem Verkauf von Drogen) generieren, entfernen und waschen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stützt den Claim nicht, da sie eine viel niedrigere Summe angibt. 18 bis 39 Milliarden USD entsprechen etwa 13 bis 28 Milliarden GBP (bei einem Wechselkurs von etwa 1:1,30). Dies liegt um ein Vielfaches unter der behaupteten Summe von 500 Milliarden GBP. Daher widerlegt die Antwort den Claim.
+
+**Begründung:**
+
+Die Antwort gibt eine konkrete Zahl an, die viel niedriger ist als die im Claim genannte Summe. Dies zeigt, dass der Claim übertrieben ist und daher widerlegt wird."
+25,2293,"Like every budget passed by the Senate since Dan Patrick has been lieutenant governor, Senate Bill 1 is within the spending limit set by the Texas Constitution.",Is the Senate Bill 1 within the spending limit of the Texas constitution,"The Texas Constitution includes four limitations on state
+spending:
+• Debt limit
+• Welfare spending limit
+• Pay-as-you-go limit
+• Limit on the growth of certain appropriations (a.k.a.
+spending limit)
+House Bill 1 is within all of these limits",neutral,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim besagt, dass Senate Bill 1 innerhalb der Ausgabegrenze des texanischen Verfassungsgesetzes liegt.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass die texanische Verfassung vier Ausgabegrenzen enthält und dass House Bill 1 (nicht Senate Bill 1) innerhalb dieser Grenzen liegt. Es wird nicht explizit erwähnt, dass Senate Bill 1 innerhalb der Grenzen liegt, aber es wird auch nicht erwähnt, dass Senate Bill 1 außerhalb der Grenzen liegt.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim nicht direkt, da sie sich auf House Bill 1 bezieht und nicht auf Senate Bill 1. Es wird jedoch erwähnt, dass House Bill 1 innerhalb der Ausgabegrenzen liegt, was darauf schließen lässt, dass auch Senate Bill 1 innerhalb der Grenzen liegt, da es nicht erwähnt wird, dass Senate Bill 1 außerhalb der Grenzen liegt. Daher kann die Antwort als stuetzend angesehen werden, aber nur indirekt.
+
+**Ueberlegung:**
+
+Die Antwort stuetzt den Claim nicht direkt, aber sie gibt Anlass zu der Annahme, dass Senate Bill 1 auch innerhalb der Ausgabegrenzen liegt, da es nicht erwähnt wird, dass Senate Bill 1 außerhalb der Grenzen liegt. Daher kann die Antwort als stuetzend angesehen werden, aber nur indirekt."
+26,2476,Kenya has one of the worst maternal mortality rates in the world.,What is maternal mortality?,"A maternal death is the death of a woman while 
+pregnant or within 42 days of termination of 
+pregnancy from any cause related or aggravated by 
+the pregnancy but not from accidental or incidental
+causes.",neutral,neutral,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass Kenia eine der schlechtesten Maternal-Mortalitätsraten der Welt hat.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort definiert Maternal-Mortalität als den Tod einer Frau während der Schwangerschaft oder innerhalb von 42 Tagen nach der Beendigung der Schwangerschaft, der durch die Schwangerschaft verursacht oder verschlimmert wurde, aber nicht durch unabsichtliche oder zufällige Ursachen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist neutral, da sie lediglich die Definition von Maternal-Mortalität liefert und keine Aussage über die Rangliste der Länder mit den schlechtesten Maternal-Mortalitätsraten trifft. Sie gibt keine Hinweise darauf, dass Kenia eine der schlechtesten Raten hat oder nicht. Die Antwort ist also rein informativ und beschreibt lediglich den Begriff, ohne ihn in Beziehung zu setzen mit dem Claim.
+
+**Fazit:** Die Antwort stuetzt oder widerlegt den Claim nicht. Sie ist neutral."
+27,2476,Kenya has one of the worst maternal mortality rates in the world.,How does Kenya's maternal mortality rate compare to other countries?,Kenya has a maternal mortality rate of 510 per 1000 live births. In 2015 this translated to 8000 which is one of the highest in the world.,supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Kenia ""eine der schlechtesten Müttersterblichkeitsraten der Welt"" hat.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort gibt an, dass Kenia eine Müttersterblichkeitsrate von 510 pro 1000 lebend geborenen Kindern hat und dass dies 2015 8000 Fälle entsprach, was ""eine der höchsten in der Welt"" ist.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Die Zahlen, die die Antwort gibt, passen zum Claim: eine hohe Müttersterblichkeitsrate von 510 pro 1000 lebend geborenen Kindern und ein hoher Gesamtzahl von 8000 Fällen, die ""eine der höchsten in der Welt"" sind. Dies bestätigt die Behauptung des Claims, dass Kenia eine der schlechtesten Müttersterblichkeitsraten der Welt hat."
+28,2560,Former President Barack Obama would have gone to war with North Korea.,How likely was it that the US was on the precipice of war with North Korea during Obama's tenure?,"Not very likely, """"There was no crisis brewing or heightened tension at the end of the Obama presidency,"" said Robert S. Ross, an Asia specialist with appointments at Boston College and Harvard University.""",refutes,refutes,"**1. Was genau behauptet der Claim?**
+
+Der Claim besagt, dass ehemaliger Präsident Barack Obama wahrscheinlich in den Krieg mit Nordkorea eingetreten wäre.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass es während der Amtszeit Obamas keine Krise oder erhöhte Spannungen mit Nordkorea gab. Ein Asia-Experte, Robert S. Ross, bestätigt dies.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort widerlegt den Claim. Wenn es während der Amtszeit Obamas keine Krise oder erhöhte Spannungen mit Nordkorea gab, dann ist es unwahrscheinlich, dass er in den Krieg eingetreten wäre. Die Antwort liefert also einen Beleg dafür, dass der Claim falsch ist.
+
+Die Antwort stuetzt also nicht den Claim, sondern widerlegt ihn."
+29,2560,Former President Barack Obama would have gone to war with North Korea.,What was Obama's strategy with North Korea during his time as president?,"The overall policy toward North Korea during Obama’s tenure was ""strategic patience"" — the notion that ""if we ignore them, they will go away and eventually implode,"" said John Pike, the director of globalsecurity.org.
+
+There’s room for disagreement about how effective ""strategic patience"" was. But it was ""not the same thing as preparing for war, or planning a war, or even intending to conduct a war,"" said Joseph DeThomas, a professor at the Penn State School of International Affairs. ""Obama was doing none of those. He was upgrading military deployments in order to deter North Korea and to reassure allies.""",refutes,refutes,"**1. Was genau behauptet der Claim?**
+Der Claim behauptet, dass ehemaliger Präsident Barack Obama einen Krieg mit Nordkorea führen würde.
+
+**2. Was sagt die Antwort aus?**
+Die Antwort besagt, dass Obama während seiner Amtszeit eine Strategie der ""strategischen Geduld"" verfolgte, die darauf abzielte, Nordkorea zu ignorieren und zu hoffen, dass es sich selbst zerstören würde. Obama habe keine Vorbereitungen für einen Krieg getroffen, sondern stattdessen die militärischen Präsenzen in der Region erhöht, um Nordkorea zu warnen und seine Verbündeten zu beruhigen.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+Die Antwort widerlegt den Claim. Sie zeigt, dass Obama keine Vorbereitungen für einen Krieg mit Nordkorea getroffen hat, sondern stattdessen eine Strategie der ""strategischen Geduld"" verfolgt hat, die darauf abzielte, Nordkorea zu ignorieren und zu hoffen, dass es sich selbst zerstören würde. Dies widerspricht der Behauptung des Claims, dass Obama einen Krieg mit Nordkorea führen würde."
+30,2666,The World Bank's annual Doing Business Report currently puts South Africa number 82 out of 190 countries that they have tracked with regard to being able to do business in an efficient way,What is The World Bank's annual Doing Business Report?,The World Bank Ease of Doing Business Report sheds light on how easy or difficult it is for a local entrepreneur to open and run a small to medium-size business when complying with relevant legal obligations.,neutral,neutral,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass die Weltbank in ihrem jährlichen Doing Business Report Südafrika auf Platz 82 von 190 Ländern einstellt, was bedeutet, dass Südafrika es in Bezug auf die Effizienz bei der Geschäftsausführung auf Platz 82 rangiert.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort beschreibt den Zweck des World Bank Ease of Doing Business Report, der darin besteht, zu klären, wie einfach oder schwierig es für einen lokalen Unternehmer ist, ein kleines bis mittelgroßes Unternehmen zu gründen und zu führen, wenn man mit den relevanten rechtlichen Verpflichtungen konform geht.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort ist neutral. Sie beschreibt den Zweck des Reports, aber sagt nichts über die Platzierung Südafrikas in diesem Report aus. Sie gibt auch keine Hinweise darauf, ob Südafrika tatsächlich auf Platz 82 steht oder nicht. Der Claim bleibt also unbestätigt durch die Antwort."
+31,2666,The World Bank's annual Doing Business Report currently puts South Africa number 82 out of 190 countries that they have tracked with regard to being able to do business in an efficient way,Where did South Africa rank in The World Bank's annual Doing Business Report at the time the claim was made in February 2019?,In the Doing Business 2019 report South Africa ranked 82 out of 190 countries.,supports,supports,"**1. Was genau behauptet der Claim?**
+
+Der Claim behauptet, dass Südafrika in der World Bank's annual Doing Business Report derzeit (im Zeitpunkt der Behauptung) auf Platz 82 von 190 Ländern rangiert, was es ermöglicht, Geschäfte in einer effizienten Weise zu führen.
+
+**2. Was sagt die Antwort aus?**
+
+Die Antwort besagt, dass Südafrika in der Doing Business 2019-Bericht auf Platz 82 von 190 Ländern rangiert.
+
+**3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt) oder keines von beidem (neutral)?**
+
+Die Antwort stuetzt den Claim. Die Rangliste in der Doing Business 2019-Bericht stimmt mit der Behauptung im Claim überein. Es gibt keine Hinweise darauf, dass die Rangliste sich seit der Veröffentlichung des Berichts geändert hat, und die Antwort besagt, dass Südafrika auf Platz 82 rangiert, was der Behauptung im Claim entspricht. Daher stuetzt die Antwort den Claim."
