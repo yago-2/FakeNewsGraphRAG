@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "AV0",
+    "text": "In a letter to Steve Jobs, Sean Connery refused to appear in an apple commercial.",
+    "entity": "Steve Jobs",
+    "origins": [
+      {
+        "source": "scoopertino.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "scoopertino.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV1",
+    "text": "Trump Administration claimed songwriter Billie Eilish Is Destroying Our Country In Leaked Documents",
+    "entity": "Billie Eilish Is Destroying",
+    "origins": [
+      {
+        "source": "nypost.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV2",
+    "text": "Due to Imran Khan's criticism of Macron's comments on Islam, French authorities cancelled the visas of 183 Pakistani citizens and deported 118 from the country.",
+    "entity": "Imran Khan",
+    "origins": [
+      {
+        "source": "aljazeera.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 1,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 1,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV3",
+    "text": "UNESCO declared Nadar community as the most ancient race in the world.",
+    "entity": "UNESCO",
+    "origins": [
+      {
+        "source": "familytreedna.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "independent.co.uk",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV4",
+    "text": "Republican Matt Gaetz was part of a company that had to pay 75 million in hospice fraud. They stole from dying people.",
+    "entity": "Republican Matt Gaetz",
+    "origins": [
+      {
+        "source": "erau.edu",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "celebritynetworth.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ir.chemed.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV5",
+    "text": "The United States of America and its Western allies have been using their media outlets to publish articles based on fabricated information under allegations of non-compliance with the Chemical Weapons Convention.",
+    "entity": "Chemical Weapons Convention",
+    "origins": [
+      {
+        "source": "theguardian.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV6",
+    "text": "More than 225,000 people dead, 225,000. The estimates are, if we’d have acted responsibly, there’d be 160,000 fewer dead than there are today, because of covid-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "injuryfacts.nsc.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "statnews.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "calculator.net",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV7",
+    "text": "Why should you pay more taxes than Donald Trump pays? And that’s a fact. $750. Remember what he said when that was raised a while ago, how he only pays … He said, ‘Because I’m smart. I know how to game the system.’",
+    "entity": "Donald Trump",
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "cnbc.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV8",
+    "text": "You’re watching the cheaters and all those people that send in the phony ballots. … They want to have the count weeks after November 3.",
+    "entity": "November",
+    "origins": [
+      {
+        "source": "sos.ca.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "calmatters.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV9",
+    "text": "You see the number today? 33.1 GDP. The biggest in the history of our country by almost triple, right? Almost triple. Now it’s very much bigger than any GDP we’ve ever had. You have to go back to the 1950s, and then it’s less than half. This is the greatest number, 33.1 percent.",
+    "entity": "GDP",
+    "origins": [
+      {
+        "source": "stlouisfed.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "AV10",
+    "text": "Donald Trump, when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the Atlantic. By the way, the same stable genius who said the biggest problem we had in the Revolutionary War is we didn’t have enough airports.",
+    "entity": "Donald Trump",
+    "origins": [
+      {
+        "source": "axios.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "nbcnews.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV11",
+    "text": "The U.S. surgeon general and the Centers for Disease Control both previously said that ‘masks are not effective in preventing [the] general public from catching coronavirus.’",
+    "entity": "Disease Control",
+    "origins": [
+      {
+        "source": "dx.doi.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV12",
+    "text": "New Zealand’s new Food Bill bans gardening",
+    "entity": "New Zealand",
+    "origins": [
+      {
+        "source": "parliament.nz",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "archive.ph",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "archive.ph",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "archive.ph",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "archive.ph",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nzlii.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "beehive.govt.nz",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV13",
+    "text": "Wearing face masks will stop the spread of covid 19",
+    "entity": "Wearing",
+    "origins": [
+      {
+        "source": "ox.ac.uk",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV14",
+    "text": "Jammu and Kashmir (J&K) in Pakistan/India was removed from the United Nations (UN) list of “unresolved disputes”.",
+    "entity": "United Nations",
+    "origins": [
+      {
+        "source": "crisisgroup.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "undocs.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV15",
+    "text": "Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in the United States.",
+    "entity": "United States",
+    "origins": [
+      {
+        "source": "",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "wsj.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "bbc.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "bbc.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "cbp.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nfid.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "AV16",
+    "text": "The plentiful evidence we have indicates that masks would not meaningfully help with aerosol transmission of COVID 19.",
+    "entity": "COVID",
+    "origins": [
+      {
+        "source": "nature.com",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ucsf.edu",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV17",
+    "text": "All USA Ballots Arriving After Election Day Will Be Thrown Out",
+    "entity": "All USA Ballots Arriving",
+    "origins": [
+      {
+        "source": "elections.maryland.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "elections.maryland.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "oag.dc.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "projects.fivethirtyeight.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV18",
+    "text": "Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out.",
+    "entity": "Even",
+    "origins": [
+      {
+        "source": "buzzfeednews.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "cbsnews.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "facebook.com",
+        "authority": 1,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV19",
+    "text": "Video shows attack of French embassy in Sudan",
+    "entity": "Video",
+    "origins": [
+      {
+        "source": "tagesspiegel.de",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "tagesspiegel.de",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV20",
+    "text": "Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament",
+    "entity": "Pakistani Parliament",
+    "origins": [
+      {
+        "source": "dawn.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV21",
+    "text": "Taylor Zundel claimed on Instagram that she and other early voters in Utah, were unable to cast ballots in the 2020 presidential elections, as they were told they had already voted.",
+    "entity": "Taylor Zundel",
+    "origins": [
+      {
+        "source": "hermancain.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV22",
+    "text": "Trash Can Plastered With 'Ballot Box' Sign In Philadelphia Was Intended To Get People To Toss Their Ballots In The Trash.",
+    "entity": "Trash Can Plastered With",
+    "origins": [
+      {
+        "source": "instagram.com",
+        "authority": 1,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV23",
+    "text": "Joe Biden wants to ban fracking",
+    "entity": "Joe Biden",
+    "origins": [
+      {
+        "source": "rev.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV24",
+    "text": "Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence.",
+    "entity": "Foreign Minister Heiko Maas",
+    "origins": [
+      {
+        "source": "smh.com.au",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "smh.com.au",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "dw.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV25",
+    "text": "McDonald’s Azerbaijan's official account was promoting the military taking of Nagorno-Karabakh.",
+    "entity": "McDonald",
+    "origins": [
+      {
+        "source": "web.archive.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV26",
+    "text": "Ivermectin is a treatment for coronavirus.",
+    "entity": "Ivermectin",
+    "origins": [
+      {
+        "source": "thelancet.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ncbi.nlm.nih.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "AV27",
+    "text": "Sleeping under a mosquito bed net treated (or not treated) with insecticide is ineffective and harmful to human health.",
+    "entity": "Sleeping",
+    "origins": [
+      {
+        "source": "vikaspedia.in",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "vikaspedia.in",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV28",
+    "text": "Pogba Has Quit The French National Team Over Macron's Remarks on Islam.",
+    "entity": "Pogba Has Quit The",
+    "origins": [
+      {
+        "source": "dailymail.co.uk",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "mirror.co.uk",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV29",
+    "text": "The Wire called Durga puja racist and the goddess Durga a sex worker",
+    "entity": "Wire",
+    "origins": [
+      {
+        "source": "thewire.in",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "thewire.in",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV30",
+    "text": "Paul Pogba, who plays for Manchester United and the French national team, retired from international football in response to French President Macron’s comments on Islamist terrorism.",
+    "entity": "French President Macron",
+    "origins": [
+      {
+        "source": "punchng.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV31",
+    "text": "Amy Coney Barrett was confirmed as US Supreme Court Justice on October 26, 2020",
+    "entity": "US Supreme Court Justice",
+    "origins": [
+      {
+        "source": "edition.cnn.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV32",
+    "text": "The New York post Endorsed Donald trumps bid for re-election.",
+    "entity": "New York",
+    "origins": [
+      {
+        "source": "nypost.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV33",
+    "text": "America went from 75,000 flu deaths last year in 2019 to almost 0 in 2020",
+    "entity": "America",
+    "origins": [
+      {
+        "source": "archive.ph",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "cdc.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "healthfeedback.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV34",
+    "text": "The United States, New Zealand, U.K., Australia, and the EU have not included the NDF in their official list of terrorist groups.",
+    "entity": "United States",
+    "origins": [
+      {
+        "source": "state.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "state.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ofsistorage.blob.core.windows.net",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ofsistorage.blob.core.windows.net",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "legislation.gov.au",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "eur-lex.europa.eu",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "police.govt.nz",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "police.govt.nz",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "state.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "eur-lex.europa.eu",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV35",
+    "text": "COVID-19 pandemic pre-planned with the help from Bill Gates.",
+    "entity": "Bill Gates",
+    "origins": [
+      {
+        "source": "emergency.cdc.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV36",
+    "text": "Speaker Robin Vos lost a Republican-held seat in the 2018 election for the first time.",
+    "entity": "Speaker Robin Vos",
+    "origins": [
+      {
+        "source": "fox6now.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "cbs58.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "cbs58.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV37",
+    "text": "Breitbart News reports that the daughter of Delaware Democratic Senator Chris Coons and seven other underage girls were featured on Hunter Biden's laptop.",
+    "entity": "Delaware Democratic Senator Chris",
+    "origins": [
+      {
+        "source": "google.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 1,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV38",
+    "text": "Hunter Biden, son of US President Joe Biden has died.",
+    "entity": "US President Joe Biden",
+    "origins": [
+      {
+        "source": "",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "it.wikipedia.org",
+        "authority": 3,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV39",
+    "text": "5G causes COVID-19.",
+    "entity": "COVID",
+    "origins": [
+      {
+        "source": "pcmag.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "reuters.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ucc.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV40",
+    "text": "Rock musician Jon Bon Jovi performed for 12 people and 7 pumpkins at a campaign event for Democratic presidential nominee Joe Biden in Pennsylvania.",
+    "entity": "Jon Bon Jovi",
+    "origins": [
+      {
+        "source": "nbcphiladelphia.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "pennlive.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV41",
+    "text": "Wearing face masks can cause infections from bacteria such as staphylococcus.",
+    "entity": "Wearing",
+    "origins": [
+      {
+        "source": "auctoresonline.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "healthline.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV42",
+    "text": "An 'anti-Black Lives Matter' flag replaced the American flag behind President Trump during a Waukesha campaign rally.",
+    "entity": "Black Lives Matter",
+    "origins": [
+      {
+        "source": "reformer.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "gannett-cdn.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "AV43",
+    "text": "Donald Trump said that $15 an hour is too much for essential workers",
+    "entity": "Donald Trump",
+    "origins": [
+      {
+        "source": "forbes.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV44",
+    "text": "Deliberately infecting children to COVID-19 at “pox parties” could be a good way to help create herd immunity against COVID-19 without a vaccine.",
+    "entity": "Deliberately",
+    "origins": [
+      {
+        "source": "cdc.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "health.harvard.edu",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "secure.jbs.elsevierhealth.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV45",
+    "text": "Cutting the umbilical cord straight away deliberately denies the baby natural immunity so that medical professionals have a reason to vaccinate and medicate them.",
+    "entity": "Cutting",
+    "origins": [
+      {
+        "source": "pubmed.ncbi.nlm.nih.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV46",
+    "text": "The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "who.int",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV47",
+    "text": "Joe Biden said he wants to ban fracking in the US.",
+    "entity": "Joe Biden",
+    "origins": [
+      {
+        "source": "transcripts.cnn.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "c-span.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "pittsburgh.cbslocal.com",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "AV48",
+    "text": "99% of people recover from COVID-19.",
+    "entity": "COVID",
+    "origins": [
+      {
+        "source": "web.archive.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "AV49",
+    "text": "The US saw the best carbon emission numbers in 35 years under President Donald Trump's administration.",
+    "entity": "President Donald Trump",
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 4,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "epa.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "metmuseum.org",
+        "authority": 2,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "epa.gov",
+        "authority": 5,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  }
+]
