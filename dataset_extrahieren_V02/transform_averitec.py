@@ -91,32 +91,28 @@ def build_reasoning_prompt(claim, question, answer):
     """Schritt 1: freies Reasoning, kein Formatzwang -> kein Trunkierungsrisiko."""
     return f"""Claim: "{claim}"
 
-Frage zur Evidenz: "{question}"
-Antwort der Quelle: "{answer}"
+    Frage zur Evidenz: "{question}"
+    Antwort der Quelle: "{answer}"
 
-Pruefe, ob die Antwort den CLAIM stuetzt, widerlegt oder neutral ist. Gehe so vor:
-1. Was genau behauptet der Claim?
-2. Was sagt die Antwort aus?
-3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt)
-   oder keines von beidem (neutral)?
+    Pruefe, ob die Antwort den CLAIM stuetzt, widerlegt oder neutral ist. Gehe so vor:
+    1. Was genau behauptet der Claim?
+        2. Was sagt die Antwort aus?
+    3. Macht die Antwort den Claim wahrscheinlicher (stuetzt), unwahrscheinlicher (widerlegt)
+     oder keines von beidem (neutral)?
 
-Wichtig:
-- Vergleiche mit dem Claim, nicht mit der Frage. Wenn der Claim selbst etwas verneint
-  oder abwertet (z. B. "X ist nutzlos", "es gibt keine Belege fuer Y"), dann widerlegt
-  eine Antwort, die das Gegenteil zeigt, den Claim.
-- Auch indirekte Belege zaehlen: Eine Antwort stuetzt oder widerlegt den Claim auch dann,
-  wenn sie es nicht woertlich sagt, z. B. durch Zahlen, die zum Claim passen oder ihm
-  widersprechen.
-- Dass die Antwort dasselbe Thema behandelt, reicht nicht. Sie stuetzt den Claim nur,
-  wenn sie seinen Inhalt bestaetigt.                                  
-- Besteht der Claim aus mehreren Teilen und bestaetigt die Antwort einen Teil, ohne den
-  anderen zu widersprechen, dann stuetzt sie den Claim.                
-- Neutral NUR, wenn die Antwort den Claim weder wahrscheinlicher noch unwahrscheinlicher
-  macht (z. B. reine Hintergrundinformation oder ein anderes Thema).
-- Doppelte oder mehrfache Verneinungen beachten (Claim UND Frage koennen beide verneint sein).
-- Falls Zahlen im Spiel sind: rechne explizit nach, bevor du urteilst.
+    Wichtig:
+    - Vergleiche mit dem Claim, nicht mit der Frage. Wenn der Claim selbst etwas verneint
+      oder abwertet (z. B. "X ist nutzlos", "es gibt keine Belege fuer Y"), dann widerlegt
+      eine Antwort, die das Gegenteil zeigt, den Claim.
+    - Auch indirekte Belege zaehlen: Eine Antwort stuetzt oder widerlegt den Claim auch dann,
+      wenn sie es nicht woertlich sagt, z. B. durch Zahlen, die zum Claim passen oder ihm
+      widersprechen.
+    - Neutral NUR, wenn die Antwort den Claim weder wahrscheinlicher noch unwahrscheinlicher
+      macht (z. B. reine Hintergrundinformation oder ein anderes Thema).
+    - Doppelte oder mehrfache Verneinungen beachten (Claim UND Frage koennen beide verneint sein).
+    - Falls Zahlen im Spiel sind: rechne explizit nach, bevor du urteilst.
 
-Schreib deine Ueberlegung aus."""
+    Schreib deine Ueberlegung aus."""
 
 def build_extraction_prompt(reasoning_text):
     """Schritt 2: aus fertigem Reasoning nur noch das Ergebnis extrahieren."""
