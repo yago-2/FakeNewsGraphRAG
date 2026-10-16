@@ -1,0 +1,9 @@
+{
+  "gewichtung": "anzahl",
+  "schwelle": 0.1,
+  "unbekannt": 0.58,
+  "eingestellt_auf": "claims_train_v2.json (200 Claims)",
+  "macro_f1_train": 0.455,
+  "macro_f1_train_bisher": 0.425,
+  "datum": "2026-10-16"
+}
