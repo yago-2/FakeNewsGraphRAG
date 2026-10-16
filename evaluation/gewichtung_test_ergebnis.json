@@ -1,0 +1,22 @@
+{
+  "regel": {
+    "gewichtung": "anzahl",
+    "schwelle": 0.1,
+    "unbekannt": 0.58,
+    "eingestellt_auf": "claims_train_v2.json (200 Claims)",
+    "macro_f1_train": 0.455,
+    "macro_f1_train_bisher": 0.425,
+    "datum": "2026-10-16"
+  },
+  "dev_claims": 500,
+  "macro_f1_bisher": 0.501,
+  "macro_f1_neu": 0.52,
+  "accuracy_bisher": 0.618,
+  "accuracy_neu": 0.682,
+  "differenz": 0.02,
+  "bootstrap_95": [
+    -0.005,
+    0.046
+  ],
+  "datum": "2026-10-16"
+}
