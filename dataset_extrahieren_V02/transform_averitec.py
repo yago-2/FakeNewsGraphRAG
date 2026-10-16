@@ -13,6 +13,7 @@ import statistics
 import re
 import json
 import os
+import random
 import time
 import requests
 from urllib.parse import urlparse
@@ -205,14 +206,41 @@ def pruefe_ollama():
         raise SystemExit("Ollama laeuft nicht. Zuerst die Ollama-App starten, dann nochmal versuchen.")
 
 
+def train_stichprobe(train, anzahl, seed):
+    """Zufaellige Train-Claims fuer die Gewichtung. Die 30 Claims der Stance-Stichproben
+    (gleiche Auswahl wie in stance_labeling.py) werden ausgeschlossen."""
+    alle = range(len(train))
+    entwicklung = random.Random(42).sample(alle, 20)
+    rest = [i for i in alle if i not in set(entwicklung)]
+    test = random.Random(2026).sample(rest, 10)
+    gesperrt = set(entwicklung) | set(test)
+    erlaubt = [i for i in alle if i not in gesperrt]
+    return sorted(random.Random(seed).sample(erlaubt, anzahl))
+
+
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    dev_path = os.path.join(script_dir, "dev.json")
-    # Eigene Ausgabedatei fuer diesen Lauf (Prompt v2, ganzes Dev-Set)
-    out_path = os.path.join(script_dir, "claims_dev_v2.json")
 
-    with open(dev_path) as f:
-        data = json.load(f)
+    # "dev"   = alle 500 Dev-Claims (Testset, nur zum Messen)
+    # "train" = Stichprobe aus dem Train-Set (zum Einstellen der Gewichtung)
+    DATENSATZ = "train"
+    ANZAHL_TRAIN = 200
+    SEED_TRAIN = 7
+
+    # Zum Testen: nur die ersten N Claims verarbeiten. Fuer den vollen Lauf auf None setzen.
+    LIMIT = None
+
+    if DATENSATZ == "dev":
+        with open(os.path.join(script_dir, "dev.json")) as f:
+            daten = json.load(f)
+        auswahl = [(f"AV{i}", eintrag) for i, eintrag in enumerate(daten)]
+        out_path = os.path.join(script_dir, "claims_dev_v2.json")
+    else:
+        with open(os.path.join(script_dir, "train.json")) as f:
+            daten = json.load(f)
+        # ID = "TR" + Position im Train-Set, damit jeder Claim zurueckverfolgbar bleibt
+        auswahl = [(f"TR{i}", daten[i]) for i in train_stichprobe(daten, ANZAHL_TRAIN, SEED_TRAIN)]
+        out_path = os.path.join(script_dir, "claims_train_v2.json")
 
     # Zum lokalen Testen: USE_MOCK=True setzen, dann echtes Ollama mit False
     USE_MOCK = False
@@ -220,9 +248,7 @@ if __name__ == "__main__":
     if not USE_MOCK:
         pruefe_ollama()
 
-    # Zum Testen: nur die ersten N Claims verarbeiten. Fuer den vollen Lauf auf None setzen.
-    LIMIT = None
-    subset = data[:LIMIT] if LIMIT else data
+    subset = auswahl[:LIMIT] if LIMIT else auswahl
 
     # Weitermachen statt neu anfangen: schon fertige Claims aus der Ausgabedatei laden
     claims = []
@@ -235,8 +261,7 @@ if __name__ == "__main__":
     fehler = []
     neu = 0
     start = time.time()
-    for i, entry in enumerate(subset):
-        claim_id = f"AV{i}"
+    for claim_id, entry in subset:
         if claim_id in fertig:
             continue
         for versuch in range(1, 4):                     # bis zu 3 Versuche pro Claim
@@ -261,7 +286,7 @@ if __name__ == "__main__":
         print(f"  {claim_id} fertig ({len(claims)}/{len(subset)}, {vergangen / 60:.0f} min vergangen, "
               f"~{vergangen / neu * offen / 60:.0f} min verbleibend)", flush=True)
 
-    claims.sort(key=lambda c: int(c["id"][2:]))         # Reihenfolge AV0, AV1, ... wiederherstellen
+    claims.sort(key=lambda c: int(c["id"][2:]))         # Reihenfolge nach Nummer wiederherstellen
     with open(out_path, "w") as f:
         json.dump(claims, f, indent=2, ensure_ascii=False)
     print(f"{len(claims)} Claims in {os.path.basename(out_path)}")
