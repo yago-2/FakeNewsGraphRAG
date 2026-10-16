@@ -1,0 +1,4776 @@
+[
+  {
+    "id": "TR16",
+    "text": "We actually saw revenues to the Treasury increase after we lowered taxes in 2017. Rest assured the Democrats do not want you to know that.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "crfb.org",
+        "authority": 0.88,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "crfb.org",
+        "authority": 0.88,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR49",
+    "text": "Only 31% of South African drink alcohol",
+    "entity": null,
+    "origins": [
+      {
+        "source": "bmcmedicine.biomedcentral.com",
+        "authority": 0.94,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR92",
+    "text": "Vice President Biden and President Obama assembled a pandemic playbook to make sure that America was prepared and protected. The Trump administration disbanded the pandemic response team that was given to them.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR156",
+    "text": "You can test too much for Covid-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "statnews.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "statnews.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "sf.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "statnews.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "statnews.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR163",
+    "text": "COVID-19 has infected fewer people than H1N1 virus, but “media hysteria” has prompted an overblown response.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hopkinsmedicine.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ncbi.nlm.nih.gov",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ourworldindata.org",
+        "authority": 0.77,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "biospace.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR193",
+    "text": "Social distancing, to prevent the spread of coronavirus was not practiced at the funeral of civil rights icon, John Lewis.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "perma.cc",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "facebook.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "gettyimages.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR200",
+    "text": "Ghislaine Maxwell tested positive for Covid-19 in jail.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "brownvalleyobserver.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "brownvalleyobserver.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR206",
+    "text": "Russia offered bounties to the Taliban to kill U.S. troops in Afghanistan.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR224",
+    "text": "Nigeria recorded 1.25 million abortion cases in 2012 alone, but that this figure represented double the 1996 figures.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "guttmacher.org",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "thestreetjournal.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR240",
+    "text": "PM Modi has not imposed President’s rule even a single time since 2014.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "livemint.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "livemint.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "linkedin.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "images.livemint.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR244",
+    "text": "Kenya's sanitation coverage is now at 25%, up from 16%.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR245",
+    "text": "Sanitation coverage in Kenya is now at 25%, from 16%.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR247",
+    "text": "In Kenya the allocation of budgets to agriculture in the 2019/20 financial year is an increase of 0.6% from what was reported last year.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR251",
+    "text": "Counties in Kenya are striving to reach the 10% budget allocation to agriculture recommended by the Malabo declaration.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "trademarkea.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "trademarkea.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR256",
+    "text": "Kenya's county governments have continued to adhere to the two-thirds gender principle. Four counties, Mombasa, Kilifi, Nyeri, and Migori, have gone higher and have a 50/50 representation of male and female CECs.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR257",
+    "text": "Two-thirds of the debt in the Australian budget was borrowed before the start of the pandemic",
+    "entity": null,
+    "origins": [
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "bbc.com",
+        "authority": 0.88,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "google.com",
+        "authority": 0.67,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR260",
+    "text": "Joe Biden owns island next to sex offender Jeffrey Epstein’s hideaway.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "reuters.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "wusa9.com",
+        "authority": 0.88,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR269",
+    "text": "There Is An Upcoming Shortage Of Dr. Pepper Because Of The Coronavirus",
+    "entity": null,
+    "origins": [
+      {
+        "source": "investors.keurigdrpepper.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "bloomberg.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR278",
+    "text": "US space agency NASA has added a 13th star sign named \"Ophiuchus\" to the zodiac.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "britannica.com",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR284",
+    "text": "Netflix will end its Turkish service after the production of an upcoming local drama that was blocked by the country’s government over a gay character.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "reuters.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "dailysabah.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR289",
+    "text": "Cal Cunningham, North Carolina’s 2020 Democratic Senate candidate, voted to raise taxes in the state by over $1 billion in 2001.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "newsobserver.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ballotpedia.org",
+        "authority": 0.89,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "wlos.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR299",
+    "text": "The Bank of America pledged $1 billion dollars to Black Lives Matter.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "newsroom.bankofamerica.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "newsroom.bankofamerica.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "video.foxbusiness.com",
+        "authority": 0.56,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR302",
+    "text": "Matt Hancock claimed that the UK covid-19 lockdown began on 16th March 2020.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hansard.parliament.uk",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR320",
+    "text": "The Biden-Sanders unity platform includes a plan to appoint social justice prosecutors in order to free violent criminals.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "edition.cnn.com",
+        "authority": 0.68,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "s3.documentcloud.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "apps.npr.org",
+        "authority": 0.93,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR333",
+    "text": "The Obama administration stopped testing during the H1N1, Swine Flu, pandemic.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR338",
+    "text": "An Indian student finds a Home remedy cure for Covid-19 and it is accepted by WHO (World Health organization)",
+    "entity": null,
+    "origins": [
+      {
+        "source": "archive.ph",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR342",
+    "text": "Answering a call from '+140' will empty your bank account.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hindustantimes.com",
+        "authority": 0.72,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "hindustantimes.com",
+        "authority": 0.72,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR355",
+    "text": "People are developing fungal lung infections due to wearing face masks.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "pathologytestsexplained.org.au",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "eu.usatoday.com",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR375",
+    "text": "Muslims can’t use alcohol-based hand sanitiser as it is against their religion.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "metro.co.uk",
+        "authority": 0.77,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "debgroup.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "mcb.org.uk",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "metro.co.uk",
+        "authority": 0.77,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR388",
+    "text": "Donald Trump tweeted that he told the South Dakota governor that “everyone is fine without a mask. They just need to close there (sic) border with California.”",
+    "entity": null,
+    "origins": [
+      {
+        "source": "projects.propublica.org",
+        "authority": 0.85,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "projects.propublica.org",
+        "authority": 0.85,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR390",
+    "text": "Budweiser admits several employees have been pissing in its beer tanks for years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "foolishumor.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "foolishumor.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR404",
+    "text": "The national security law will only target an extremely small minority of people who have breached the law, while the life and property, basic rights and freedoms of the overwhelming majority of Hong Kong residents will be protected.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hongkongfp.com",
+        "authority": 0.74,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "hongkongfp.com",
+        "authority": 0.74,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "info.gov.hk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR429",
+    "text": "South Africa is number one in the killing of women internationally.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "eige.europa.eu",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR431",
+    "text": "The average family in America forks over more of their hard-earned income to their local hospital than to the IRS.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "forbes.com",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "thumbor.forbes.com",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR487",
+    "text": "Police departments in Germany were defunded and eliminated by the Nazis under Hermann Goering.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "britannica.com",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "encyclopedia.ushmm.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "encyclopedia.ushmm.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "encyclopedia.ushmm.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR490",
+    "text": "US President Donald Trump\n tweeted in support of India, following the Indo-China clash at Galwan Valley.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "everycrsreport.com",
+        "authority": 0.91,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "mention.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR491",
+    "text": "'For every two babies born with sickle cell in the world, one is a Nigerian.’",
+    "entity": null,
+    "origins": [
+      {
+        "source": "premiumtimesng.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "journals.plos.org",
+        "authority": 0.87,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "panafrican-med-journal.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR516",
+    "text": "The Boy Scouts are supporting Black Lives Matter and are required to earn a diversity badge.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "scoutingwire.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "scoutingwire.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR523",
+    "text": "Mexico is leaving the most difficult stage of the COVID-19 pandemic and I consider the worst is over.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "weforum.org",
+        "authority": 0.87,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "contralacorrupcion.mx",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR538",
+    "text": "Black Lives Matter Scotland have produced posters and stickers with phrases such as “Kill a white on sight” on them.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "weforum.org",
+        "authority": 0.87,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "edinburghlive.co.uk",
+        "authority": 0.65,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR554",
+    "text": "The kenyan Judiciary has “almost 7,000 employees” as at 2019",
+    "entity": null,
+    "origins": [
+      {
+        "source": "foreignpolicy.com",
+        "authority": 0.92,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR569",
+    "text": "558 people were killed by the South African police in 2018, while 201 people died in police custody",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ipid.gov.za",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ipid.gov.za",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR600",
+    "text": "The Duke and Duchess of Sussex left the British Royal Family due to the family being Satan-worshipping child traffickers.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "thesun.co.uk",
+        "authority": 0.57,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "cnbc.com",
+        "authority": 0.85,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR606",
+    "text": "Harvey Weinstein, a Hollywood film producer, was arrested for sex crimes and then suddenly contracted Coronavirus.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "deadline.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "deadline.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "reuters.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR627",
+    "text": "South-South zonal head of Nigeria’s anti-graft agency, the Economic and Financial Crimes Commission (EFCC), Ishaq Salihu, addressed a group of protesters in its Port-Harcourt office, Rivers state recently over the trial of George Turnah.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ajisamvoice.blogspot.com",
+        "authority": 0.67,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nairaland.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nairaland.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR628",
+    "text": "President Uhuru Kenyatta of Kenya said, ‘At independence, we had only 1,800 kilometres of tarmacked roads.’",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR629",
+    "text": "US President Trump sent out a tweet claiming that he and Vice President Pence were escorted to the secret White House bunker, and that former President Obama had left it dirty and unsupplied.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR632",
+    "text": "Gretchen Whitmer, the governor of Michigan is the niece of George Soros.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR685",
+    "text": "Russia sent a plane with domestic medical items and equipment to New York whilst the coronavirus situation was stressful. Russia and the U.S each paid their respective costs for the equipment they supplied.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "rdif.ru",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "politico.eu",
+        "authority": 0.71,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR691",
+    "text": "Audio Clip hears Amy McGrath saying, “I am further left, I am more progressive than anybody in the state of Kentucky.”",
+    "entity": null,
+    "origins": [
+      {
+        "source": "kentucky.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "kentucky.com",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR698",
+    "text": "House of Representatives revoked the passage of the Media network ABS-CBN Franchise Bill on second reading in the Philipines.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "esquiremag.ph",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR731",
+    "text": "Until 12 March, the government’s advice said it was ‘very unlikely’ people in care homes will become infected.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR746",
+    "text": "COVID-19 Infection rates in Allegany, Cattaraugus and Chautauqua counties have consistently been among the lowest in the state.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "governor.ny.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "governor.ny.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "governor.ny.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "governor.ny.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR750",
+    "text": "House bill would “give the government the power to forcibly remove” children from their homes",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "congress.gov",
+        "authority": 0.91,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR756",
+    "text": "Vice President Mike Pence delivers empty boxes of PPE to a hospital as a publicity stunt",
+    "entity": null,
+    "origins": [
+      {
+        "source": "businessinsider.com",
+        "authority": 0.8,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "businessinsider.com",
+        "authority": 0.8,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR779",
+    "text": "COVIDsafe app “hidden” rules could allow workplaces and supermarkets to bar people who haven’t installed the program on their phone.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "health.gov.au",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR790",
+    "text": "The CDC made 30,000 COVID-19 Deaths Disappear",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "coronavirus.jhu.edu",
+        "authority": 0.51,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR853",
+    "text": "Drinking milk with honey on an empty stomach is the antidote to COVID-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hsph.harvard.edu",
+        "authority": 0.72,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "hsph.harvard.edu",
+        "authority": 0.72,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR865",
+    "text": "Boko Haram leader, Shekau says he’s ready to surrender",
+    "entity": null,
+    "origins": [
+      {
+        "source": "dailypost.ng",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR889",
+    "text": "In June 2017, Conservative MPs voted against a pay rise for nurses.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "indy100.com",
+        "authority": 0.63,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "indy100.com",
+        "authority": 0.63,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "indy100.com",
+        "authority": 0.63,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "indy100.com",
+        "authority": 0.63,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR904",
+    "text": "5G radiation is harmful to human health",
+    "entity": null,
+    "origins": [
+      {
+        "source": "dw.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR917",
+    "text": "The price of oil was lower when president Obasanjo and Abubakar assumed office on 29 May 1999 than it was on 08/04/2020",
+    "entity": null,
+    "origins": [
+      {
+        "source": "eia.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "oilprice.com",
+        "authority": 0.91,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR927",
+    "text": "The state of California admitted in a court settlement that a million people voted improperly in the US elections in 2019.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "judicialwatch.org",
+        "authority": 0.18,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "broomfield.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "votecolumbia.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR958",
+    "text": "Prince Charles was cured of Covid by Ayurveda medicine.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hopkinsmedicine.org",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "indianexpress.com",
+        "authority": 0.76,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR963",
+    "text": "Alcohol weakens the immune system, making it difficult for the body to fight infections such as Covid-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "newscientist.com",
+        "authority": 0.94,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "castlecraig.co.uk",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "blog.bioticsresearch.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR968",
+    "text": "A Madagascan herbal drink called Covid-Organics, is a treatment or a cure, for COVID-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "midi-madagasikara.mg",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "afro.who.int",
+        "authority": 0.82,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "mpg.de",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "mdpi.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR998",
+    "text": "A man in Pakistan threw a party consisting of 100 people after recovering from Coronavirus and after attending the party, multiple people present there were infected with the virus.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "newsmobile.in",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "newsmobile.in",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1013",
+    "text": "Under order from Gov. Tony Evers, US Senator Duey Stroebel can't legally have dinner with his 8 children, during the COVID-19 pandemic.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "evers.wi.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR1028",
+    "text": "Novel coronavirus is an airbourne virus and remains infectious in the air for 8 hours.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "covid19.nj.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "covid19.nj.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "covid19.nj.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "covid19.nj.gov",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nejm.org",
+        "authority": 0.94,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR1031",
+    "text": "People Clapping together at 5pm during Janta Curfew will kill coronavirus.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1090",
+    "text": "Tom Hanks was arrested for paedophilia on 13/03/2020  \nin Australia, where he is  being kept in a hotel room, refusing to fly back to USA.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "archive.is",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1119",
+    "text": "Australian Gold Coast hospital staff roll in a Wilson volleyball to keep actor Tom Hanks company in quarantine.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "ftw.usatoday.com",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1153",
+    "text": "Kim Jong Un, Supreme Leader of North Korea, rejected calls from the Obama administration",
+    "entity": null,
+    "origins": [
+      {
+        "source": "factcheck.org",
+        "authority": 0.92,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1155",
+    "text": "Hunter Biden was unemployed when he joined the board of Burisma Holdings in 2014.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "energysecurityforum.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1169",
+    "text": "The Obama administration made a decision on testing and that turned out to be very detrimental to what we’re doing, and we undid that decision a few days ago.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "fda.gov",
+        "authority": 0.59,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "scientificamerican.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "nymag.com",
+        "authority": 0.69,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1180",
+    "text": "Coronavirus symptoms emerge only after the virus has entered a person’s bloodstream.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "albertahealthservices.ca",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "worldometers.info",
+        "authority": 0.89,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "ncbi.nlm.nih.gov",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "nm.org",
+        "authority": 0.54,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1192",
+    "text": "The coronavirus outbreak is US Democrats new hoax.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "nbcnews.com",
+        "authority": 0.84,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "assets.donaldjtrump.com",
+        "authority": 0.45,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "thehill.com",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "businessinsider.com",
+        "authority": 0.8,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "abcnews.go.com",
+        "authority": 0.86,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "businessinsider.com",
+        "authority": 0.8,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1194",
+    "text": "Japan issued a health advisory listing drinking water as a prevention method for COVID-19.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nhs.uk",
+        "authority": 0.55,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "mhlw.go.jp",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1201",
+    "text": "Getting drugs in Britain almost easier than ordering pizza.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "globaldrugsurvey.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "assets.publishing.service.gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "assets.publishing.service.gov.uk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "globaldrugsurvey.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1242",
+    "text": "At the level of gender, at senior management level in South Africa, males remain dominant at 67.6% and females at 32.4%",
+    "entity": null,
+    "origins": [
+      {
+        "source": "labour.gov.za",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "globalbusiness.co.za",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1244",
+    "text": "Since the [Safe] initiative was launched, 699 schools have been provided with safe and appropriate sanitation facilities and projects and a further 1,150 schools are either in planning, design or construction stages.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "gov.za",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "gov.za",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "pmg.org.za",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "pmg.org.za",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1278",
+    "text": "Traditionally, the Speaker says: ‘Members of Congress, I have the high privilege and distinct honor of presenting to you the President of the United States.’ (Tonight) Speaker Pelosi said, ‘Members of Congress, the President of the United States.’",
+    "entity": null,
+    "origins": [
+      {
+        "source": "thehill.com",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "youtube.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "youtube.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "youtube.com",
+        "authority": 0.39,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1283",
+    "text": "Sri Lanka is the first country in the world to completely eradicate the coronavirus.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "epid.gov.lk",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1300",
+    "text": "President Donald Trump claimed that the new trade agreement with China “will boost American agriculture by $50 billion every year.”",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "reuters.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1301",
+    "text": "Trump signed a bill \"to clean millions of tons of garbage from world’s oceans.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "apnews.com",
+        "authority": 1.0,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "uscode.house.gov",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "uscode.house.gov",
+        "authority": 0.9,
+        "year": 2020,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1321",
+    "text": "The Chinese Communist Party \"will finally admit that the real source of the coronavirus is from ‘a lab in Wuhan’ linked to its covert biological weapon programs.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      },
+      {
+        "source": "nature.com",
+        "authority": 0.96,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1342",
+    "text": "There has been a 60% drop in Nigeria's government revenue",
+    "entity": null,
+    "origins": [
+      {
+        "source": "budgetoffice.gov.ng",
+        "authority": 0.73,
+        "year": 2020,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1409",
+    "text": "Hot temperatures in a car can cause hand sanitiser to catch fire without a spark.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "scmp.com",
+        "authority": 0.77,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "ehs.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "acs.org",
+        "authority": null,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "nationalgeographic.com",
+        "authority": 0.89,
+        "year": 2020,
+        "stance": "supports"
+      },
+      {
+        "source": "convertermaniacs.com",
+        "authority": null,
+        "year": 2020,
+        "stance": "neutral"
+      },
+      {
+        "source": "news.asu.edu",
+        "authority": 0.74,
+        "year": 2020,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1417",
+    "text": "Aysha Renna tweeted a comment celebrating the Pulwama attack in India.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "t.co",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1422",
+    "text": "Actress Parineeti Chopra's role as brand ambassador for the 'Beti Bachao Beti Padhao' campaign was cut short after she tweeted condemning the violence against the anti- Citizen Amendment Act protestors.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "hindustantimes.com",
+        "authority": 0.72,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "boomlive.in",
+        "authority": 0.64,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1437",
+    "text": "Russian Authorities are not moving toward closing off the Russian internet from the global internet using the \"Sovereign Internet law\" which came into effect on November 1st 2019.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "bbc.com",
+        "authority": 0.88,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "bbc.com",
+        "authority": 0.88,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "bbc.com",
+        "authority": 0.88,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "polygraph.info",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR1450",
+    "text": "Bernie Sanders lost third place spot in Nevada primary polls to Pete Buttigieg",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1471",
+    "text": "There's a titanic battle between American nationalism and American liberal globalism. Donald Trump embodies the first camp, and half of the Americans support him on this issue, believing that the U.S. spends too much [in terms of] manpower and resources on foreign policy.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "polygraph.info",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "polygraph.info",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR1485",
+    "text": "Adam Schiff used tax dollars to settle sexual harassment lawsuit witha 19 year old man.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ethics.house.gov",
+        "authority": 0.9,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1497",
+    "text": "The National Committee of the USA's Democratic party gave their computer server to the Ukrainian company CrowdStrike",
+    "entity": null,
+    "origins": [
+      {
+        "source": "crowdstrike.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1513",
+    "text": "Under the current system, people on a work, study or family visa in the UK incur average NHS costs of £625 per year.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "dailymail.co.uk",
+        "authority": 0.38,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1528",
+    "text": "South African public utility Eskom generates approximately 95% of the electricity used in South Africa.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ceicdata.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "online-calculator.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1541",
+    "text": "South Africa remains the most unequal society in the world.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1574",
+    "text": "Labour have committed to hire 10,000 police officers at a cost of £3 billion.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "theguardian.com",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "ifs.org.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "labour.org.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1596",
+    "text": "Mombasa is Kenya’s oldest town.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "taylorfrancis.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1617",
+    "text": "Tote bags made from cotton harm the environment",
+    "entity": null,
+    "origins": [
+      {
+        "source": "www2.mst.dk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "www2.mst.dk",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "blog.sinplastico.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "www2.mst.dk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "www2.mst.dk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1623",
+    "text": "Annual income for the typical household is up by an inflation-adjusted $5,000 since Donald Trump took office.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "www2.census.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "www2.census.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1630",
+    "text": "Flu shots contain polysorbate 80, which has been linked to ovarian damage and infertility. It could induce liver failure.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "medicines.org.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "medicines.org.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "cdc.gov",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "ebm.bmj.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "ebm.bmj.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "ebm.bmj.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "ebm.bmj.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1633",
+    "text": "Union Jack flags in London have replaced EU flags outside parliament ahead of the opening of parliament by the Queen.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "questions-statements.parliament.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1640",
+    "text": "One in four Nigerians are suffering from some sort of mental illness.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "borgenproject.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1645",
+    "text": "One in four Nigerians are suffering from some sort of mental illness.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "researchgate.net",
+        "authority": 0.84,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "researchgate.net",
+        "authority": 0.84,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1646",
+    "text": "There are less than 150 psychiatrists in this country of 200 million.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "apn.org.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1650",
+    "text": "Every week, at least 12 doctors leave Nigeria to seek employment in the UK.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "businessday.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1656",
+    "text": "There are less than 150 psychiatrists in this country of 200 million.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "apn.org.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "apn.org.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1661",
+    "text": "Nigeria ranks fifth in the world in the frequency of suicide.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "apps.who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "gamapserver.who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "gamapserver.who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1717",
+    "text": "The government should distribute multivitamins, vitamin c and zinc tablets to the common people as it will cure people of coronavirus and to those people who don't have the disease, they will get immune to the disease.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "who.int",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1729",
+    "text": "Luxembourg benefits the most from being in the EU, getting back 3,304% of what it pays in.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1733",
+    "text": "Hunter Biden made millions of dollars from a deal made in China. The deal put $1.5 billion into a fund after one quick meeting in China which he flew into on Air Force Two.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1744",
+    "text": "AN 11-YEAR-OLD GIRL KILL TWO ILLEGAL IMMIGRANTS DURING AN ATTEMPTED HOME INVASION",
+    "entity": null,
+    "origins": [
+      {
+        "source": "mtstandard.com",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "mtstandard.com",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "cleveland.com",
+        "authority": 0.89,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1755",
+    "text": "In Congress, Elizabeth Warren introduced 110 bills. 2 passed. Cory Booker introduced 120 bills. 0 passed,\" the Sept. 12 post reads. \"Kamala Harris introduced 54 bills. 0 passed. Bernie Sanders never held a job until age 53. He lived off of welfare and four different women",
+    "entity": null,
+    "origins": [
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "govtrack.us",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1768",
+    "text": "Some women have no choice but to take epidural injections during childbirth.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "asahq.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1780",
+    "text": "America has the cleanest and safest air and water",
+    "entity": null,
+    "origins": [
+      {
+        "source": "epi.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "epi.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "epi.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "epi.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "epi.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1793",
+    "text": "contraceptive pills destroys the fertility system within 72 hours",
+    "entity": null,
+    "origins": [
+      {
+        "source": "yalehealth.yale.edu",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "guttmacher.org",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1821",
+    "text": "Chinese professor Zheng Yongnian gave an interview to state-run People's Daily in which he urged cutting water supplies to Hong Kong to end months of street protests in the city.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "wsd.gov.hk",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR1842",
+    "text": "Jean Monnet said a European superstate should be created without the understanding of European people.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "quotepark.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "nejtillemu.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "nejtillemu.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1855",
+    "text": "Mental illness is main driver of mass shootings says Donald trump when talking about the shootings in Texas and Ohio that killed 31 people.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cbsnews.com",
+        "authority": 0.88,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1856",
+    "text": "Donald Trump said, \"Last year - 2018, we prosecuted a record number of firearms offenses.\"",
+    "entity": null,
+    "origins": [
+      {
+        "source": "c-span.org",
+        "authority": 0.88,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "justice.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "justice.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1873",
+    "text": "In an op-ed, then-sen. Joe Biden wrote that he believed that women working outside the home would, quote, \"create the deterioration of family.\" He also said that women who were working outside the home were, quote, \"avoiding responsibility.\"",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "govinfo.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "theatlantic.com",
+        "authority": 0.8,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1885",
+    "text": "Pro-Kremlin Pundit Blames Demonstrators for Police Crackdown on Moscow Protest",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "hrw.org",
+        "authority": 0.84,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "dictionary.cambridge.org",
+        "authority": 0.75,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "russian.rt.com",
+        "authority": 0.29,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "novostipmr.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "russian.rt.com",
+        "authority": 0.29,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1887",
+    "text": "Ancient Roman politician Marcus Tullius Cicero once said, “The Budget should be balanced, the Treasury should be refilled, public debt should be reduced.”",
+    "entity": null,
+    "origins": [
+      {
+        "source": "books.google.co.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1908",
+    "text": "More than 450 mosques have opened in London.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "mosques.muslimsinbritain.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1924",
+    "text": "Judge in Epstein Case Found Dead of Apparent Suicide",
+    "entity": null,
+    "origins": [
+      {
+        "source": "bloomberg.com",
+        "authority": 0.84,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "nbcnewyork.com",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "archive.ph",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "archive.ph",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR1958",
+    "text": "Joe Biden wrote into the 1994 Crime Bill that anyone arrested for for drug related crimes, who are suffering from drug addictions, should be diverted into drug courts.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "congress.gov",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "congress.gov",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "everycrsreport.com",
+        "authority": 0.91,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR1989",
+    "text": "Children in U.S. Customs and Border Protection custody are receiving appropriate meals and showers.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "oig.dhs.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "oig.dhs.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2003",
+    "text": "In Kenya the number of functional health facilities increased from 9,858 to 10,820 in 2018 across all counties.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "kmhfl.health.go.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "kmhfl.health.go.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2019",
+    "text": "Cory Brooker vowed not to take contributions from pharma companies, pharma executives or corporate PAC's before his presidential campaign in 2019",
+    "entity": null,
+    "origins": [
+      {
+        "source": "opensecrets.org",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2039",
+    "text": "\"The wealthiest three families now own more wealth than the bottom half of the country.\"",
+    "entity": null,
+    "origins": [
+      {
+        "source": "forbes.com",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2044",
+    "text": "Purdue Pharma has been able to act with complete impunity and pay no consequences for the opioid crisis. Not a single night in jail.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "media.defense.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "media.defense.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "media.defense.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "nbcnews.com",
+        "authority": 0.84,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "media.defense.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2050",
+    "text": "More Americans are uninsured today than when US President Donald Trump took office.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "news.gallup.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "news.gallup.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "whitehouse.gov",
+        "authority": 0.71,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2051",
+    "text": "Russia is not using illegitimate sanctions against Georgia.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "journals.sagepub.com",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "journals.sagepub.com",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "jus.uio.no",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "eng.globalaffairs.ru",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2096",
+    "text": "About 14.4 million Nigerians are currently on drugs",
+    "entity": null,
+    "origins": [
+      {
+        "source": "unodc.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "unodc.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "unodc.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2115",
+    "text": "Former Vice President Joe Biden leaked the names of US Navy SEAL Team 6 families to Al Qaeda.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "abcnews.go.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "obamawhitehouse.archives.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "youtu.be",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2130",
+    "text": "US, Russia, Israel and France ‘approve’ Biafra’s separation from Nigeria",
+    "entity": null,
+    "origins": [
+      {
+        "source": "voanews.com",
+        "authority": 0.94,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2170",
+    "text": "Tariffs are now being paid to the United States by China of 25% on 250 Billion Dollars worth of goods & products. These massive payments go directly to the Treasury of the U.S.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nrf.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "chinausfocus.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "chinausfocus.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2196",
+    "text": "Prakash Javadekar, Human Resource and Development Minister of India, said, \"Cyclone Fani Was An Indicator Of A Modi Wave.\"",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "brandwatch.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2208",
+    "text": "In 2010, U.S. Rep Maxine Waters steered $12 million in Troubled Asset Relief Program (TARP) funds to her husband’s private bank account. She was indicted but served no time",
+    "entity": null,
+    "origins": [
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "politico.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2213",
+    "text": "Nigeria has the highest number of out-of-school children in sub-Saharan Africa.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "weforum.org",
+        "authority": 0.87,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "data.worldbank.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2234",
+    "text": "Fee-paying schools save the UK taxpayer £20 billion.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "isc.co.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "ft.com",
+        "authority": 0.93,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2263",
+    "text": "The United States has \"three families owning more wealth than the bottom half of the American society.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "inequality.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "inequality.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "inequality.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2270",
+    "text": "Unemployment in Germany is 3.1, percent, In Japan it's 2.8 percent, In the U.K., it's a hair higher than us.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "appsso.eurostat.ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "appsso.eurostat.ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "appsso.eurostat.ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "appsso.eurostat.ec.europa.eu",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "data.bls.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "data.worldbank.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2273",
+    "text": "Since Trump took office, 7 million more people lack health insurance that used to have it.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "politifact.com",
+        "authority": 0.87,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "news.gallup.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "news.gallup.com",
+        "authority": 0.92,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR2277",
+    "text": "Barkha Dutt, an Indian television journalist and author, called India's Bharatiya Janata Party anti-Muslim.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2301",
+    "text": "NATO Caused the Crisis in Libya with terrorism, weapons smuggling and illegal immigration beginning after the 2011 NATO intervention.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "en.wikipedia.org",
+        "authority": 0.83,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2306",
+    "text": "US is now visa-free for Ghanaians without criminal records: stay of no more than 30 days allowed.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2311",
+    "text": "3.881 million tonnes of cargo have been transported on the standard-gauge railway line in Kenya since its inception.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "railjournal.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2315",
+    "text": "Kenya’s average economic growth of 5.6% over the last five years outperformed the average global growth.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "imf.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2332",
+    "text": "Kenyan broad-based economic growth averaged 5.6% over the last five years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ecampus.kra.go.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "desmos.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2337",
+    "text": "Kenya’s broad-based economic growth averaged 5.6% over the last five years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "data.worldbank.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2340",
+    "text": "In 2018, provisional estimates show the Kenyan economy grew by 6.1%.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2359",
+    "text": "Over 175,000 Kenyans have already registered under the voluntary housing scheme known as ‘boma yangu.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "bomayangu.go.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2360",
+    "text": "Over 175,000 Kenyans have already registered under the voluntary scheme known as boma yangu.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "africacheck.org",
+        "authority": 0.96,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2368",
+    "text": "Kenya's Installed capacity has increased from 1,768 MW in March 2013 to the current 2,712 MW",
+    "entity": null,
+    "origins": [
+      {
+        "source": "epra.go.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "kplc.co.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "kplc.co.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2373",
+    "text": "The UAE has banned three-month tourist visas for Nigerians",
+    "entity": null,
+    "origins": [
+      {
+        "source": "oisservices.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "blueprint.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2384",
+    "text": "Democratic Rep. Alexandria Ocasio-Cortez said, “Attorneys don’t know much about the law as lawyers do and Ben Shapiro is just an attorney. So, yeah.”",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2388",
+    "text": "Senator Kamala Harris’s presidential campaign has raised $12 million from more than 218,000 individual contributions in the first quarter of 2019. 98 percent of Harris’s contributions were under $100 .",
+    "entity": null,
+    "origins": [
+      {
+        "source": "washingtonpost.com",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2396",
+    "text": "When Winston Churchill was asked to cut arts funding in favour of the war effort, he simply replied, ‘then what are we fighting for?",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "winstonchurchill.hillsdale.edu",
+        "authority": 0.43,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "winstonchurchill.hillsdale.edu",
+        "authority": 0.43,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2403",
+    "text": "The U.S. has created 5.5 million new jobs, including 600,000 brand new manufacturing jobs, since Donald Trump's election. Nobody would have believed that was possible.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2408",
+    "text": "Since US President Trump's election in November 2016, 600,000 new  manufacturing jobs have been created.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "data.bls.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2420",
+    "text": "Under Donald Trump presidency there will always be protection for patients with pre-existing conditions.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "commonwealthfund.org",
+        "authority": 0.8,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2435",
+    "text": "The Council on American-Islamic Relations was founded in response to 9/11.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cair.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "cair.com",
+        "authority": 0.39,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2456",
+    "text": "Sen. Kirsten Gillibrand has the most votes against Donald Trump cabinet nominees",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "nytimes.com",
+        "authority": 0.86,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2517",
+    "text": "Cancer is Candida or Fungus.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cancerresearchuk.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "cancerresearchuk.org",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2520",
+    "text": "Buncombe County Sheriff Quentin Miller says an ICE detainer request is not a valid warrant.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "buncombecounty.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "aclum.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "aclum.org",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2525",
+    "text": "Virginia House Delegate says that Republicans have had more African-Americans on key committees than when the Democrats were in control.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "rules.senate.gov",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2552",
+    "text": "The antibiotics gentamicin sulfate and polymyxin b are in vaccines and can cause allergic reactions ranging from mild to life-threatening.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "factcheck.afp.com",
+        "authority": 0.95,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "vk.ovg.ox.ac.uk",
+        "authority": 0.63,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "vk.ovg.ox.ac.uk",
+        "authority": 0.63,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "id": "TR2558",
+    "text": "Countries are putting bad people into the United States visa lottery program.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "americanimmigrationcouncil.org",
+        "authority": 0.8,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "americanimmigrationcouncil.org",
+        "authority": 0.8,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2593",
+    "text": "A diet based on your blood type fights fatigue.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "healthline.com",
+        "authority": 0.81,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "betterhealth.vic.gov.au",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2607",
+    "text": "The current Kenyan government has connected 6.9 million people to electricity in the last five years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "kplc.co.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "kplc.co.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2623",
+    "text": "The standard gauge railway has been in the books of the Kenyan government for 30 years but it was not built.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "capitalfm.co.ke",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "railjournal.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2641",
+    "text": "South Africa's President Cyril Ramaphosa's 2019 State Of The Nation address records that part of the R1.3 trillion South Africa invested in public housing between April 2014 and October 2018 went towards the cost of connecting almost 1.2 million homes to the electricity grid.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "journals.sagepub.com",
+        "authority": 0.85,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2676",
+    "text": "Official international Red cross records reveal the actual Concentration camp total death during World War 2 toll was 271,301.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "bl.uk",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "mishpacha.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2692",
+    "text": "In 2018, 10 million tourists visited South Africa",
+    "entity": null,
+    "origins": [
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2708",
+    "text": "Over 700,000 children in South Africa [accessed] early childhood education in the last financial year of 2018",
+    "entity": null,
+    "origins": [
+      {
+        "source": "myemissions.co.za",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "myemissions.co.za",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "google.com",
+        "authority": 0.67,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2723",
+    "text": "Wages struggle to keep pace with the actual cost of living in America.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2746",
+    "text": "Close to 40% of South Africans who need jobs are unemployed, meaning that more than nine million South Africans who need jobs and are capable of working cannot find employment",
+    "entity": null,
+    "origins": [
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "refutes"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "statssa.gov.za",
+        "authority": 0.73,
+        "year": 2019,
+        "stance": "supports"
+      },
+      {
+        "source": "theonlinecalculator.com",
+        "authority": null,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2763",
+    "text": "A member of the African National Congress says that millions of Zimbabweans are living in South Africa.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "cbc.ca",
+        "authority": 0.82,
+        "year": 2019,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2764",
+    "text": "PZ is pulling out of Nigeria after 120 years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "guardian.ng",
+        "authority": null,
+        "year": 2019,
+        "stance": "neutral"
+      },
+      {
+        "source": "thenationonlineng.net",
+        "authority": null,
+        "year": 2019,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2796",
+    "text": "Prime Minister Narendra Modi said that 33crore bank accounts were opened in Chhattisgarh.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "narendramodi.in",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2813",
+    "text": "Consuming a wax-coated apple can kill you.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "ringodaigaku.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      },
+      {
+        "source": "dmshellac.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      },
+      {
+        "source": "goodfood.com.au",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      },
+      {
+        "source": "ringodaigaku.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      },
+      {
+        "source": "dmshellac.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2814",
+    "text": "Egyptian authorities are carrying atrocious acts which results in injustice",
+    "entity": null,
+    "origins": [
+      {
+        "source": "hrw.org",
+        "authority": 0.84,
+        "year": 2018,
+        "stance": "supports"
+      },
+      {
+        "source": "hrw.org",
+        "authority": 0.84,
+        "year": 2018,
+        "stance": "supports"
+      },
+      {
+        "source": "hrw.org",
+        "authority": 0.84,
+        "year": 2018,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2817",
+    "text": "Muslims were filmed while attacking a Hindu Temple in Uttar Pradesh in India.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "jagran.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "supports"
+      },
+      {
+        "source": "livehindustan.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "refutes"
+      },
+      {
+        "source": "livehindustan.com",
+        "authority": null,
+        "year": 2018,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2820",
+    "text": "Research carried out by an American NGO has concluded that men are likely to die after being circumcised due to a medication that reacts after 10 years.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "search.wikileaks.org",
+        "authority": 0.48,
+        "year": 2018,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2823",
+    "text": "Iain Duncan Smith gets free stationery as a financial benefit for being an MP in the UK House of Commons.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "theipsa.org.uk",
+        "authority": null,
+        "year": 2018,
+        "stance": "supports"
+      },
+      {
+        "source": "channel4.com",
+        "authority": 0.7,
+        "year": 2018,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2855",
+    "text": "India rated highly on all investment and macro-economic indicators.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "mospi.nic.in",
+        "authority": null,
+        "year": 2018,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR2874",
+    "text": "The Earth is flat.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "sealevel.jpl.nasa.gov",
+        "authority": 0.96,
+        "year": 2017,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2882",
+    "text": "The Swedish Parliament banned Mandatory Vaccinations Over Serious Health Concerns in May 2017.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "folkhalsomyndigheten.se",
+        "authority": null,
+        "year": 2017,
+        "stance": "refutes"
+      },
+      {
+        "source": "folkhalsomyndigheten.se",
+        "authority": null,
+        "year": 2017,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2890",
+    "text": "Cadbury remove the word easter from its entire collection of easter products as to not offend other religions.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "thesun.co.uk",
+        "authority": 0.57,
+        "year": 2017,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2900",
+    "text": "Hilary Clinton said IF THAT F**KIN BASTARD WINS, WE’RE ALL GOING TO HANG FROM NOOSES",
+    "entity": null,
+    "origins": [
+      {
+        "source": "wikileaks.org",
+        "authority": 0.48,
+        "year": 2016,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2920",
+    "text": "To curb water wastage, the Department of Water and Sanitation has begun its programme of training 15,000 young people as artisans",
+    "entity": null,
+    "origins": [
+      {
+        "source": "gov.za",
+        "authority": 0.73,
+        "year": 2016,
+        "stance": "refutes"
+      },
+      {
+        "source": "gov.za",
+        "authority": 0.73,
+        "year": 2016,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Supported"
+  },
+  {
+    "id": "TR2943",
+    "text": "British Parliament banned lipstick in 1770 for the fear that it had the power to seduce men into marriage.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "app.justis.com",
+        "authority": null,
+        "year": 2014,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR2962",
+    "text": "Karnataka CM, HD Kumaraswamy blames India for terrorism crisis.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 1919,
+        "stance": "supports"
+      },
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": 1919,
+        "stance": "neutral"
+      }
+    ],
+    "averitec_label": "Not Enough Evidence"
+  },
+  {
+    "id": "TR3014",
+    "text": "26% of NHS doctors are foreign-born.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "digital.nhs.uk",
+        "authority": 0.55,
+        "year": null,
+        "stance": "neutral"
+      },
+      {
+        "source": "digital.nhs.uk",
+        "authority": 0.55,
+        "year": null,
+        "stance": "supports"
+      },
+      {
+        "source": "percentagecalculator.net",
+        "authority": null,
+        "year": null,
+        "stance": "supports"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR3022",
+    "text": "Drinking a glass of water before going to bed helps prevent stroke and heart attacks",
+    "entity": null,
+    "origins": [
+      {
+        "source": "medicalnewstoday.com",
+        "authority": 0.84,
+        "year": null,
+        "stance": "neutral"
+      },
+      {
+        "source": "heart.org",
+        "authority": 0.71,
+        "year": null,
+        "stance": "neutral"
+      },
+      {
+        "source": "health.clevelandclinic.org",
+        "authority": 0.67,
+        "year": null,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR3054",
+    "text": "Australian Prime Minister Scott Morrison stands alone during the 2019 G7 Leaders’ Summit in France",
+    "entity": null,
+    "origins": [
+      {
+        "source": "twitter.com",
+        "authority": 0.39,
+        "year": null,
+        "stance": "supports"
+      },
+      {
+        "source": "t.co",
+        "authority": 0.39,
+        "year": null,
+        "stance": "supports"
+      },
+      {
+        "source": "celebrityspeakers.com.au",
+        "authority": null,
+        "year": null,
+        "stance": "neutral"
+      },
+      {
+        "source": "youtube.com",
+        "authority": 0.39,
+        "year": null,
+        "stance": "refutes"
+      },
+      {
+        "source": "factcheck.afp.com",
+        "authority": 0.95,
+        "year": null,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  },
+  {
+    "id": "TR3060",
+    "text": "In the UK in 2020 there were 48,000 illegal immigrants staying in 4/5 star hotels.",
+    "entity": null,
+    "origins": [
+      {
+        "source": "nao.org.uk",
+        "authority": null,
+        "year": null,
+        "stance": "supports"
+      },
+      {
+        "source": "nao.org.uk",
+        "authority": null,
+        "year": null,
+        "stance": "refutes"
+      },
+      {
+        "source": "nao.org.uk",
+        "authority": null,
+        "year": null,
+        "stance": "refutes"
+      }
+    ],
+    "averitec_label": "Refuted"
+  }
+]
