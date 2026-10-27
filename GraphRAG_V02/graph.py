@@ -1,10 +1,31 @@
-    # Ein Claim = eine überprüfbare Aussage mit Subjekt (entity) und Quellen (origins).
-    # Origin = Autoritätslevel (1-5), Jahr und Urteil (supports/refutes).
+# Wissensgraph von FakeNewsGraphRAG (v0.2)
+# Claim = überprüfbare Aussage. Origin = Frage-Antwort-Paar aus AVeriTeC mit Quelle,
+# Autorität (0-1 nach Lin et al. 2023 oder None), Jahr und Stance (supports/refutes/neutral).
+# Quellen sind Knoten, Origins sind Kanten (Claim -> Quelle).
+# Das Urteil kommt aus der eingefrorenen Regel in evaluation/gewichtung_regel.json.
 
 import json
 import os
+import sys
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
+
+repo_dir = os.path.dirname(script_dir)               
+sys.path.append(repo_dir)                            
+from evaluation.gewichtung import urteil, macro_f1   
+
+DATEN_PFAD = os.path.join(repo_dir, "dataset_extrahieren_V02", "claims_dev_v2.json")
+REGEL_PFAD = os.path.join(repo_dir, "evaluation", "gewichtung_regel.json")
+ERGEBNIS_PFAD = os.path.join(repo_dir, "evaluation", "gewichtung_test_ergebnis.json")
+
+with open(REGEL_PFAD, encoding="utf-8") as f:        
+    REGEL = json.load(f)
+
+
+VERDIKT = {"Supported": "True", "Refuted": "False",
+           "Conflicting Evidence/Cherrypicking": "Conflict",
+           "Not Enough Evidence": "Undetermined"}
+
 def load_averitec(path):
     """Liefert Claims im Standardformat, das build_graph erwartet:
     [{"id": str, "text": str, "entity": str | None,
@@ -14,48 +35,16 @@ def load_averitec(path):
     with open(path) as f:
         return json.load(f)
 
-claims = load_averitec(os.path.join(script_dir, "claims_transformed_with_entity.json"))
+claims = load_averitec(DATEN_PFAD)
 
-""" claims = [
-        {
-            "id": "C1",
-            "text": "Die Erde ist rund",
-            "entity": "Erde",
-            "origins": [
-                {"source": "NASA",      "authority": 5, "year": 2020, "stance": "supports"},
-                {"source": "Wikipedia", "authority": 3, "year": 2023, "stance": "supports"},
-            ],
-        },
-        {
-            "id": "C2",
-            "text": "Die Erde ist flach",
-            "entity": "Erde",
-            "origins": [
-                {"source": "FlatEarthBlog", "authority": 1, "year": 2019, "stance": "supports"},
-                {"source": "NASA",          "authority": 5, "year": 2021, "stance": "refutes"},
-            ],
-        },
-        {
-                    "id": "C3",
-                    "text": "Der mond ist flach",
-                    "entity": "mond",
-                    "origins": [
-                        {"source": "ewqfd", "authority": 1, "year": 2019, "stance": "supports"},
-                        {"source": "efw",          "authority": 5, "year": 2121, "stance": "refutes"},
-                    ],
-                },
-    ] 
- """
 import networkx as nx
 
 def build_graph(claims):
     G = nx.MultiDiGraph()   # Multi: zwischen Claim und Quelle kann es mehrere Kanten geben
     for claim in claims:
-        # Claim-Knoten (origins bleibt vorerst, damit evaluate_claim weiterlaeuft)
-        G.add_node(claim["id"], node_type="claim",
-                   text=claim["text"], origins=claim["origins"])
+        G.add_node(claim["id"], node_type="claim", text=claim["text"])
 
-        # Claim -> Entity (wie bisher)
+   
         if claim["entity"] is not None:
             G.add_node(claim["entity"], node_type="entity")
             G.add_edge(claim["id"], claim["entity"], relation="about")
@@ -71,18 +60,6 @@ def build_graph(claims):
 
 G = build_graph(claims)
 
-from collections import Counter
-print(Counter(d["node_type"] for _, d in G.nodes(data=True)))
-print("Kanten:", G.number_of_edges())
-print("Inseln:", nx.number_weakly_connected_components(G))
-for _, quelle, d in G.out_edges("AV47", data=True):
-    if d["relation"] == "origin":
-        print("AV47 ->", quelle, d["stance"])
-print("nytimes.com <-", list(G.predecessors("nytimes.com")))
-
-
-#for node, data in G.nodes(data=True):
-    #print(" ", node, "->", data["node_type"])
 
 
 def retrieve(G, query):
@@ -125,18 +102,8 @@ def evaluate_claim(claim_id, G):
             "stance": d["stance"],
         })
 
-    stances = {o["stance"] for o in origins} - {"neutral"}   # neutrale Evidenz zaehlt nicht mit
-
-    if not stances:
-        verdict = "Undetermined"                # keine Quelle -> keine Evidenz
-    elif stances == {"supports"}:
-        verdict = "True"
-    elif stances == {"refutes"}:
-        verdict = "False"
-    else:                                       # beides vorhanden -> Konflikt
-        verdict = "Conflict"
-
-    return verdict, origins
+    label = urteil(origins, REGEL["gewichtung"], REGEL["schwelle"], REGEL["unbekannt"])
+    return VERDIKT[label], origins
 
 
 def verify(query, G):
@@ -208,16 +175,27 @@ def visualize(G):
 #visualize(G)
 
 
-# --- Checkpoint Schritt 2 ---
-mapping = {"True": "Supported", "False": "Refuted",
-           "Conflict": "Conflicting Evidence/Cherrypicking",
-           "Undetermined": "Not Enough Evidence"}
-treffer = sum(mapping[evaluate_claim(c["id"], G)[0]] == c["averitec_label"] for c in claims)
-print("Accuracy:", treffer, "/", len(claims))
+if __name__ == "__main__":
+    from collections import Counter
+    print("Regel:", REGEL["gewichtung"], "| Schwelle", REGEL["schwelle"])
+    print(Counter(d["node_type"] for _, d in G.nodes(data=True)))
+    print("Kanten:", G.number_of_edges())
 
-verdict, origins = evaluate_claim("AV47", G)
-print("AV47:", verdict, [(o["source"], o["authority"], o["stance"]) for o in origins])
+   
+    mapping = {v: k for k, v in VERDIKT.items()}    
+    gold = [c["averitec_label"] for c in claims]
+    vorhersage = [mapping[evaluate_claim(c["id"], G)[0]] for c in claims]
+    acc = sum(g == v for g, v in zip(gold, vorhersage)) / len(gold)
+    mf1 = macro_f1(gold, vorhersage)
+    with open(ERGEBNIS_PFAD, encoding="utf-8") as f:
+        erwartet = json.load(f)
+    gleich = round(acc, 3) == erwartet["accuracy_neu"] and round(mf1, 3) == erwartet["macro_f1_neu"]
+    print(f"Über den Graphen: Accuracy {acc:.1%}, Macro-F1 {mf1:.3f} ->",
+          "identisch mit dem Dev-Test" if gleich else "ABWEICHUNG vom Dev-Test!")
 
-G.add_node("TEST", node_type="claim", text="Claim ohne Quellen")
-print("TEST:", evaluate_claim("TEST", G))
-G.remove_node("TEST")
+    verdict, origins = evaluate_claim("AV47", G)
+    print("AV47:", verdict, [(o["source"], o["authority"], o["stance"]) for o in origins])
+
+    G.add_node("TEST", node_type="claim", text="Claim ohne Quellen")
+    print("TEST:", evaluate_claim("TEST", G))
+    G.remove_node("TEST")
