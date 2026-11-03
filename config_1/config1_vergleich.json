@@ -1,0 +1,71 @@
+{
+  "dev_claims": 500,
+  "prompt_fingerabdruck": "4442be903a86",
+  "config1": {
+    "accuracy": 0.328,
+    "macro_f1": 0.268,
+    "macro_f1_ohne_conflict": 0.318,
+    "f1_pro_label": {
+      "Supported": 0.31,
+      "Refuted": 0.49,
+      "Not Enough Evidence": 0.16,
+      "Conflicting Evidence/Cherrypicking": 0.12
+    },
+    "vorhergesagt": {
+      "Refuted": 143,
+      "Not Enough Evidence": 208,
+      "Conflicting Evidence/Cherrypicking": 94,
+      "Supported": 55
+    },
+    "unklar": 0
+  },
+  "config3": {
+    "accuracy": 0.682,
+    "macro_f1": 0.52,
+    "macro_f1_ohne_conflict": 0.6,
+    "f1_pro_label": {
+      "Supported": 0.72,
+      "Refuted": 0.78,
+      "Not Enough Evidence": 0.3,
+      "Conflicting Evidence/Cherrypicking": 0.28
+    },
+    "vorhergesagt": {
+      "Refuted": 239,
+      "Supported": 168,
+      "Conflicting Evidence/Cherrypicking": 61,
+      "Not Enough Evidence": 32
+    },
+    "regel": {
+      "gewichtung": "anzahl",
+      "schwelle": 0.1,
+      "unbekannt": 0.58,
+      "eingestellt_auf": "claims_train_v2.json (200 Claims)",
+      "macro_f1_train": 0.455,
+      "macro_f1_train_bisher": 0.425,
+      "datum": "2026-10-16"
+    }
+  },
+  "immer_refuted": {
+    "accuracy": 0.61,
+    "macro_f1": 0.189,
+    "macro_f1_ohne_conflict": 0.253
+  },
+  "differenz_config3_minus_config1": {
+    "macro_f1": 0.252,
+    "macro_f1_bootstrap_95": [
+      0.187,
+      0.315
+    ],
+    "accuracy": 0.354,
+    "accuracy_bootstrap_95": [
+      0.3,
+      0.408
+    ]
+  },
+  "mcnemar_exakt": {
+    "nur_config3_richtig": 222,
+    "nur_config1_richtig": 45,
+    "p": 2.6934988919645627e-29
+  },
+  "datum": "2026-11-03"
+}
