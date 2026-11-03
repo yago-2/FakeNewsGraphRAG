@@ -1,5 +1,4 @@
-"""Checkpoint für Config 1 ohne Ollama: Datum, Parser, Prompt und Messgrössen.
-Aufruf: python config_1/test_config1.py"""
+"""Checkpoint für Config 1 ohne Ollama: Datum, Parser, Prompt und Messgrössen."""
 from config1 import (datum_ausgeschrieben, parse_label_c1, build_reasoning_prompt_c1,
                      build_extraction_prompt_c1, macro_f1_ohne_conflict, f1_pro_label,
                      mcnemar_exakt, fingerabdruck, prompt_vorlage)
