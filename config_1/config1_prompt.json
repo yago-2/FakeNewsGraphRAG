@@ -1,0 +1,20 @@
+{
+  "fingerabdruck": "4442be903a86",
+  "datum": "2026-11-03",
+  "reasoning_prompt": "Claim: \"{claim}\"\nDatum des Claims: {datum}\n\nPruefe allein mit deinem eigenen Wissen, ob der Claim stimmt. Du bekommst keine Quellen.\nBeurteile den Claim fuer den Zeitpunkt, an dem er gemacht wurde.\nGehe so vor:\n1. Was genau behauptet der Claim?\n2. Was weisst du selbst darueber?\n3. Welches Urteil passt am besten?\n\nMoegliche Urteile:\n- supported: Dein Wissen spricht ueberwiegend fuer den Claim.\n- refuted: Dein Wissen spricht ueberwiegend gegen den Claim.\n- conflicting: Dein Wissen spricht gleich stark dafuer und dagegen.\n- unknown: Du weisst nichts, was fuer oder gegen den Claim spricht.\n\nSchreib deine Ueberlegung aus.",
+  "extraction_prompt": "Hier ist eine Analyse, ob ein Claim stimmt:\n\n\"\"\"{reasoning}\"\"\"\n\nFasse NUR das Endergebnis dieser Analyse zusammen.\nAntworte mit GENAU EINEM Wort: supported, refuted, conflicting ODER unknown",
+  "parser": {
+    "muster": "support|refut|conflict|unknown",
+    "sonst": "Not Enough Evidence"
+  },
+  "modell": "llama3.1",
+  "num_predict": [
+    400,
+    5
+  ],
+  "timeout": [
+    60,
+    30
+  ],
+  "ollama_aufruf": "def _ollama_generate(prompt, num_predict, timeout=60):\n    resp = requests.post(OLLAMA_URL, json={\n        \"model\": OLLAMA_MODEL,\n        \"prompt\": prompt,\n        \"stream\": False,\n        \"options\": {\"temperature\": 0, \"num_predict\": num_predict},\n    }, timeout=timeout)\n    resp.raise_for_status()\n    return resp.json()[\"response\"].strip()\n"
+}
