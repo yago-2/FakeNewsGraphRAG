@@ -28,7 +28,7 @@ VERDIKT = {"Supported": "True", "Refuted": "False",
 
 def load_averitec(path):
     """Liefert Claims im Standardformat, das build_graph erwartet:
-    [{"id": str, "text": str, "entity": str | None,
+    [{"id": str, "text": str, "entities": [str],
       "origins": [{"source": str, "authority": int, "year": int,
                    "stance": "supports" | "refutes"}]}]
     Jede kuenftige Datenquelle muss dieses Format liefern."""
@@ -45,9 +45,10 @@ def build_graph(claims):
         G.add_node(claim["id"], node_type="claim", text=claim["text"])
 
    
-        if claim["entity"] is not None:
-            G.add_node(claim["entity"], node_type="entity")
-            G.add_edge(claim["id"], claim["entity"], relation="about")
+                
+        for e in claim["entities"]:
+            G.add_node(e, node_type="entity")
+            G.add_edge(claim["id"], e, relation="about")
 
         # NEU: Claim -> Quelle, jede Origin wird eine eigene Kante
         for o in claim["origins"]:
